@@ -32,10 +32,10 @@ int main(){
 			break;
 		}
 	in.read(buf,4);
-	n = abs(readSize(buf));
+	n = readSize(buf);
 	buf2 = new char[n];
 	in.read(buf2, n);
-	msg.ParseFromString(buf2);
+	msg.ParseFromArray(buf2,n);
 
 	switch(msg.type()){
 		//start
@@ -56,26 +56,26 @@ int main(){
 		//VideoMediaType videomt = 8;
 		if (stream.type() == 0){
 			VideoMediaType video = stream.videomt();
-			video1 = video1 + "stream( V name = v_stream codec=" + stream.codec();
+			video1 = video1 + "stream( V name = v_stream codec= " + stream.codec();
 			switch(video.pix_fmt()){
 				case 0:
-				video1 = video1 + "yuv420p";
+				video1 = video1 + "yuv420p ";
 				break;
 				case 1:
-				video1 = video1 + "uyvy422";
+				video1 = video1 + "uyvy422 ";
 				break;
 				case 2:
-				video1 = video1 + "yuvj420p";
+				video1 = video1 + "yuvj420p ";
 				break;
 				case 3:
-				video1 = video1 + "nv12";
+				video1 = video1 + "nv12 ";
 				break;
 			}
 			video1 = video1 + "bitrate= ";
-			video1 = video1 + to_string(stream.bitrate());
+			video1 = video1 + to_string(stream.bitrate()) + " ";
 			video1 = video1 + "timebase= ";
 			video1 = video1 + to_string(stream.tb_num()) + "/" + to_string(stream.tb_den()) + " ";
-		    video1 = video1 + "extradatasize= " + to_string((stream.extradata()).size());
+		    video1 = video1 + "extradatasize= " + to_string((stream.extradata()).size()) + " ";
 		    video1 = video1 + to_string(video.width()) + "x" + to_string(video.height()) + " ";
 		    video1 = video1 + "fps= " + to_string(video.fps_num()) + "/" + to_string(video.fps_den()) + " ";
 		    video1 = video1 + "aspect= " + to_string(video.aspect_num()) + "/" + to_string(video.aspect_den()) + " ";
@@ -83,40 +83,40 @@ int main(){
 		    //AudioMediaType audiomt = 9;
 		}else if (stream.type() == 1){
 			AudioMediaType audio = stream.audiomt();
-			audio1 = audio1 + "stream( " + "A name = a_stream " + "codec=" + stream.codec();
-			audio1 = audio1 + "bitrate= " + to_string(stream.bitrate()) + "timebase= " + to_string(stream.tb_num()) + "/" + to_string(stream.tb_den()) + " ";
-		    audio1 = audio1 + "extradatasize= " + to_string((stream.extradata()).size()) + to_string(audio.freq()) + "Hz" + " ";
+			audio1 = audio1 + "stream( " + "A name = a_stream " + "codec= " + stream.codec() + " ";
+			audio1 = audio1 + "bitrate= " + to_string(stream.bitrate()) + " " + "timebase= " + to_string(stream.tb_num()) + "/" + to_string(stream.tb_den()) + " ";
+		    audio1 = audio1 + "extradatasize= " + to_string((stream.extradata()).size()) + " " + to_string(audio.freq()) + "Hz" + " ";
 			audio1 = audio1 + "ssize=" + to_string(audio.ssize()) + " sample_fmt= ";
 			switch(audio.sample_fmt()){
 				case 0:
-				audio1 = audio1 + "S16";
+				audio1 = audio1 + "S16 ";
 				break;
 				case 1:
-				audio1 = audio1 + "U8";
+				audio1 = audio1 + "U8 ";
 				break;
 				case 2:
-				audio1 = audio1 + "S32";
+				audio1 = audio1 + "S32 ";
 				break;
 				case 3:
-				audio1 = audio1 + "FLT";
+				audio1 = audio1 + "FLT ";
 				break;
 				case 4:
-				audio1 = audio1 + "DBL";
+				audio1 = audio1 + "DBL ";
 				break;
 				case 5:
-				audio1 = audio1 + "U8P";
+				audio1 = audio1 + "U8P ";
 				break;
 				case 6:
-				audio1 = audio1 + "S16P";
+				audio1 = audio1 + "S16P ";
 				break;
 				case 7:
-				audio1 = audio1 + "S32P";
+				audio1 = audio1 + "S32P ";
 				break;
 				case 8:
-				audio1 = audio1 + "FLTP";
+				audio1 = audio1 + "FLTP ";
 				break;
 				case 9:
-				audio1 = audio1 + "DBLP";
+				audio1 = audio1 + "DBLP ";
 				break;
 			}cout<<" "<<audio1<<"stereo "<<channel<<endl;
 		    	// SubtitleMediaType subtitlemt = 12;
@@ -149,8 +149,8 @@ int main(){
 	    	 cout<<"["<<packet.dts()/1000<<"."<<packet.dts()%1000<<"] ";
 
 	    	 cout<<"pts=";
-	    	 cout<<packet.pts_offset();
-	    	 cout<<"["<<packet.pts_offset()/1000<<"."<<packet.pts_offset()%1000<<"] ";
+	    	 cout<<packet.dts() + packet.pts_offset();
+	    	 cout<<"["<<(packet.dts() + packet.pts_offset())/1000<<"."<<(packet.dts() + packet.pts_offset())%1000<<"] ";
 
 	    	 switch(packet.frametype()){
 	    	 	case 0:
