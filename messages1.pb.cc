@@ -14,483 +14,481 @@
 #include <google/protobuf/wire_format.h>
 // @@protoc_insertion_point(includes)
 #include <google/protobuf/port_def.inc>
-extern PROTOBUF_INTERNAL_EXPORT_messages1_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_AudioMediaType_messages1_2eproto;
-extern PROTOBUF_INTERNAL_EXPORT_messages1_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_CodecParameters_messages1_2eproto;
-extern PROTOBUF_INTERNAL_EXPORT_messages1_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_DataMediaType_messages1_2eproto;
-extern PROTOBUF_INTERNAL_EXPORT_messages1_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_DataMediaType_Pair_messages1_2eproto;
-extern PROTOBUF_INTERNAL_EXPORT_messages1_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_GopSlice_messages1_2eproto;
-extern PROTOBUF_INTERNAL_EXPORT_messages1_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_MediaPacket_messages1_2eproto;
-extern PROTOBUF_INTERNAL_EXPORT_messages1_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_Start_messages1_2eproto;
-extern PROTOBUF_INTERNAL_EXPORT_messages1_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_Stop_messages1_2eproto;
-extern PROTOBUF_INTERNAL_EXPORT_messages1_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<6> scc_info_Stream_messages1_2eproto;
-extern PROTOBUF_INTERNAL_EXPORT_messages1_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_Stream_Pair_messages1_2eproto;
-extern PROTOBUF_INTERNAL_EXPORT_messages1_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_SubtitleMediaType_messages1_2eproto;
-extern PROTOBUF_INTERNAL_EXPORT_messages1_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_SubtitleMediaType_Pair_messages1_2eproto;
-extern PROTOBUF_INTERNAL_EXPORT_messages1_2eproto ::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_VideoMediaType_messages1_2eproto;
-class VideoMediaTypeDefaultTypeInternal {
- public:
-  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<VideoMediaType> _instance;
-} _VideoMediaType_default_instance_;
-class SubtitleMediaType_PairDefaultTypeInternal {
- public:
-  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<SubtitleMediaType_Pair> _instance;
-} _SubtitleMediaType_Pair_default_instance_;
-class SubtitleMediaTypeDefaultTypeInternal {
- public:
-  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<SubtitleMediaType> _instance;
-} _SubtitleMediaType_default_instance_;
-class DataMediaType_PairDefaultTypeInternal {
- public:
-  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<DataMediaType_Pair> _instance;
-} _DataMediaType_Pair_default_instance_;
-class DataMediaTypeDefaultTypeInternal {
- public:
-  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<DataMediaType> _instance;
-} _DataMediaType_default_instance_;
-class AudioMediaTypeDefaultTypeInternal {
- public:
-  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<AudioMediaType> _instance;
-} _AudioMediaType_default_instance_;
-class Stream_PairDefaultTypeInternal {
- public:
-  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<Stream_Pair> _instance;
-} _Stream_Pair_default_instance_;
-class StreamDefaultTypeInternal {
- public:
-  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<Stream> _instance;
-} _Stream_default_instance_;
-class CodecParametersDefaultTypeInternal {
- public:
-  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<CodecParameters> _instance;
-} _CodecParameters_default_instance_;
-class MediaPacketDefaultTypeInternal {
- public:
-  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<MediaPacket> _instance;
-} _MediaPacket_default_instance_;
-class StartDefaultTypeInternal {
- public:
-  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<Start> _instance;
-} _Start_default_instance_;
-class StopDefaultTypeInternal {
- public:
-  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<Stop> _instance;
-} _Stop_default_instance_;
-class GopSliceDefaultTypeInternal {
- public:
-  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<GopSlice> _instance;
-} _GopSlice_default_instance_;
-class MsgDefaultTypeInternal {
- public:
-  ::PROTOBUF_NAMESPACE_ID::internal::ExplicitlyConstructed<Msg> _instance;
-} _Msg_default_instance_;
-static void InitDefaultsscc_info_AudioMediaType_messages1_2eproto() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
 
-  {
-    void* ptr = &::_AudioMediaType_default_instance_;
-    new (ptr) ::AudioMediaType();
-    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
-  }
-  ::AudioMediaType::InitAsDefaultInstance();
-}
+PROTOBUF_PRAGMA_INIT_SEG
 
-::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_AudioMediaType_messages1_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_AudioMediaType_messages1_2eproto}, {}};
+namespace _pb = ::PROTOBUF_NAMESPACE_ID;
+namespace _pbi = _pb::internal;
 
-static void InitDefaultsscc_info_CodecParameters_messages1_2eproto() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
+PROTOBUF_CONSTEXPR VideoMediaType::VideoMediaType(
+    ::_pbi::ConstantInitialized): _impl_{
+    /*decltype(_impl_.width_)*/0u
+  , /*decltype(_impl_.height_)*/0u
+  , /*decltype(_impl_.fps_num_)*/0u
+  , /*decltype(_impl_.fps_den_)*/0u
+  , /*decltype(_impl_.aspect_num_)*/0u
+  , /*decltype(_impl_.aspect_den_)*/0u
+  , /*decltype(_impl_.pix_fmt_)*/0
+  , /*decltype(_impl_._cached_size_)*/{}} {}
+struct VideoMediaTypeDefaultTypeInternal {
+  PROTOBUF_CONSTEXPR VideoMediaTypeDefaultTypeInternal()
+      : _instance(::_pbi::ConstantInitialized{}) {}
+  ~VideoMediaTypeDefaultTypeInternal() {}
+  union {
+    VideoMediaType _instance;
+  };
+};
+PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 VideoMediaTypeDefaultTypeInternal _VideoMediaType_default_instance_;
+PROTOBUF_CONSTEXPR SubtitleMediaType_Pair::SubtitleMediaType_Pair(
+    ::_pbi::ConstantInitialized): _impl_{
+    /*decltype(_impl_.key_)*/{&::_pbi::fixed_address_empty_string, ::_pbi::ConstantInitialized{}}
+  , /*decltype(_impl_.value_)*/{&::_pbi::fixed_address_empty_string, ::_pbi::ConstantInitialized{}}
+  , /*decltype(_impl_._cached_size_)*/{}} {}
+struct SubtitleMediaType_PairDefaultTypeInternal {
+  PROTOBUF_CONSTEXPR SubtitleMediaType_PairDefaultTypeInternal()
+      : _instance(::_pbi::ConstantInitialized{}) {}
+  ~SubtitleMediaType_PairDefaultTypeInternal() {}
+  union {
+    SubtitleMediaType_Pair _instance;
+  };
+};
+PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 SubtitleMediaType_PairDefaultTypeInternal _SubtitleMediaType_Pair_default_instance_;
+PROTOBUF_CONSTEXPR SubtitleMediaType::SubtitleMediaType(
+    ::_pbi::ConstantInitialized): _impl_{
+    /*decltype(_impl_.metadata_)*/{}
+  , /*decltype(_impl_.header_)*/{&::_pbi::fixed_address_empty_string, ::_pbi::ConstantInitialized{}}
+  , /*decltype(_impl_.aspect_num_)*/0u
+  , /*decltype(_impl_.aspect_den_)*/0u
+  , /*decltype(_impl_.width_)*/0u
+  , /*decltype(_impl_.height_)*/0u
+  , /*decltype(_impl_._cached_size_)*/{}} {}
+struct SubtitleMediaTypeDefaultTypeInternal {
+  PROTOBUF_CONSTEXPR SubtitleMediaTypeDefaultTypeInternal()
+      : _instance(::_pbi::ConstantInitialized{}) {}
+  ~SubtitleMediaTypeDefaultTypeInternal() {}
+  union {
+    SubtitleMediaType _instance;
+  };
+};
+PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 SubtitleMediaTypeDefaultTypeInternal _SubtitleMediaType_default_instance_;
+PROTOBUF_CONSTEXPR DataMediaType_Pair::DataMediaType_Pair(
+    ::_pbi::ConstantInitialized): _impl_{
+    /*decltype(_impl_.key_)*/{&::_pbi::fixed_address_empty_string, ::_pbi::ConstantInitialized{}}
+  , /*decltype(_impl_.value_)*/{&::_pbi::fixed_address_empty_string, ::_pbi::ConstantInitialized{}}
+  , /*decltype(_impl_._cached_size_)*/{}} {}
+struct DataMediaType_PairDefaultTypeInternal {
+  PROTOBUF_CONSTEXPR DataMediaType_PairDefaultTypeInternal()
+      : _instance(::_pbi::ConstantInitialized{}) {}
+  ~DataMediaType_PairDefaultTypeInternal() {}
+  union {
+    DataMediaType_Pair _instance;
+  };
+};
+PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 DataMediaType_PairDefaultTypeInternal _DataMediaType_Pair_default_instance_;
+PROTOBUF_CONSTEXPR DataMediaType::DataMediaType(
+    ::_pbi::ConstantInitialized): _impl_{
+    /*decltype(_impl_.info_)*/{}
+  , /*decltype(_impl_._cached_size_)*/{}} {}
+struct DataMediaTypeDefaultTypeInternal {
+  PROTOBUF_CONSTEXPR DataMediaTypeDefaultTypeInternal()
+      : _instance(::_pbi::ConstantInitialized{}) {}
+  ~DataMediaTypeDefaultTypeInternal() {}
+  union {
+    DataMediaType _instance;
+  };
+};
+PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 DataMediaTypeDefaultTypeInternal _DataMediaType_default_instance_;
+PROTOBUF_CONSTEXPR AudioMediaType::AudioMediaType(
+    ::_pbi::ConstantInitialized): _impl_{
+    /*decltype(_impl_.layout_)*/{&::_pbi::fixed_address_empty_string, ::_pbi::ConstantInitialized{}}
+  , /*decltype(_impl_.freq_)*/0u
+  , /*decltype(_impl_.nchan_)*/0u
+  , /*decltype(_impl_.ssize_)*/0u
+  , /*decltype(_impl_.sample_fmt_)*/0
+  , /*decltype(_impl_._cached_size_)*/{}} {}
+struct AudioMediaTypeDefaultTypeInternal {
+  PROTOBUF_CONSTEXPR AudioMediaTypeDefaultTypeInternal()
+      : _instance(::_pbi::ConstantInitialized{}) {}
+  ~AudioMediaTypeDefaultTypeInternal() {}
+  union {
+    AudioMediaType _instance;
+  };
+};
+PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 AudioMediaTypeDefaultTypeInternal _AudioMediaType_default_instance_;
+PROTOBUF_CONSTEXPR Stream_Pair::Stream_Pair(
+    ::_pbi::ConstantInitialized): _impl_{
+    /*decltype(_impl_.key_)*/{&::_pbi::fixed_address_empty_string, ::_pbi::ConstantInitialized{}}
+  , /*decltype(_impl_.value_)*/{&::_pbi::fixed_address_empty_string, ::_pbi::ConstantInitialized{}}
+  , /*decltype(_impl_._cached_size_)*/{}} {}
+struct Stream_PairDefaultTypeInternal {
+  PROTOBUF_CONSTEXPR Stream_PairDefaultTypeInternal()
+      : _instance(::_pbi::ConstantInitialized{}) {}
+  ~Stream_PairDefaultTypeInternal() {}
+  union {
+    Stream_Pair _instance;
+  };
+};
+PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 Stream_PairDefaultTypeInternal _Stream_Pair_default_instance_;
+PROTOBUF_CONSTEXPR Stream::Stream(
+    ::_pbi::ConstantInitialized): _impl_{
+    /*decltype(_impl_.metadata_)*/{}
+  , /*decltype(_impl_.codec_)*/{&::_pbi::fixed_address_empty_string, ::_pbi::ConstantInitialized{}}
+  , /*decltype(_impl_.extradata_)*/{&::_pbi::fixed_address_empty_string, ::_pbi::ConstantInitialized{}}
+  , /*decltype(_impl_.name_)*/{&::_pbi::fixed_address_empty_string, ::_pbi::ConstantInitialized{}}
+  , /*decltype(_impl_.channel_)*/{&::_pbi::fixed_address_empty_string, ::_pbi::ConstantInitialized{}}
+  , /*decltype(_impl_.videomt_)*/nullptr
+  , /*decltype(_impl_.audiomt_)*/nullptr
+  , /*decltype(_impl_.subtitlemt_)*/nullptr
+  , /*decltype(_impl_.datamt_)*/nullptr
+  , /*decltype(_impl_.avparams_)*/nullptr
+  , /*decltype(_impl_.id_)*/0u
+  , /*decltype(_impl_.type_)*/0
+  , /*decltype(_impl_.bitrate_)*/0u
+  , /*decltype(_impl_.tb_num_)*/0u
+  , /*decltype(_impl_.tb_den_)*/0u
+  , /*decltype(_impl_._cached_size_)*/{}} {}
+struct StreamDefaultTypeInternal {
+  PROTOBUF_CONSTEXPR StreamDefaultTypeInternal()
+      : _instance(::_pbi::ConstantInitialized{}) {}
+  ~StreamDefaultTypeInternal() {}
+  union {
+    Stream _instance;
+  };
+};
+PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 StreamDefaultTypeInternal _Stream_default_instance_;
+PROTOBUF_CONSTEXPR CodecParameters::CodecParameters(
+    ::_pbi::ConstantInitialized): _impl_{
+    /*decltype(_impl_.extradata_)*/{&::_pbi::fixed_address_empty_string, ::_pbi::ConstantInitialized{}}
+  , /*decltype(_impl_.codec_type_)*/0u
+  , /*decltype(_impl_.codec_id_)*/0u
+  , /*decltype(_impl_.codec_tag_)*/0u
+  , /*decltype(_impl_.format_)*/0u
+  , /*decltype(_impl_.bit_rate_)*/uint64_t{0u}
+  , /*decltype(_impl_.bits_per_coded_sample_)*/0u
+  , /*decltype(_impl_.bits_per_raw_sample_)*/0u
+  , /*decltype(_impl_.profile_)*/0u
+  , /*decltype(_impl_.level_)*/0u
+  , /*decltype(_impl_.width_)*/0u
+  , /*decltype(_impl_.height_)*/0u
+  , /*decltype(_impl_.sample_aspect_ratio_num_)*/0
+  , /*decltype(_impl_.sample_aspect_ratio_den_)*/0
+  , /*decltype(_impl_.field_order_)*/0u
+  , /*decltype(_impl_.color_range_)*/0u
+  , /*decltype(_impl_.color_primaries_)*/0u
+  , /*decltype(_impl_.color_trc_)*/0u
+  , /*decltype(_impl_.color_space_)*/0u
+  , /*decltype(_impl_.chroma_location_)*/0u
+  , /*decltype(_impl_.channel_layout_)*/uint64_t{0u}
+  , /*decltype(_impl_.video_delay_)*/0u
+  , /*decltype(_impl_.channels_)*/0u
+  , /*decltype(_impl_.sample_rate_)*/0u
+  , /*decltype(_impl_.block_align_)*/0u
+  , /*decltype(_impl_.frame_size_)*/0u
+  , /*decltype(_impl_.initial_padding_)*/0u
+  , /*decltype(_impl_.trailing_padding_)*/0u
+  , /*decltype(_impl_.seek_preroll_)*/0u
+  , /*decltype(_impl_._cached_size_)*/{}} {}
+struct CodecParametersDefaultTypeInternal {
+  PROTOBUF_CONSTEXPR CodecParametersDefaultTypeInternal()
+      : _instance(::_pbi::ConstantInitialized{}) {}
+  ~CodecParametersDefaultTypeInternal() {}
+  union {
+    CodecParameters _instance;
+  };
+};
+PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 CodecParametersDefaultTypeInternal _CodecParameters_default_instance_;
+PROTOBUF_CONSTEXPR MediaPacket::MediaPacket(
+    ::_pbi::ConstantInitialized): _impl_{
+    /*decltype(_impl_.data_)*/{&::_pbi::fixed_address_empty_string, ::_pbi::ConstantInitialized{}}
+  , /*decltype(_impl_.dts_)*/uint64_t{0u}
+  , /*decltype(_impl_.stream_id_)*/0u
+  , /*decltype(_impl_.pts_offset_)*/0u
+  , /*decltype(_impl_.frametype_)*/0
+  , /*decltype(_impl_.duration_)*/0u
+  , /*decltype(_impl_._cached_size_)*/{}} {}
+struct MediaPacketDefaultTypeInternal {
+  PROTOBUF_CONSTEXPR MediaPacketDefaultTypeInternal()
+      : _instance(::_pbi::ConstantInitialized{}) {}
+  ~MediaPacketDefaultTypeInternal() {}
+  union {
+    MediaPacket _instance;
+  };
+};
+PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 MediaPacketDefaultTypeInternal _MediaPacket_default_instance_;
+PROTOBUF_CONSTEXPR Start::Start(
+    ::_pbi::ConstantInitialized): _impl_{
+    /*decltype(_impl_.channel_)*/{&::_pbi::fixed_address_empty_string, ::_pbi::ConstantInitialized{}}
+  , /*decltype(_impl_.start_ts_)*/uint64_t{0u}
+  , /*decltype(_impl_.tb_num_)*/0u
+  , /*decltype(_impl_.tb_den_)*/0u
+  , /*decltype(_impl_._cached_size_)*/{}} {}
+struct StartDefaultTypeInternal {
+  PROTOBUF_CONSTEXPR StartDefaultTypeInternal()
+      : _instance(::_pbi::ConstantInitialized{}) {}
+  ~StartDefaultTypeInternal() {}
+  union {
+    Start _instance;
+  };
+};
+PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 StartDefaultTypeInternal _Start_default_instance_;
+PROTOBUF_CONSTEXPR Stop::Stop(
+    ::_pbi::ConstantInitialized) {}
+struct StopDefaultTypeInternal {
+  PROTOBUF_CONSTEXPR StopDefaultTypeInternal()
+      : _instance(::_pbi::ConstantInitialized{}) {}
+  ~StopDefaultTypeInternal() {}
+  union {
+    Stop _instance;
+  };
+};
+PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 StopDefaultTypeInternal _Stop_default_instance_;
+PROTOBUF_CONSTEXPR GopSlice::GopSlice(
+    ::_pbi::ConstantInitialized): _impl_{
+    /*decltype(_impl_.packets_)*/{}
+  , /*decltype(_impl_.ts_num_)*/int64_t{0}
+  , /*decltype(_impl_.ts_den_)*/int64_t{0}
+  , /*decltype(_impl_.duration_num_)*/int64_t{0}
+  , /*decltype(_impl_.duration_den_)*/int64_t{0}
+  , /*decltype(_impl_._cached_size_)*/{}} {}
+struct GopSliceDefaultTypeInternal {
+  PROTOBUF_CONSTEXPR GopSliceDefaultTypeInternal()
+      : _instance(::_pbi::ConstantInitialized{}) {}
+  ~GopSliceDefaultTypeInternal() {}
+  union {
+    GopSlice _instance;
+  };
+};
+PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 GopSliceDefaultTypeInternal _GopSlice_default_instance_;
+PROTOBUF_CONSTEXPR Msg::Msg(
+    ::_pbi::ConstantInitialized): _impl_{
+    /*decltype(_impl_.stop_)*/nullptr
+  , /*decltype(_impl_.start_)*/nullptr
+  , /*decltype(_impl_.stream_)*/nullptr
+  , /*decltype(_impl_.mediapacket_)*/nullptr
+  , /*decltype(_impl_.gopslice_)*/nullptr
+  , /*decltype(_impl_.type_)*/0
+  , /*decltype(_impl_._cached_size_)*/{}} {}
+struct MsgDefaultTypeInternal {
+  PROTOBUF_CONSTEXPR MsgDefaultTypeInternal()
+      : _instance(::_pbi::ConstantInitialized{}) {}
+  ~MsgDefaultTypeInternal() {}
+  union {
+    Msg _instance;
+  };
+};
+PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 MsgDefaultTypeInternal _Msg_default_instance_;
+static ::_pb::Metadata file_level_metadata_messages1_2eproto[14];
+static const ::_pb::EnumDescriptor* file_level_enum_descriptors_messages1_2eproto[5];
+static constexpr ::_pb::ServiceDescriptor const** file_level_service_descriptors_messages1_2eproto = nullptr;
 
-  {
-    void* ptr = &::_CodecParameters_default_instance_;
-    new (ptr) ::CodecParameters();
-    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
-  }
-  ::CodecParameters::InitAsDefaultInstance();
-}
-
-::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_CodecParameters_messages1_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_CodecParameters_messages1_2eproto}, {}};
-
-static void InitDefaultsscc_info_DataMediaType_messages1_2eproto() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  {
-    void* ptr = &::_DataMediaType_default_instance_;
-    new (ptr) ::DataMediaType();
-    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
-  }
-  ::DataMediaType::InitAsDefaultInstance();
-}
-
-::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_DataMediaType_messages1_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 1, 0, InitDefaultsscc_info_DataMediaType_messages1_2eproto}, {
-      &scc_info_DataMediaType_Pair_messages1_2eproto.base,}};
-
-static void InitDefaultsscc_info_DataMediaType_Pair_messages1_2eproto() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  {
-    void* ptr = &::_DataMediaType_Pair_default_instance_;
-    new (ptr) ::DataMediaType_Pair();
-    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
-  }
-  ::DataMediaType_Pair::InitAsDefaultInstance();
-}
-
-::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_DataMediaType_Pair_messages1_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_DataMediaType_Pair_messages1_2eproto}, {}};
-
-static void InitDefaultsscc_info_GopSlice_messages1_2eproto() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  {
-    void* ptr = &::_GopSlice_default_instance_;
-    new (ptr) ::GopSlice();
-    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
-  }
-  ::GopSlice::InitAsDefaultInstance();
-}
-
-::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_GopSlice_messages1_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 1, 0, InitDefaultsscc_info_GopSlice_messages1_2eproto}, {
-      &scc_info_MediaPacket_messages1_2eproto.base,}};
-
-static void InitDefaultsscc_info_MediaPacket_messages1_2eproto() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  {
-    void* ptr = &::_MediaPacket_default_instance_;
-    new (ptr) ::MediaPacket();
-    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
-  }
-  ::MediaPacket::InitAsDefaultInstance();
-}
-
-::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_MediaPacket_messages1_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_MediaPacket_messages1_2eproto}, {}};
-
-static void InitDefaultsscc_info_Msg_messages1_2eproto() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  {
-    void* ptr = &::_Msg_default_instance_;
-    new (ptr) ::Msg();
-    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
-  }
-  ::Msg::InitAsDefaultInstance();
-}
-
-::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<5> scc_info_Msg_messages1_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 5, 0, InitDefaultsscc_info_Msg_messages1_2eproto}, {
-      &scc_info_Stop_messages1_2eproto.base,
-      &scc_info_Start_messages1_2eproto.base,
-      &scc_info_Stream_messages1_2eproto.base,
-      &scc_info_MediaPacket_messages1_2eproto.base,
-      &scc_info_GopSlice_messages1_2eproto.base,}};
-
-static void InitDefaultsscc_info_Start_messages1_2eproto() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  {
-    void* ptr = &::_Start_default_instance_;
-    new (ptr) ::Start();
-    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
-  }
-  ::Start::InitAsDefaultInstance();
-}
-
-::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_Start_messages1_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_Start_messages1_2eproto}, {}};
-
-static void InitDefaultsscc_info_Stop_messages1_2eproto() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  {
-    void* ptr = &::_Stop_default_instance_;
-    new (ptr) ::Stop();
-    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
-  }
-  ::Stop::InitAsDefaultInstance();
-}
-
-::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_Stop_messages1_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_Stop_messages1_2eproto}, {}};
-
-static void InitDefaultsscc_info_Stream_messages1_2eproto() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  {
-    void* ptr = &::_Stream_default_instance_;
-    new (ptr) ::Stream();
-    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
-  }
-  ::Stream::InitAsDefaultInstance();
-}
-
-::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<6> scc_info_Stream_messages1_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 6, 0, InitDefaultsscc_info_Stream_messages1_2eproto}, {
-      &scc_info_VideoMediaType_messages1_2eproto.base,
-      &scc_info_AudioMediaType_messages1_2eproto.base,
-      &scc_info_SubtitleMediaType_messages1_2eproto.base,
-      &scc_info_DataMediaType_messages1_2eproto.base,
-      &scc_info_Stream_Pair_messages1_2eproto.base,
-      &scc_info_CodecParameters_messages1_2eproto.base,}};
-
-static void InitDefaultsscc_info_Stream_Pair_messages1_2eproto() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  {
-    void* ptr = &::_Stream_Pair_default_instance_;
-    new (ptr) ::Stream_Pair();
-    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
-  }
-  ::Stream_Pair::InitAsDefaultInstance();
-}
-
-::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_Stream_Pair_messages1_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_Stream_Pair_messages1_2eproto}, {}};
-
-static void InitDefaultsscc_info_SubtitleMediaType_messages1_2eproto() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  {
-    void* ptr = &::_SubtitleMediaType_default_instance_;
-    new (ptr) ::SubtitleMediaType();
-    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
-  }
-  ::SubtitleMediaType::InitAsDefaultInstance();
-}
-
-::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<1> scc_info_SubtitleMediaType_messages1_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 1, 0, InitDefaultsscc_info_SubtitleMediaType_messages1_2eproto}, {
-      &scc_info_SubtitleMediaType_Pair_messages1_2eproto.base,}};
-
-static void InitDefaultsscc_info_SubtitleMediaType_Pair_messages1_2eproto() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  {
-    void* ptr = &::_SubtitleMediaType_Pair_default_instance_;
-    new (ptr) ::SubtitleMediaType_Pair();
-    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
-  }
-  ::SubtitleMediaType_Pair::InitAsDefaultInstance();
-}
-
-::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_SubtitleMediaType_Pair_messages1_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_SubtitleMediaType_Pair_messages1_2eproto}, {}};
-
-static void InitDefaultsscc_info_VideoMediaType_messages1_2eproto() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  {
-    void* ptr = &::_VideoMediaType_default_instance_;
-    new (ptr) ::VideoMediaType();
-    ::PROTOBUF_NAMESPACE_ID::internal::OnShutdownDestroyMessage(ptr);
-  }
-  ::VideoMediaType::InitAsDefaultInstance();
-}
-
-::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_VideoMediaType_messages1_2eproto =
-    {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_VideoMediaType_messages1_2eproto}, {}};
-
-static ::PROTOBUF_NAMESPACE_ID::Metadata file_level_metadata_messages1_2eproto[14];
-static const ::PROTOBUF_NAMESPACE_ID::EnumDescriptor* file_level_enum_descriptors_messages1_2eproto[5];
-static constexpr ::PROTOBUF_NAMESPACE_ID::ServiceDescriptor const** file_level_service_descriptors_messages1_2eproto = nullptr;
-
-const ::PROTOBUF_NAMESPACE_ID::uint32 TableStruct_messages1_2eproto::offsets[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
+const uint32_t TableStruct_messages1_2eproto::offsets[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
   ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::VideoMediaType, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::VideoMediaType, width_),
-  PROTOBUF_FIELD_OFFSET(::VideoMediaType, height_),
-  PROTOBUF_FIELD_OFFSET(::VideoMediaType, fps_num_),
-  PROTOBUF_FIELD_OFFSET(::VideoMediaType, fps_den_),
-  PROTOBUF_FIELD_OFFSET(::VideoMediaType, aspect_num_),
-  PROTOBUF_FIELD_OFFSET(::VideoMediaType, aspect_den_),
-  PROTOBUF_FIELD_OFFSET(::VideoMediaType, pix_fmt_),
+  ~0u,  // no _inlined_string_donated_
+  PROTOBUF_FIELD_OFFSET(::VideoMediaType, _impl_.width_),
+  PROTOBUF_FIELD_OFFSET(::VideoMediaType, _impl_.height_),
+  PROTOBUF_FIELD_OFFSET(::VideoMediaType, _impl_.fps_num_),
+  PROTOBUF_FIELD_OFFSET(::VideoMediaType, _impl_.fps_den_),
+  PROTOBUF_FIELD_OFFSET(::VideoMediaType, _impl_.aspect_num_),
+  PROTOBUF_FIELD_OFFSET(::VideoMediaType, _impl_.aspect_den_),
+  PROTOBUF_FIELD_OFFSET(::VideoMediaType, _impl_.pix_fmt_),
   ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::SubtitleMediaType_Pair, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::SubtitleMediaType_Pair, key_),
-  PROTOBUF_FIELD_OFFSET(::SubtitleMediaType_Pair, value_),
+  ~0u,  // no _inlined_string_donated_
+  PROTOBUF_FIELD_OFFSET(::SubtitleMediaType_Pair, _impl_.key_),
+  PROTOBUF_FIELD_OFFSET(::SubtitleMediaType_Pair, _impl_.value_),
   ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::SubtitleMediaType, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::SubtitleMediaType, aspect_num_),
-  PROTOBUF_FIELD_OFFSET(::SubtitleMediaType, aspect_den_),
-  PROTOBUF_FIELD_OFFSET(::SubtitleMediaType, metadata_),
-  PROTOBUF_FIELD_OFFSET(::SubtitleMediaType, header_),
-  PROTOBUF_FIELD_OFFSET(::SubtitleMediaType, width_),
-  PROTOBUF_FIELD_OFFSET(::SubtitleMediaType, height_),
+  ~0u,  // no _inlined_string_donated_
+  PROTOBUF_FIELD_OFFSET(::SubtitleMediaType, _impl_.aspect_num_),
+  PROTOBUF_FIELD_OFFSET(::SubtitleMediaType, _impl_.aspect_den_),
+  PROTOBUF_FIELD_OFFSET(::SubtitleMediaType, _impl_.metadata_),
+  PROTOBUF_FIELD_OFFSET(::SubtitleMediaType, _impl_.header_),
+  PROTOBUF_FIELD_OFFSET(::SubtitleMediaType, _impl_.width_),
+  PROTOBUF_FIELD_OFFSET(::SubtitleMediaType, _impl_.height_),
   ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::DataMediaType_Pair, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DataMediaType_Pair, key_),
-  PROTOBUF_FIELD_OFFSET(::DataMediaType_Pair, value_),
+  ~0u,  // no _inlined_string_donated_
+  PROTOBUF_FIELD_OFFSET(::DataMediaType_Pair, _impl_.key_),
+  PROTOBUF_FIELD_OFFSET(::DataMediaType_Pair, _impl_.value_),
   ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::DataMediaType, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::DataMediaType, info_),
+  ~0u,  // no _inlined_string_donated_
+  PROTOBUF_FIELD_OFFSET(::DataMediaType, _impl_.info_),
   ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::AudioMediaType, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::AudioMediaType, freq_),
-  PROTOBUF_FIELD_OFFSET(::AudioMediaType, nchan_),
-  PROTOBUF_FIELD_OFFSET(::AudioMediaType, ssize_),
-  PROTOBUF_FIELD_OFFSET(::AudioMediaType, sample_fmt_),
-  PROTOBUF_FIELD_OFFSET(::AudioMediaType, layout_),
+  ~0u,  // no _inlined_string_donated_
+  PROTOBUF_FIELD_OFFSET(::AudioMediaType, _impl_.freq_),
+  PROTOBUF_FIELD_OFFSET(::AudioMediaType, _impl_.nchan_),
+  PROTOBUF_FIELD_OFFSET(::AudioMediaType, _impl_.ssize_),
+  PROTOBUF_FIELD_OFFSET(::AudioMediaType, _impl_.sample_fmt_),
+  PROTOBUF_FIELD_OFFSET(::AudioMediaType, _impl_.layout_),
   ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::Stream_Pair, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::Stream_Pair, key_),
-  PROTOBUF_FIELD_OFFSET(::Stream_Pair, value_),
+  ~0u,  // no _inlined_string_donated_
+  PROTOBUF_FIELD_OFFSET(::Stream_Pair, _impl_.key_),
+  PROTOBUF_FIELD_OFFSET(::Stream_Pair, _impl_.value_),
   ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::Stream, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::Stream, id_),
-  PROTOBUF_FIELD_OFFSET(::Stream, type_),
-  PROTOBUF_FIELD_OFFSET(::Stream, codec_),
-  PROTOBUF_FIELD_OFFSET(::Stream, bitrate_),
-  PROTOBUF_FIELD_OFFSET(::Stream, tb_num_),
-  PROTOBUF_FIELD_OFFSET(::Stream, tb_den_),
-  PROTOBUF_FIELD_OFFSET(::Stream, extradata_),
-  PROTOBUF_FIELD_OFFSET(::Stream, videomt_),
-  PROTOBUF_FIELD_OFFSET(::Stream, audiomt_),
-  PROTOBUF_FIELD_OFFSET(::Stream, name_),
-  PROTOBUF_FIELD_OFFSET(::Stream, channel_),
-  PROTOBUF_FIELD_OFFSET(::Stream, subtitlemt_),
-  PROTOBUF_FIELD_OFFSET(::Stream, datamt_),
-  PROTOBUF_FIELD_OFFSET(::Stream, metadata_),
-  PROTOBUF_FIELD_OFFSET(::Stream, avparams_),
+  ~0u,  // no _inlined_string_donated_
+  PROTOBUF_FIELD_OFFSET(::Stream, _impl_.id_),
+  PROTOBUF_FIELD_OFFSET(::Stream, _impl_.type_),
+  PROTOBUF_FIELD_OFFSET(::Stream, _impl_.codec_),
+  PROTOBUF_FIELD_OFFSET(::Stream, _impl_.bitrate_),
+  PROTOBUF_FIELD_OFFSET(::Stream, _impl_.tb_num_),
+  PROTOBUF_FIELD_OFFSET(::Stream, _impl_.tb_den_),
+  PROTOBUF_FIELD_OFFSET(::Stream, _impl_.extradata_),
+  PROTOBUF_FIELD_OFFSET(::Stream, _impl_.videomt_),
+  PROTOBUF_FIELD_OFFSET(::Stream, _impl_.audiomt_),
+  PROTOBUF_FIELD_OFFSET(::Stream, _impl_.name_),
+  PROTOBUF_FIELD_OFFSET(::Stream, _impl_.channel_),
+  PROTOBUF_FIELD_OFFSET(::Stream, _impl_.subtitlemt_),
+  PROTOBUF_FIELD_OFFSET(::Stream, _impl_.datamt_),
+  PROTOBUF_FIELD_OFFSET(::Stream, _impl_.metadata_),
+  PROTOBUF_FIELD_OFFSET(::Stream, _impl_.avparams_),
   ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::CodecParameters, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::CodecParameters, codec_type_),
-  PROTOBUF_FIELD_OFFSET(::CodecParameters, codec_id_),
-  PROTOBUF_FIELD_OFFSET(::CodecParameters, codec_tag_),
-  PROTOBUF_FIELD_OFFSET(::CodecParameters, extradata_),
-  PROTOBUF_FIELD_OFFSET(::CodecParameters, format_),
-  PROTOBUF_FIELD_OFFSET(::CodecParameters, bit_rate_),
-  PROTOBUF_FIELD_OFFSET(::CodecParameters, bits_per_coded_sample_),
-  PROTOBUF_FIELD_OFFSET(::CodecParameters, bits_per_raw_sample_),
-  PROTOBUF_FIELD_OFFSET(::CodecParameters, profile_),
-  PROTOBUF_FIELD_OFFSET(::CodecParameters, level_),
-  PROTOBUF_FIELD_OFFSET(::CodecParameters, width_),
-  PROTOBUF_FIELD_OFFSET(::CodecParameters, height_),
-  PROTOBUF_FIELD_OFFSET(::CodecParameters, sample_aspect_ratio_num_),
-  PROTOBUF_FIELD_OFFSET(::CodecParameters, sample_aspect_ratio_den_),
-  PROTOBUF_FIELD_OFFSET(::CodecParameters, field_order_),
-  PROTOBUF_FIELD_OFFSET(::CodecParameters, color_range_),
-  PROTOBUF_FIELD_OFFSET(::CodecParameters, color_primaries_),
-  PROTOBUF_FIELD_OFFSET(::CodecParameters, color_trc_),
-  PROTOBUF_FIELD_OFFSET(::CodecParameters, color_space_),
-  PROTOBUF_FIELD_OFFSET(::CodecParameters, chroma_location_),
-  PROTOBUF_FIELD_OFFSET(::CodecParameters, video_delay_),
-  PROTOBUF_FIELD_OFFSET(::CodecParameters, channel_layout_),
-  PROTOBUF_FIELD_OFFSET(::CodecParameters, channels_),
-  PROTOBUF_FIELD_OFFSET(::CodecParameters, sample_rate_),
-  PROTOBUF_FIELD_OFFSET(::CodecParameters, block_align_),
-  PROTOBUF_FIELD_OFFSET(::CodecParameters, frame_size_),
-  PROTOBUF_FIELD_OFFSET(::CodecParameters, initial_padding_),
-  PROTOBUF_FIELD_OFFSET(::CodecParameters, trailing_padding_),
-  PROTOBUF_FIELD_OFFSET(::CodecParameters, seek_preroll_),
+  ~0u,  // no _inlined_string_donated_
+  PROTOBUF_FIELD_OFFSET(::CodecParameters, _impl_.codec_type_),
+  PROTOBUF_FIELD_OFFSET(::CodecParameters, _impl_.codec_id_),
+  PROTOBUF_FIELD_OFFSET(::CodecParameters, _impl_.codec_tag_),
+  PROTOBUF_FIELD_OFFSET(::CodecParameters, _impl_.extradata_),
+  PROTOBUF_FIELD_OFFSET(::CodecParameters, _impl_.format_),
+  PROTOBUF_FIELD_OFFSET(::CodecParameters, _impl_.bit_rate_),
+  PROTOBUF_FIELD_OFFSET(::CodecParameters, _impl_.bits_per_coded_sample_),
+  PROTOBUF_FIELD_OFFSET(::CodecParameters, _impl_.bits_per_raw_sample_),
+  PROTOBUF_FIELD_OFFSET(::CodecParameters, _impl_.profile_),
+  PROTOBUF_FIELD_OFFSET(::CodecParameters, _impl_.level_),
+  PROTOBUF_FIELD_OFFSET(::CodecParameters, _impl_.width_),
+  PROTOBUF_FIELD_OFFSET(::CodecParameters, _impl_.height_),
+  PROTOBUF_FIELD_OFFSET(::CodecParameters, _impl_.sample_aspect_ratio_num_),
+  PROTOBUF_FIELD_OFFSET(::CodecParameters, _impl_.sample_aspect_ratio_den_),
+  PROTOBUF_FIELD_OFFSET(::CodecParameters, _impl_.field_order_),
+  PROTOBUF_FIELD_OFFSET(::CodecParameters, _impl_.color_range_),
+  PROTOBUF_FIELD_OFFSET(::CodecParameters, _impl_.color_primaries_),
+  PROTOBUF_FIELD_OFFSET(::CodecParameters, _impl_.color_trc_),
+  PROTOBUF_FIELD_OFFSET(::CodecParameters, _impl_.color_space_),
+  PROTOBUF_FIELD_OFFSET(::CodecParameters, _impl_.chroma_location_),
+  PROTOBUF_FIELD_OFFSET(::CodecParameters, _impl_.video_delay_),
+  PROTOBUF_FIELD_OFFSET(::CodecParameters, _impl_.channel_layout_),
+  PROTOBUF_FIELD_OFFSET(::CodecParameters, _impl_.channels_),
+  PROTOBUF_FIELD_OFFSET(::CodecParameters, _impl_.sample_rate_),
+  PROTOBUF_FIELD_OFFSET(::CodecParameters, _impl_.block_align_),
+  PROTOBUF_FIELD_OFFSET(::CodecParameters, _impl_.frame_size_),
+  PROTOBUF_FIELD_OFFSET(::CodecParameters, _impl_.initial_padding_),
+  PROTOBUF_FIELD_OFFSET(::CodecParameters, _impl_.trailing_padding_),
+  PROTOBUF_FIELD_OFFSET(::CodecParameters, _impl_.seek_preroll_),
   ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::MediaPacket, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::MediaPacket, stream_id_),
-  PROTOBUF_FIELD_OFFSET(::MediaPacket, dts_),
-  PROTOBUF_FIELD_OFFSET(::MediaPacket, pts_offset_),
-  PROTOBUF_FIELD_OFFSET(::MediaPacket, frametype_),
-  PROTOBUF_FIELD_OFFSET(::MediaPacket, data_),
-  PROTOBUF_FIELD_OFFSET(::MediaPacket, duration_),
+  ~0u,  // no _inlined_string_donated_
+  PROTOBUF_FIELD_OFFSET(::MediaPacket, _impl_.stream_id_),
+  PROTOBUF_FIELD_OFFSET(::MediaPacket, _impl_.dts_),
+  PROTOBUF_FIELD_OFFSET(::MediaPacket, _impl_.pts_offset_),
+  PROTOBUF_FIELD_OFFSET(::MediaPacket, _impl_.frametype_),
+  PROTOBUF_FIELD_OFFSET(::MediaPacket, _impl_.data_),
+  PROTOBUF_FIELD_OFFSET(::MediaPacket, _impl_.duration_),
   ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::Start, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::Start, start_ts_),
-  PROTOBUF_FIELD_OFFSET(::Start, tb_num_),
-  PROTOBUF_FIELD_OFFSET(::Start, tb_den_),
-  PROTOBUF_FIELD_OFFSET(::Start, channel_),
+  ~0u,  // no _inlined_string_donated_
+  PROTOBUF_FIELD_OFFSET(::Start, _impl_.start_ts_),
+  PROTOBUF_FIELD_OFFSET(::Start, _impl_.tb_num_),
+  PROTOBUF_FIELD_OFFSET(::Start, _impl_.tb_den_),
+  PROTOBUF_FIELD_OFFSET(::Start, _impl_.channel_),
   ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::Stop, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
+  ~0u,  // no _inlined_string_donated_
   ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::GopSlice, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::GopSlice, ts_num_),
-  PROTOBUF_FIELD_OFFSET(::GopSlice, ts_den_),
-  PROTOBUF_FIELD_OFFSET(::GopSlice, duration_num_),
-  PROTOBUF_FIELD_OFFSET(::GopSlice, duration_den_),
-  PROTOBUF_FIELD_OFFSET(::GopSlice, packets_),
+  ~0u,  // no _inlined_string_donated_
+  PROTOBUF_FIELD_OFFSET(::GopSlice, _impl_.ts_num_),
+  PROTOBUF_FIELD_OFFSET(::GopSlice, _impl_.ts_den_),
+  PROTOBUF_FIELD_OFFSET(::GopSlice, _impl_.duration_num_),
+  PROTOBUF_FIELD_OFFSET(::GopSlice, _impl_.duration_den_),
+  PROTOBUF_FIELD_OFFSET(::GopSlice, _impl_.packets_),
   ~0u,  // no _has_bits_
   PROTOBUF_FIELD_OFFSET(::Msg, _internal_metadata_),
   ~0u,  // no _extensions_
   ~0u,  // no _oneof_case_
   ~0u,  // no _weak_field_map_
-  PROTOBUF_FIELD_OFFSET(::Msg, type_),
-  PROTOBUF_FIELD_OFFSET(::Msg, stop_),
-  PROTOBUF_FIELD_OFFSET(::Msg, start_),
-  PROTOBUF_FIELD_OFFSET(::Msg, stream_),
-  PROTOBUF_FIELD_OFFSET(::Msg, mediapacket_),
-  PROTOBUF_FIELD_OFFSET(::Msg, gopslice_),
+  ~0u,  // no _inlined_string_donated_
+  PROTOBUF_FIELD_OFFSET(::Msg, _impl_.type_),
+  PROTOBUF_FIELD_OFFSET(::Msg, _impl_.stop_),
+  PROTOBUF_FIELD_OFFSET(::Msg, _impl_.start_),
+  PROTOBUF_FIELD_OFFSET(::Msg, _impl_.stream_),
+  PROTOBUF_FIELD_OFFSET(::Msg, _impl_.mediapacket_),
+  PROTOBUF_FIELD_OFFSET(::Msg, _impl_.gopslice_),
 };
-static const ::PROTOBUF_NAMESPACE_ID::internal::MigrationSchema schemas[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
-  { 0, -1, sizeof(::VideoMediaType)},
-  { 12, -1, sizeof(::SubtitleMediaType_Pair)},
-  { 19, -1, sizeof(::SubtitleMediaType)},
-  { 30, -1, sizeof(::DataMediaType_Pair)},
-  { 37, -1, sizeof(::DataMediaType)},
-  { 43, -1, sizeof(::AudioMediaType)},
-  { 53, -1, sizeof(::Stream_Pair)},
-  { 60, -1, sizeof(::Stream)},
-  { 80, -1, sizeof(::CodecParameters)},
-  { 114, -1, sizeof(::MediaPacket)},
-  { 125, -1, sizeof(::Start)},
-  { 134, -1, sizeof(::Stop)},
-  { 139, -1, sizeof(::GopSlice)},
-  { 149, -1, sizeof(::Msg)},
+static const ::_pbi::MigrationSchema schemas[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
+  { 0, -1, -1, sizeof(::VideoMediaType)},
+  { 13, -1, -1, sizeof(::SubtitleMediaType_Pair)},
+  { 21, -1, -1, sizeof(::SubtitleMediaType)},
+  { 33, -1, -1, sizeof(::DataMediaType_Pair)},
+  { 41, -1, -1, sizeof(::DataMediaType)},
+  { 48, -1, -1, sizeof(::AudioMediaType)},
+  { 59, -1, -1, sizeof(::Stream_Pair)},
+  { 67, -1, -1, sizeof(::Stream)},
+  { 88, -1, -1, sizeof(::CodecParameters)},
+  { 123, -1, -1, sizeof(::MediaPacket)},
+  { 135, -1, -1, sizeof(::Start)},
+  { 145, -1, -1, sizeof(::Stop)},
+  { 151, -1, -1, sizeof(::GopSlice)},
+  { 162, -1, -1, sizeof(::Msg)},
 };
 
-static ::PROTOBUF_NAMESPACE_ID::Message const * const file_default_instances[] = {
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::_VideoMediaType_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::_SubtitleMediaType_Pair_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::_SubtitleMediaType_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::_DataMediaType_Pair_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::_DataMediaType_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::_AudioMediaType_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::_Stream_Pair_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::_Stream_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::_CodecParameters_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::_MediaPacket_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::_Start_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::_Stop_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::_GopSlice_default_instance_),
-  reinterpret_cast<const ::PROTOBUF_NAMESPACE_ID::Message*>(&::_Msg_default_instance_),
+static const ::_pb::Message* const file_default_instances[] = {
+  &::_VideoMediaType_default_instance_._instance,
+  &::_SubtitleMediaType_Pair_default_instance_._instance,
+  &::_SubtitleMediaType_default_instance_._instance,
+  &::_DataMediaType_Pair_default_instance_._instance,
+  &::_DataMediaType_default_instance_._instance,
+  &::_AudioMediaType_default_instance_._instance,
+  &::_Stream_Pair_default_instance_._instance,
+  &::_Stream_default_instance_._instance,
+  &::_CodecParameters_default_instance_._instance,
+  &::_MediaPacket_default_instance_._instance,
+  &::_Start_default_instance_._instance,
+  &::_Stop_default_instance_._instance,
+  &::_GopSlice_default_instance_._instance,
+  &::_Msg_default_instance_._instance,
 };
 
 const char descriptor_table_protodef_messages1_2eproto[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) =
@@ -557,34 +555,21 @@ const char descriptor_table_protodef_messages1_2eproto[] PROTOBUF_SECTION_VARIAB
   "22\020\001\022\014\n\010YUVJ420P\020\002\022\010\n\004NV12\020\003* \n\tFrameTyp"
   "e\022\005\n\001I\020\000\022\005\n\001P\020\001\022\005\n\001B\020\002b\006proto3"
   ;
-static const ::PROTOBUF_NAMESPACE_ID::internal::DescriptorTable*const descriptor_table_messages1_2eproto_deps[1] = {
+static ::_pbi::once_flag descriptor_table_messages1_2eproto_once;
+const ::_pbi::DescriptorTable descriptor_table_messages1_2eproto = {
+    false, false, 2470, descriptor_table_protodef_messages1_2eproto,
+    "messages1.proto",
+    &descriptor_table_messages1_2eproto_once, nullptr, 0, 14,
+    schemas, file_default_instances, TableStruct_messages1_2eproto::offsets,
+    file_level_metadata_messages1_2eproto, file_level_enum_descriptors_messages1_2eproto,
+    file_level_service_descriptors_messages1_2eproto,
 };
-static ::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase*const descriptor_table_messages1_2eproto_sccs[14] = {
-  &scc_info_AudioMediaType_messages1_2eproto.base,
-  &scc_info_CodecParameters_messages1_2eproto.base,
-  &scc_info_DataMediaType_messages1_2eproto.base,
-  &scc_info_DataMediaType_Pair_messages1_2eproto.base,
-  &scc_info_GopSlice_messages1_2eproto.base,
-  &scc_info_MediaPacket_messages1_2eproto.base,
-  &scc_info_Msg_messages1_2eproto.base,
-  &scc_info_Start_messages1_2eproto.base,
-  &scc_info_Stop_messages1_2eproto.base,
-  &scc_info_Stream_messages1_2eproto.base,
-  &scc_info_Stream_Pair_messages1_2eproto.base,
-  &scc_info_SubtitleMediaType_messages1_2eproto.base,
-  &scc_info_SubtitleMediaType_Pair_messages1_2eproto.base,
-  &scc_info_VideoMediaType_messages1_2eproto.base,
-};
-static ::PROTOBUF_NAMESPACE_ID::internal::once_flag descriptor_table_messages1_2eproto_once;
-const ::PROTOBUF_NAMESPACE_ID::internal::DescriptorTable descriptor_table_messages1_2eproto = {
-  false, false, descriptor_table_protodef_messages1_2eproto, "messages1.proto", 2470,
-  &descriptor_table_messages1_2eproto_once, descriptor_table_messages1_2eproto_sccs, descriptor_table_messages1_2eproto_deps, 14, 0,
-  schemas, file_default_instances, TableStruct_messages1_2eproto::offsets,
-  file_level_metadata_messages1_2eproto, 14, file_level_enum_descriptors_messages1_2eproto, file_level_service_descriptors_messages1_2eproto,
-};
+PROTOBUF_ATTRIBUTE_WEAK const ::_pbi::DescriptorTable* descriptor_table_messages1_2eproto_getter() {
+  return &descriptor_table_messages1_2eproto;
+}
 
 // Force running AddDescriptors() at dynamic initialization time.
-static bool dynamic_init_dummy_messages1_2eproto = (static_cast<void>(::PROTOBUF_NAMESPACE_ID::internal::AddDescriptors(&descriptor_table_messages1_2eproto)), true);
+PROTOBUF_ATTRIBUTE_INIT_PRIORITY2 static ::_pbi::AddDescriptorsRunner dynamic_init_dummy_messages1_2eproto(&descriptor_table_messages1_2eproto);
 const ::PROTOBUF_NAMESPACE_ID::EnumDescriptor* AudioMediaType_SampleFmt_descriptor() {
   ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(&descriptor_table_messages1_2eproto);
   return file_level_enum_descriptors_messages1_2eproto[0];
@@ -607,7 +592,7 @@ bool AudioMediaType_SampleFmt_IsValid(int value) {
   }
 }
 
-#if (__cplusplus < 201703) && (!defined(_MSC_VER) || _MSC_VER >= 1900)
+#if (__cplusplus < 201703) && (!defined(_MSC_VER) || (_MSC_VER >= 1900 && _MSC_VER < 1912))
 constexpr AudioMediaType_SampleFmt AudioMediaType::S16;
 constexpr AudioMediaType_SampleFmt AudioMediaType::U8;
 constexpr AudioMediaType_SampleFmt AudioMediaType::S32;
@@ -621,7 +606,7 @@ constexpr AudioMediaType_SampleFmt AudioMediaType::DBLP;
 constexpr AudioMediaType_SampleFmt AudioMediaType::SampleFmt_MIN;
 constexpr AudioMediaType_SampleFmt AudioMediaType::SampleFmt_MAX;
 constexpr int AudioMediaType::SampleFmt_ARRAYSIZE;
-#endif  // (__cplusplus < 201703) && (!defined(_MSC_VER) || _MSC_VER >= 1900)
+#endif  // (__cplusplus < 201703) && (!defined(_MSC_VER) || (_MSC_VER >= 1900 && _MSC_VER < 1912))
 const ::PROTOBUF_NAMESPACE_ID::EnumDescriptor* Stream_Type_descriptor() {
   ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(&descriptor_table_messages1_2eproto);
   return file_level_enum_descriptors_messages1_2eproto[1];
@@ -638,7 +623,7 @@ bool Stream_Type_IsValid(int value) {
   }
 }
 
-#if (__cplusplus < 201703) && (!defined(_MSC_VER) || _MSC_VER >= 1900)
+#if (__cplusplus < 201703) && (!defined(_MSC_VER) || (_MSC_VER >= 1900 && _MSC_VER < 1912))
 constexpr Stream_Type Stream::VIDEO;
 constexpr Stream_Type Stream::AUDIO;
 constexpr Stream_Type Stream::SUBTITLE;
@@ -646,7 +631,7 @@ constexpr Stream_Type Stream::DATA;
 constexpr Stream_Type Stream::Type_MIN;
 constexpr Stream_Type Stream::Type_MAX;
 constexpr int Stream::Type_ARRAYSIZE;
-#endif  // (__cplusplus < 201703) && (!defined(_MSC_VER) || _MSC_VER >= 1900)
+#endif  // (__cplusplus < 201703) && (!defined(_MSC_VER) || (_MSC_VER >= 1900 && _MSC_VER < 1912))
 const ::PROTOBUF_NAMESPACE_ID::EnumDescriptor* Msg_Type_descriptor() {
   ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(&descriptor_table_messages1_2eproto);
   return file_level_enum_descriptors_messages1_2eproto[2];
@@ -665,7 +650,7 @@ bool Msg_Type_IsValid(int value) {
   }
 }
 
-#if (__cplusplus < 201703) && (!defined(_MSC_VER) || _MSC_VER >= 1900)
+#if (__cplusplus < 201703) && (!defined(_MSC_VER) || (_MSC_VER >= 1900 && _MSC_VER < 1912))
 constexpr Msg_Type Msg::Nop;
 constexpr Msg_Type Msg::Start;
 constexpr Msg_Type Msg::Stop;
@@ -675,7 +660,7 @@ constexpr Msg_Type Msg::GopSlice;
 constexpr Msg_Type Msg::Type_MIN;
 constexpr Msg_Type Msg::Type_MAX;
 constexpr int Msg::Type_ARRAYSIZE;
-#endif  // (__cplusplus < 201703) && (!defined(_MSC_VER) || _MSC_VER >= 1900)
+#endif  // (__cplusplus < 201703) && (!defined(_MSC_VER) || (_MSC_VER >= 1900 && _MSC_VER < 1912))
 const ::PROTOBUF_NAMESPACE_ID::EnumDescriptor* PixFmt_descriptor() {
   ::PROTOBUF_NAMESPACE_ID::internal::AssignDescriptors(&descriptor_table_messages1_2eproto);
   return file_level_enum_descriptors_messages1_2eproto[3];
@@ -710,201 +695,218 @@ bool FrameType_IsValid(int value) {
 
 // ===================================================================
 
-void VideoMediaType::InitAsDefaultInstance() {
-}
 class VideoMediaType::_Internal {
  public:
 };
 
-VideoMediaType::VideoMediaType(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
-  SharedCtor();
-  RegisterArenaDtor(arena);
+VideoMediaType::VideoMediaType(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+                         bool is_message_owned)
+  : ::PROTOBUF_NAMESPACE_ID::Message(arena, is_message_owned) {
+  SharedCtor(arena, is_message_owned);
   // @@protoc_insertion_point(arena_constructor:VideoMediaType)
 }
 VideoMediaType::VideoMediaType(const VideoMediaType& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
+  VideoMediaType* const _this = this; (void)_this;
+  new (&_impl_) Impl_{
+      decltype(_impl_.width_){}
+    , decltype(_impl_.height_){}
+    , decltype(_impl_.fps_num_){}
+    , decltype(_impl_.fps_den_){}
+    , decltype(_impl_.aspect_num_){}
+    , decltype(_impl_.aspect_den_){}
+    , decltype(_impl_.pix_fmt_){}
+    , /*decltype(_impl_._cached_size_)*/{}};
+
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::memcpy(&width_, &from.width_,
-    static_cast<size_t>(reinterpret_cast<char*>(&aspect_den_) -
-    reinterpret_cast<char*>(&width_)) + sizeof(aspect_den_));
+  ::memcpy(&_impl_.width_, &from._impl_.width_,
+    static_cast<size_t>(reinterpret_cast<char*>(&_impl_.pix_fmt_) -
+    reinterpret_cast<char*>(&_impl_.width_)) + sizeof(_impl_.pix_fmt_));
   // @@protoc_insertion_point(copy_constructor:VideoMediaType)
 }
 
-void VideoMediaType::SharedCtor() {
-  ::memset(&width_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&aspect_den_) -
-      reinterpret_cast<char*>(&width_)) + sizeof(aspect_den_));
+inline void VideoMediaType::SharedCtor(
+    ::_pb::Arena* arena, bool is_message_owned) {
+  (void)arena;
+  (void)is_message_owned;
+  new (&_impl_) Impl_{
+      decltype(_impl_.width_){0u}
+    , decltype(_impl_.height_){0u}
+    , decltype(_impl_.fps_num_){0u}
+    , decltype(_impl_.fps_den_){0u}
+    , decltype(_impl_.aspect_num_){0u}
+    , decltype(_impl_.aspect_den_){0u}
+    , decltype(_impl_.pix_fmt_){0}
+    , /*decltype(_impl_._cached_size_)*/{}
+  };
 }
 
 VideoMediaType::~VideoMediaType() {
   // @@protoc_insertion_point(destructor:VideoMediaType)
+  if (auto *arena = _internal_metadata_.DeleteReturnArena<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>()) {
+  (void)arena;
+    return;
+  }
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-void VideoMediaType::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
+inline void VideoMediaType::SharedDtor() {
+  GOOGLE_DCHECK(GetArenaForAllocation() == nullptr);
 }
 
-void VideoMediaType::ArenaDtor(void* object) {
-  VideoMediaType* _this = reinterpret_cast< VideoMediaType* >(object);
-  (void)_this;
-}
-void VideoMediaType::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void VideoMediaType::SetCachedSize(int size) const {
-  _cached_size_.Set(size);
+  _impl_._cached_size_.Set(size);
 }
-const VideoMediaType& VideoMediaType::default_instance() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_VideoMediaType_messages1_2eproto.base);
-  return *internal_default_instance();
-}
-
 
 void VideoMediaType::Clear() {
 // @@protoc_insertion_point(message_clear_start:VideoMediaType)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  ::memset(&width_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&aspect_den_) -
-      reinterpret_cast<char*>(&width_)) + sizeof(aspect_den_));
+  ::memset(&_impl_.width_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&_impl_.pix_fmt_) -
+      reinterpret_cast<char*>(&_impl_.width_)) + sizeof(_impl_.pix_fmt_));
   _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-const char* VideoMediaType::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+const char* VideoMediaType::_InternalParse(const char* ptr, ::_pbi::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
-  ::PROTOBUF_NAMESPACE_ID::Arena* arena = GetArena(); (void)arena;
   while (!ctx->Done(&ptr)) {
-    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
-    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
-    CHK_(ptr);
+    uint32_t tag;
+    ptr = ::_pbi::ReadTag(ptr, &tag);
     switch (tag >> 3) {
       // uint32 width = 4;
       case 4:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 32)) {
-          width_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 32)) {
+          _impl_.width_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 height = 5;
       case 5:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 40)) {
-          height_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 40)) {
+          _impl_.height_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 fps_num = 6;
       case 6:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 48)) {
-          fps_num_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 48)) {
+          _impl_.fps_num_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 fps_den = 7;
       case 7:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 56)) {
-          fps_den_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 56)) {
+          _impl_.fps_den_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 aspect_num = 8;
       case 8:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 64)) {
-          aspect_num_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 64)) {
+          _impl_.aspect_num_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 aspect_den = 9;
       case 9:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 72)) {
-          aspect_den_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 72)) {
+          _impl_.aspect_den_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // .PixFmt pix_fmt = 10;
       case 10:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 80)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 80)) {
+          uint64_t val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
           CHK_(ptr);
           _internal_set_pix_fmt(static_cast<::PixFmt>(val));
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
-      default: {
-      handle_unusual:
-        if ((tag & 7) == 4 || tag == 0) {
-          ctx->SetLastTag(tag);
-          goto success;
-        }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
-        CHK_(ptr != nullptr);
-        continue;
-      }
+      default:
+        goto handle_unusual;
     }  // switch
+  handle_unusual:
+    if ((tag == 0) || ((tag & 7) == 4)) {
+      CHK_(ptr);
+      ctx->SetLastTag(tag);
+      goto message_done;
+    }
+    ptr = UnknownFieldParse(
+        tag,
+        _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
+        ptr, ctx);
+    CHK_(ptr != nullptr);
   }  // while
-success:
+message_done:
   return ptr;
 failure:
   ptr = nullptr;
-  goto success;
+  goto message_done;
 #undef CHK_
 }
 
-::PROTOBUF_NAMESPACE_ID::uint8* VideoMediaType::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+uint8_t* VideoMediaType::_InternalSerialize(
+    uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
   // @@protoc_insertion_point(serialize_to_array_start:VideoMediaType)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
   // uint32 width = 4;
-  if (this->width() != 0) {
+  if (this->_internal_width() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(4, this->_internal_width(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(4, this->_internal_width(), target);
   }
 
   // uint32 height = 5;
-  if (this->height() != 0) {
+  if (this->_internal_height() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(5, this->_internal_height(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(5, this->_internal_height(), target);
   }
 
   // uint32 fps_num = 6;
-  if (this->fps_num() != 0) {
+  if (this->_internal_fps_num() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(6, this->_internal_fps_num(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(6, this->_internal_fps_num(), target);
   }
 
   // uint32 fps_den = 7;
-  if (this->fps_den() != 0) {
+  if (this->_internal_fps_den() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(7, this->_internal_fps_den(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(7, this->_internal_fps_den(), target);
   }
 
   // uint32 aspect_num = 8;
-  if (this->aspect_num() != 0) {
+  if (this->_internal_aspect_num() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(8, this->_internal_aspect_num(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(8, this->_internal_aspect_num(), target);
   }
 
   // uint32 aspect_den = 9;
-  if (this->aspect_den() != 0) {
+  if (this->_internal_aspect_den() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(9, this->_internal_aspect_den(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(9, this->_internal_aspect_den(), target);
   }
 
   // .PixFmt pix_fmt = 10;
-  if (this->pix_fmt() != 0) {
+  if (this->_internal_pix_fmt() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
+    target = ::_pbi::WireFormatLite::WriteEnumToArray(
       10, this->_internal_pix_fmt(), target);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+    target = ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
   // @@protoc_insertion_point(serialize_to_array_end:VideoMediaType)
@@ -915,117 +917,86 @@ size_t VideoMediaType::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:VideoMediaType)
   size_t total_size = 0;
 
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
   // uint32 width = 4;
-  if (this->width() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_width());
+  if (this->_internal_width() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_width());
   }
 
   // uint32 height = 5;
-  if (this->height() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_height());
+  if (this->_internal_height() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_height());
   }
 
   // uint32 fps_num = 6;
-  if (this->fps_num() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_fps_num());
+  if (this->_internal_fps_num() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_fps_num());
   }
 
   // uint32 fps_den = 7;
-  if (this->fps_den() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_fps_den());
-  }
-
-  // .PixFmt pix_fmt = 10;
-  if (this->pix_fmt() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_pix_fmt());
+  if (this->_internal_fps_den() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_fps_den());
   }
 
   // uint32 aspect_num = 8;
-  if (this->aspect_num() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_aspect_num());
+  if (this->_internal_aspect_num() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_aspect_num());
   }
 
   // uint32 aspect_den = 9;
-  if (this->aspect_den() != 0) {
+  if (this->_internal_aspect_den() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_aspect_den());
+  }
+
+  // .PixFmt pix_fmt = 10;
+  if (this->_internal_pix_fmt() != 0) {
     total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_aspect_den());
+      ::_pbi::WireFormatLite::EnumSize(this->_internal_pix_fmt());
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
-  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
-  SetCachedSize(cached_size);
-  return total_size;
+  return MaybeComputeUnknownFieldsSize(total_size, &_impl_._cached_size_);
 }
 
-void VideoMediaType::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:VideoMediaType)
-  GOOGLE_DCHECK_NE(&from, this);
-  const VideoMediaType* source =
-      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<VideoMediaType>(
-          &from);
-  if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:VideoMediaType)
-    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:VideoMediaType)
-    MergeFrom(*source);
-  }
-}
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData VideoMediaType::_class_data_ = {
+    ::PROTOBUF_NAMESPACE_ID::Message::CopyWithSourceCheck,
+    VideoMediaType::MergeImpl
+};
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*VideoMediaType::GetClassData() const { return &_class_data_; }
 
-void VideoMediaType::MergeFrom(const VideoMediaType& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:VideoMediaType)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+
+void VideoMediaType::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message& to_msg, const ::PROTOBUF_NAMESPACE_ID::Message& from_msg) {
+  auto* const _this = static_cast<VideoMediaType*>(&to_msg);
+  auto& from = static_cast<const VideoMediaType&>(from_msg);
+  // @@protoc_insertion_point(class_specific_merge_from_start:VideoMediaType)
+  GOOGLE_DCHECK_NE(&from, _this);
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if (from.width() != 0) {
-    _internal_set_width(from._internal_width());
+  if (from._internal_width() != 0) {
+    _this->_internal_set_width(from._internal_width());
   }
-  if (from.height() != 0) {
-    _internal_set_height(from._internal_height());
+  if (from._internal_height() != 0) {
+    _this->_internal_set_height(from._internal_height());
   }
-  if (from.fps_num() != 0) {
-    _internal_set_fps_num(from._internal_fps_num());
+  if (from._internal_fps_num() != 0) {
+    _this->_internal_set_fps_num(from._internal_fps_num());
   }
-  if (from.fps_den() != 0) {
-    _internal_set_fps_den(from._internal_fps_den());
+  if (from._internal_fps_den() != 0) {
+    _this->_internal_set_fps_den(from._internal_fps_den());
   }
-  if (from.pix_fmt() != 0) {
-    _internal_set_pix_fmt(from._internal_pix_fmt());
+  if (from._internal_aspect_num() != 0) {
+    _this->_internal_set_aspect_num(from._internal_aspect_num());
   }
-  if (from.aspect_num() != 0) {
-    _internal_set_aspect_num(from._internal_aspect_num());
+  if (from._internal_aspect_den() != 0) {
+    _this->_internal_set_aspect_den(from._internal_aspect_den());
   }
-  if (from.aspect_den() != 0) {
-    _internal_set_aspect_den(from._internal_aspect_den());
+  if (from._internal_pix_fmt() != 0) {
+    _this->_internal_set_pix_fmt(from._internal_pix_fmt());
   }
-}
-
-void VideoMediaType::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:VideoMediaType)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
+  _this->_internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
 }
 
 void VideoMediaType::CopyFrom(const VideoMediaType& from) {
@@ -1041,150 +1012,167 @@ bool VideoMediaType::IsInitialized() const {
 
 void VideoMediaType::InternalSwap(VideoMediaType* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
+  _internal_metadata_.InternalSwap(&other->_internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::internal::memswap<
-      PROTOBUF_FIELD_OFFSET(VideoMediaType, aspect_den_)
-      + sizeof(VideoMediaType::aspect_den_)
-      - PROTOBUF_FIELD_OFFSET(VideoMediaType, width_)>(
-          reinterpret_cast<char*>(&width_),
-          reinterpret_cast<char*>(&other->width_));
+      PROTOBUF_FIELD_OFFSET(VideoMediaType, _impl_.pix_fmt_)
+      + sizeof(VideoMediaType::_impl_.pix_fmt_)
+      - PROTOBUF_FIELD_OFFSET(VideoMediaType, _impl_.width_)>(
+          reinterpret_cast<char*>(&_impl_.width_),
+          reinterpret_cast<char*>(&other->_impl_.width_));
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata VideoMediaType::GetMetadata() const {
-  return GetMetadataStatic();
+  return ::_pbi::AssignDescriptors(
+      &descriptor_table_messages1_2eproto_getter, &descriptor_table_messages1_2eproto_once,
+      file_level_metadata_messages1_2eproto[0]);
 }
-
 
 // ===================================================================
 
-void SubtitleMediaType_Pair::InitAsDefaultInstance() {
-}
 class SubtitleMediaType_Pair::_Internal {
  public:
 };
 
-SubtitleMediaType_Pair::SubtitleMediaType_Pair(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
-  SharedCtor();
-  RegisterArenaDtor(arena);
+SubtitleMediaType_Pair::SubtitleMediaType_Pair(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+                         bool is_message_owned)
+  : ::PROTOBUF_NAMESPACE_ID::Message(arena, is_message_owned) {
+  SharedCtor(arena, is_message_owned);
   // @@protoc_insertion_point(arena_constructor:SubtitleMediaType.Pair)
 }
 SubtitleMediaType_Pair::SubtitleMediaType_Pair(const SubtitleMediaType_Pair& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
+  SubtitleMediaType_Pair* const _this = this; (void)_this;
+  new (&_impl_) Impl_{
+      decltype(_impl_.key_){}
+    , decltype(_impl_.value_){}
+    , /*decltype(_impl_._cached_size_)*/{}};
+
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  key_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  _impl_.key_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.key_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
   if (!from._internal_key().empty()) {
-    key_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from._internal_key(),
-      GetArena());
+    _this->_impl_.key_.Set(from._internal_key(), 
+      _this->GetArenaForAllocation());
   }
-  value_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  _impl_.value_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.value_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
   if (!from._internal_value().empty()) {
-    value_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from._internal_value(),
-      GetArena());
+    _this->_impl_.value_.Set(from._internal_value(), 
+      _this->GetArenaForAllocation());
   }
   // @@protoc_insertion_point(copy_constructor:SubtitleMediaType.Pair)
 }
 
-void SubtitleMediaType_Pair::SharedCtor() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_SubtitleMediaType_Pair_messages1_2eproto.base);
-  key_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  value_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+inline void SubtitleMediaType_Pair::SharedCtor(
+    ::_pb::Arena* arena, bool is_message_owned) {
+  (void)arena;
+  (void)is_message_owned;
+  new (&_impl_) Impl_{
+      decltype(_impl_.key_){}
+    , decltype(_impl_.value_){}
+    , /*decltype(_impl_._cached_size_)*/{}
+  };
+  _impl_.key_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.key_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
+  _impl_.value_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.value_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
 }
 
 SubtitleMediaType_Pair::~SubtitleMediaType_Pair() {
   // @@protoc_insertion_point(destructor:SubtitleMediaType.Pair)
+  if (auto *arena = _internal_metadata_.DeleteReturnArena<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>()) {
+  (void)arena;
+    return;
+  }
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-void SubtitleMediaType_Pair::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
-  key_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  value_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+inline void SubtitleMediaType_Pair::SharedDtor() {
+  GOOGLE_DCHECK(GetArenaForAllocation() == nullptr);
+  _impl_.key_.Destroy();
+  _impl_.value_.Destroy();
 }
 
-void SubtitleMediaType_Pair::ArenaDtor(void* object) {
-  SubtitleMediaType_Pair* _this = reinterpret_cast< SubtitleMediaType_Pair* >(object);
-  (void)_this;
-}
-void SubtitleMediaType_Pair::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void SubtitleMediaType_Pair::SetCachedSize(int size) const {
-  _cached_size_.Set(size);
+  _impl_._cached_size_.Set(size);
 }
-const SubtitleMediaType_Pair& SubtitleMediaType_Pair::default_instance() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_SubtitleMediaType_Pair_messages1_2eproto.base);
-  return *internal_default_instance();
-}
-
 
 void SubtitleMediaType_Pair::Clear() {
 // @@protoc_insertion_point(message_clear_start:SubtitleMediaType.Pair)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  key_.ClearToEmpty(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
-  value_.ClearToEmpty(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
+  _impl_.key_.ClearToEmpty();
+  _impl_.value_.ClearToEmpty();
   _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-const char* SubtitleMediaType_Pair::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+const char* SubtitleMediaType_Pair::_InternalParse(const char* ptr, ::_pbi::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
-  ::PROTOBUF_NAMESPACE_ID::Arena* arena = GetArena(); (void)arena;
   while (!ctx->Done(&ptr)) {
-    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
-    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
-    CHK_(ptr);
+    uint32_t tag;
+    ptr = ::_pbi::ReadTag(ptr, &tag);
     switch (tag >> 3) {
       // string key = 1;
       case 1:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 10)) {
           auto str = _internal_mutable_key();
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
-          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "SubtitleMediaType.Pair.key"));
+          ptr = ::_pbi::InlineGreedyStringParser(str, ptr, ctx);
           CHK_(ptr);
-        } else goto handle_unusual;
+          CHK_(::_pbi::VerifyUTF8(str, "SubtitleMediaType.Pair.key"));
+        } else
+          goto handle_unusual;
         continue;
       // string value = 2;
       case 2:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 18)) {
           auto str = _internal_mutable_value();
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
-          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "SubtitleMediaType.Pair.value"));
+          ptr = ::_pbi::InlineGreedyStringParser(str, ptr, ctx);
           CHK_(ptr);
-        } else goto handle_unusual;
+          CHK_(::_pbi::VerifyUTF8(str, "SubtitleMediaType.Pair.value"));
+        } else
+          goto handle_unusual;
         continue;
-      default: {
-      handle_unusual:
-        if ((tag & 7) == 4 || tag == 0) {
-          ctx->SetLastTag(tag);
-          goto success;
-        }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
-        CHK_(ptr != nullptr);
-        continue;
-      }
+      default:
+        goto handle_unusual;
     }  // switch
+  handle_unusual:
+    if ((tag == 0) || ((tag & 7) == 4)) {
+      CHK_(ptr);
+      ctx->SetLastTag(tag);
+      goto message_done;
+    }
+    ptr = UnknownFieldParse(
+        tag,
+        _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
+        ptr, ctx);
+    CHK_(ptr != nullptr);
   }  // while
-success:
+message_done:
   return ptr;
 failure:
   ptr = nullptr;
-  goto success;
+  goto message_done;
 #undef CHK_
 }
 
-::PROTOBUF_NAMESPACE_ID::uint8* SubtitleMediaType_Pair::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+uint8_t* SubtitleMediaType_Pair::_InternalSerialize(
+    uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
   // @@protoc_insertion_point(serialize_to_array_start:SubtitleMediaType.Pair)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
   // string key = 1;
-  if (this->key().size() > 0) {
+  if (!this->_internal_key().empty()) {
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
       this->_internal_key().data(), static_cast<int>(this->_internal_key().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
@@ -1194,7 +1182,7 @@ failure:
   }
 
   // string value = 2;
-  if (this->value().size() > 0) {
+  if (!this->_internal_value().empty()) {
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
       this->_internal_value().data(), static_cast<int>(this->_internal_value().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
@@ -1204,7 +1192,7 @@ failure:
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+    target = ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
   // @@protoc_insertion_point(serialize_to_array_end:SubtitleMediaType.Pair)
@@ -1215,68 +1203,49 @@ size_t SubtitleMediaType_Pair::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:SubtitleMediaType.Pair)
   size_t total_size = 0;
 
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
   // string key = 1;
-  if (this->key().size() > 0) {
+  if (!this->_internal_key().empty()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
         this->_internal_key());
   }
 
   // string value = 2;
-  if (this->value().size() > 0) {
+  if (!this->_internal_value().empty()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
         this->_internal_value());
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
-  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
-  SetCachedSize(cached_size);
-  return total_size;
+  return MaybeComputeUnknownFieldsSize(total_size, &_impl_._cached_size_);
 }
 
-void SubtitleMediaType_Pair::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:SubtitleMediaType.Pair)
-  GOOGLE_DCHECK_NE(&from, this);
-  const SubtitleMediaType_Pair* source =
-      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<SubtitleMediaType_Pair>(
-          &from);
-  if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:SubtitleMediaType.Pair)
-    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:SubtitleMediaType.Pair)
-    MergeFrom(*source);
-  }
-}
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData SubtitleMediaType_Pair::_class_data_ = {
+    ::PROTOBUF_NAMESPACE_ID::Message::CopyWithSourceCheck,
+    SubtitleMediaType_Pair::MergeImpl
+};
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*SubtitleMediaType_Pair::GetClassData() const { return &_class_data_; }
 
-void SubtitleMediaType_Pair::MergeFrom(const SubtitleMediaType_Pair& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:SubtitleMediaType.Pair)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+
+void SubtitleMediaType_Pair::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message& to_msg, const ::PROTOBUF_NAMESPACE_ID::Message& from_msg) {
+  auto* const _this = static_cast<SubtitleMediaType_Pair*>(&to_msg);
+  auto& from = static_cast<const SubtitleMediaType_Pair&>(from_msg);
+  // @@protoc_insertion_point(class_specific_merge_from_start:SubtitleMediaType.Pair)
+  GOOGLE_DCHECK_NE(&from, _this);
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if (from.key().size() > 0) {
-    _internal_set_key(from._internal_key());
+  if (!from._internal_key().empty()) {
+    _this->_internal_set_key(from._internal_key());
   }
-  if (from.value().size() > 0) {
-    _internal_set_value(from._internal_value());
+  if (!from._internal_value().empty()) {
+    _this->_internal_set_value(from._internal_value());
   }
-}
-
-void SubtitleMediaType_Pair::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:SubtitleMediaType.Pair)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
+  _this->_internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
 }
 
 void SubtitleMediaType_Pair::CopyFrom(const SubtitleMediaType_Pair& from) {
@@ -1292,119 +1261,141 @@ bool SubtitleMediaType_Pair::IsInitialized() const {
 
 void SubtitleMediaType_Pair::InternalSwap(SubtitleMediaType_Pair* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  key_.Swap(&other->key_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
-  value_.Swap(&other->value_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
+  auto* lhs_arena = GetArenaForAllocation();
+  auto* rhs_arena = other->GetArenaForAllocation();
+  _internal_metadata_.InternalSwap(&other->_internal_metadata_);
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::InternalSwap(
+      &_impl_.key_, lhs_arena,
+      &other->_impl_.key_, rhs_arena
+  );
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::InternalSwap(
+      &_impl_.value_, lhs_arena,
+      &other->_impl_.value_, rhs_arena
+  );
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata SubtitleMediaType_Pair::GetMetadata() const {
-  return GetMetadataStatic();
+  return ::_pbi::AssignDescriptors(
+      &descriptor_table_messages1_2eproto_getter, &descriptor_table_messages1_2eproto_once,
+      file_level_metadata_messages1_2eproto[1]);
 }
-
 
 // ===================================================================
 
-void SubtitleMediaType::InitAsDefaultInstance() {
-}
 class SubtitleMediaType::_Internal {
  public:
 };
 
-SubtitleMediaType::SubtitleMediaType(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena),
-  metadata_(arena) {
-  SharedCtor();
-  RegisterArenaDtor(arena);
+SubtitleMediaType::SubtitleMediaType(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+                         bool is_message_owned)
+  : ::PROTOBUF_NAMESPACE_ID::Message(arena, is_message_owned) {
+  SharedCtor(arena, is_message_owned);
   // @@protoc_insertion_point(arena_constructor:SubtitleMediaType)
 }
 SubtitleMediaType::SubtitleMediaType(const SubtitleMediaType& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message(),
-      metadata_(from.metadata_) {
+  : ::PROTOBUF_NAMESPACE_ID::Message() {
+  SubtitleMediaType* const _this = this; (void)_this;
+  new (&_impl_) Impl_{
+      decltype(_impl_.metadata_){from._impl_.metadata_}
+    , decltype(_impl_.header_){}
+    , decltype(_impl_.aspect_num_){}
+    , decltype(_impl_.aspect_den_){}
+    , decltype(_impl_.width_){}
+    , decltype(_impl_.height_){}
+    , /*decltype(_impl_._cached_size_)*/{}};
+
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  header_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  _impl_.header_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.header_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
   if (!from._internal_header().empty()) {
-    header_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from._internal_header(),
-      GetArena());
+    _this->_impl_.header_.Set(from._internal_header(), 
+      _this->GetArenaForAllocation());
   }
-  ::memcpy(&aspect_num_, &from.aspect_num_,
-    static_cast<size_t>(reinterpret_cast<char*>(&height_) -
-    reinterpret_cast<char*>(&aspect_num_)) + sizeof(height_));
+  ::memcpy(&_impl_.aspect_num_, &from._impl_.aspect_num_,
+    static_cast<size_t>(reinterpret_cast<char*>(&_impl_.height_) -
+    reinterpret_cast<char*>(&_impl_.aspect_num_)) + sizeof(_impl_.height_));
   // @@protoc_insertion_point(copy_constructor:SubtitleMediaType)
 }
 
-void SubtitleMediaType::SharedCtor() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_SubtitleMediaType_messages1_2eproto.base);
-  header_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  ::memset(&aspect_num_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&height_) -
-      reinterpret_cast<char*>(&aspect_num_)) + sizeof(height_));
+inline void SubtitleMediaType::SharedCtor(
+    ::_pb::Arena* arena, bool is_message_owned) {
+  (void)arena;
+  (void)is_message_owned;
+  new (&_impl_) Impl_{
+      decltype(_impl_.metadata_){arena}
+    , decltype(_impl_.header_){}
+    , decltype(_impl_.aspect_num_){0u}
+    , decltype(_impl_.aspect_den_){0u}
+    , decltype(_impl_.width_){0u}
+    , decltype(_impl_.height_){0u}
+    , /*decltype(_impl_._cached_size_)*/{}
+  };
+  _impl_.header_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.header_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
 }
 
 SubtitleMediaType::~SubtitleMediaType() {
   // @@protoc_insertion_point(destructor:SubtitleMediaType)
+  if (auto *arena = _internal_metadata_.DeleteReturnArena<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>()) {
+  (void)arena;
+    return;
+  }
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-void SubtitleMediaType::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
-  header_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+inline void SubtitleMediaType::SharedDtor() {
+  GOOGLE_DCHECK(GetArenaForAllocation() == nullptr);
+  _impl_.metadata_.~RepeatedPtrField();
+  _impl_.header_.Destroy();
 }
 
-void SubtitleMediaType::ArenaDtor(void* object) {
-  SubtitleMediaType* _this = reinterpret_cast< SubtitleMediaType* >(object);
-  (void)_this;
-}
-void SubtitleMediaType::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void SubtitleMediaType::SetCachedSize(int size) const {
-  _cached_size_.Set(size);
+  _impl_._cached_size_.Set(size);
 }
-const SubtitleMediaType& SubtitleMediaType::default_instance() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_SubtitleMediaType_messages1_2eproto.base);
-  return *internal_default_instance();
-}
-
 
 void SubtitleMediaType::Clear() {
 // @@protoc_insertion_point(message_clear_start:SubtitleMediaType)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  metadata_.Clear();
-  header_.ClearToEmpty(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
-  ::memset(&aspect_num_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&height_) -
-      reinterpret_cast<char*>(&aspect_num_)) + sizeof(height_));
+  _impl_.metadata_.Clear();
+  _impl_.header_.ClearToEmpty();
+  ::memset(&_impl_.aspect_num_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&_impl_.height_) -
+      reinterpret_cast<char*>(&_impl_.aspect_num_)) + sizeof(_impl_.height_));
   _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-const char* SubtitleMediaType::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+const char* SubtitleMediaType::_InternalParse(const char* ptr, ::_pbi::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
-  ::PROTOBUF_NAMESPACE_ID::Arena* arena = GetArena(); (void)arena;
   while (!ctx->Done(&ptr)) {
-    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
-    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
-    CHK_(ptr);
+    uint32_t tag;
+    ptr = ::_pbi::ReadTag(ptr, &tag);
     switch (tag >> 3) {
       // uint32 aspect_num = 1;
       case 1:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 8)) {
-          aspect_num_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 8)) {
+          _impl_.aspect_num_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 aspect_den = 2;
       case 2:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 16)) {
-          aspect_den_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 16)) {
+          _impl_.aspect_den_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // repeated .SubtitleMediaType.Pair metadata = 3;
       case 3:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 26)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 26)) {
           ptr -= 1;
           do {
             ptr += 1;
@@ -1412,98 +1403,103 @@ const char* SubtitleMediaType::_InternalParse(const char* ptr, ::PROTOBUF_NAMESP
             CHK_(ptr);
             if (!ctx->DataAvailable(ptr)) break;
           } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<26>(ptr));
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // bytes header = 4;
       case 4:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 34)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 34)) {
           auto str = _internal_mutable_header();
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
+          ptr = ::_pbi::InlineGreedyStringParser(str, ptr, ctx);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 width = 5;
       case 5:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 40)) {
-          width_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 40)) {
+          _impl_.width_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 height = 6;
       case 6:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 48)) {
-          height_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 48)) {
+          _impl_.height_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
-      default: {
-      handle_unusual:
-        if ((tag & 7) == 4 || tag == 0) {
-          ctx->SetLastTag(tag);
-          goto success;
-        }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
-        CHK_(ptr != nullptr);
-        continue;
-      }
+      default:
+        goto handle_unusual;
     }  // switch
+  handle_unusual:
+    if ((tag == 0) || ((tag & 7) == 4)) {
+      CHK_(ptr);
+      ctx->SetLastTag(tag);
+      goto message_done;
+    }
+    ptr = UnknownFieldParse(
+        tag,
+        _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
+        ptr, ctx);
+    CHK_(ptr != nullptr);
   }  // while
-success:
+message_done:
   return ptr;
 failure:
   ptr = nullptr;
-  goto success;
+  goto message_done;
 #undef CHK_
 }
 
-::PROTOBUF_NAMESPACE_ID::uint8* SubtitleMediaType::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+uint8_t* SubtitleMediaType::_InternalSerialize(
+    uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
   // @@protoc_insertion_point(serialize_to_array_start:SubtitleMediaType)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
   // uint32 aspect_num = 1;
-  if (this->aspect_num() != 0) {
+  if (this->_internal_aspect_num() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(1, this->_internal_aspect_num(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(1, this->_internal_aspect_num(), target);
   }
 
   // uint32 aspect_den = 2;
-  if (this->aspect_den() != 0) {
+  if (this->_internal_aspect_den() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(2, this->_internal_aspect_den(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(2, this->_internal_aspect_den(), target);
   }
 
   // repeated .SubtitleMediaType.Pair metadata = 3;
-  for (unsigned int i = 0,
-      n = static_cast<unsigned int>(this->_internal_metadata_size()); i < n; i++) {
-    target = stream->EnsureSpace(target);
+  for (unsigned i = 0,
+      n = static_cast<unsigned>(this->_internal_metadata_size()); i < n; i++) {
+    const auto& repfield = this->_internal_metadata(i);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(3, this->_internal_metadata(i), target, stream);
+        InternalWriteMessage(3, repfield, repfield.GetCachedSize(), target, stream);
   }
 
   // bytes header = 4;
-  if (this->header().size() > 0) {
+  if (!this->_internal_header().empty()) {
     target = stream->WriteBytesMaybeAliased(
         4, this->_internal_header(), target);
   }
 
   // uint32 width = 5;
-  if (this->width() != 0) {
+  if (this->_internal_width() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(5, this->_internal_width(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(5, this->_internal_width(), target);
   }
 
   // uint32 height = 6;
-  if (this->height() != 0) {
+  if (this->_internal_height() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(6, this->_internal_height(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(6, this->_internal_height(), target);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+    target = ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
   // @@protoc_insertion_point(serialize_to_array_end:SubtitleMediaType)
@@ -1514,106 +1510,79 @@ size_t SubtitleMediaType::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:SubtitleMediaType)
   size_t total_size = 0;
 
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
   // repeated .SubtitleMediaType.Pair metadata = 3;
   total_size += 1UL * this->_internal_metadata_size();
-  for (const auto& msg : this->metadata_) {
+  for (const auto& msg : this->_impl_.metadata_) {
     total_size +=
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
   }
 
   // bytes header = 4;
-  if (this->header().size() > 0) {
+  if (!this->_internal_header().empty()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::BytesSize(
         this->_internal_header());
   }
 
   // uint32 aspect_num = 1;
-  if (this->aspect_num() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_aspect_num());
+  if (this->_internal_aspect_num() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_aspect_num());
   }
 
   // uint32 aspect_den = 2;
-  if (this->aspect_den() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_aspect_den());
+  if (this->_internal_aspect_den() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_aspect_den());
   }
 
   // uint32 width = 5;
-  if (this->width() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_width());
+  if (this->_internal_width() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_width());
   }
 
   // uint32 height = 6;
-  if (this->height() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_height());
+  if (this->_internal_height() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_height());
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
-  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
-  SetCachedSize(cached_size);
-  return total_size;
+  return MaybeComputeUnknownFieldsSize(total_size, &_impl_._cached_size_);
 }
 
-void SubtitleMediaType::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:SubtitleMediaType)
-  GOOGLE_DCHECK_NE(&from, this);
-  const SubtitleMediaType* source =
-      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<SubtitleMediaType>(
-          &from);
-  if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:SubtitleMediaType)
-    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:SubtitleMediaType)
-    MergeFrom(*source);
-  }
-}
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData SubtitleMediaType::_class_data_ = {
+    ::PROTOBUF_NAMESPACE_ID::Message::CopyWithSourceCheck,
+    SubtitleMediaType::MergeImpl
+};
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*SubtitleMediaType::GetClassData() const { return &_class_data_; }
 
-void SubtitleMediaType::MergeFrom(const SubtitleMediaType& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:SubtitleMediaType)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+
+void SubtitleMediaType::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message& to_msg, const ::PROTOBUF_NAMESPACE_ID::Message& from_msg) {
+  auto* const _this = static_cast<SubtitleMediaType*>(&to_msg);
+  auto& from = static_cast<const SubtitleMediaType&>(from_msg);
+  // @@protoc_insertion_point(class_specific_merge_from_start:SubtitleMediaType)
+  GOOGLE_DCHECK_NE(&from, _this);
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  metadata_.MergeFrom(from.metadata_);
-  if (from.header().size() > 0) {
-    _internal_set_header(from._internal_header());
+  _this->_impl_.metadata_.MergeFrom(from._impl_.metadata_);
+  if (!from._internal_header().empty()) {
+    _this->_internal_set_header(from._internal_header());
   }
-  if (from.aspect_num() != 0) {
-    _internal_set_aspect_num(from._internal_aspect_num());
+  if (from._internal_aspect_num() != 0) {
+    _this->_internal_set_aspect_num(from._internal_aspect_num());
   }
-  if (from.aspect_den() != 0) {
-    _internal_set_aspect_den(from._internal_aspect_den());
+  if (from._internal_aspect_den() != 0) {
+    _this->_internal_set_aspect_den(from._internal_aspect_den());
   }
-  if (from.width() != 0) {
-    _internal_set_width(from._internal_width());
+  if (from._internal_width() != 0) {
+    _this->_internal_set_width(from._internal_width());
   }
-  if (from.height() != 0) {
-    _internal_set_height(from._internal_height());
+  if (from._internal_height() != 0) {
+    _this->_internal_set_height(from._internal_height());
   }
-}
-
-void SubtitleMediaType::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:SubtitleMediaType)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
+  _this->_internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
 }
 
 void SubtitleMediaType::CopyFrom(const SubtitleMediaType& from) {
@@ -1629,152 +1598,174 @@ bool SubtitleMediaType::IsInitialized() const {
 
 void SubtitleMediaType::InternalSwap(SubtitleMediaType* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  metadata_.InternalSwap(&other->metadata_);
-  header_.Swap(&other->header_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
+  auto* lhs_arena = GetArenaForAllocation();
+  auto* rhs_arena = other->GetArenaForAllocation();
+  _internal_metadata_.InternalSwap(&other->_internal_metadata_);
+  _impl_.metadata_.InternalSwap(&other->_impl_.metadata_);
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::InternalSwap(
+      &_impl_.header_, lhs_arena,
+      &other->_impl_.header_, rhs_arena
+  );
   ::PROTOBUF_NAMESPACE_ID::internal::memswap<
-      PROTOBUF_FIELD_OFFSET(SubtitleMediaType, height_)
-      + sizeof(SubtitleMediaType::height_)
-      - PROTOBUF_FIELD_OFFSET(SubtitleMediaType, aspect_num_)>(
-          reinterpret_cast<char*>(&aspect_num_),
-          reinterpret_cast<char*>(&other->aspect_num_));
+      PROTOBUF_FIELD_OFFSET(SubtitleMediaType, _impl_.height_)
+      + sizeof(SubtitleMediaType::_impl_.height_)
+      - PROTOBUF_FIELD_OFFSET(SubtitleMediaType, _impl_.aspect_num_)>(
+          reinterpret_cast<char*>(&_impl_.aspect_num_),
+          reinterpret_cast<char*>(&other->_impl_.aspect_num_));
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata SubtitleMediaType::GetMetadata() const {
-  return GetMetadataStatic();
+  return ::_pbi::AssignDescriptors(
+      &descriptor_table_messages1_2eproto_getter, &descriptor_table_messages1_2eproto_once,
+      file_level_metadata_messages1_2eproto[2]);
 }
-
 
 // ===================================================================
 
-void DataMediaType_Pair::InitAsDefaultInstance() {
-}
 class DataMediaType_Pair::_Internal {
  public:
 };
 
-DataMediaType_Pair::DataMediaType_Pair(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
-  SharedCtor();
-  RegisterArenaDtor(arena);
+DataMediaType_Pair::DataMediaType_Pair(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+                         bool is_message_owned)
+  : ::PROTOBUF_NAMESPACE_ID::Message(arena, is_message_owned) {
+  SharedCtor(arena, is_message_owned);
   // @@protoc_insertion_point(arena_constructor:DataMediaType.Pair)
 }
 DataMediaType_Pair::DataMediaType_Pair(const DataMediaType_Pair& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
+  DataMediaType_Pair* const _this = this; (void)_this;
+  new (&_impl_) Impl_{
+      decltype(_impl_.key_){}
+    , decltype(_impl_.value_){}
+    , /*decltype(_impl_._cached_size_)*/{}};
+
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  key_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  _impl_.key_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.key_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
   if (!from._internal_key().empty()) {
-    key_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from._internal_key(),
-      GetArena());
+    _this->_impl_.key_.Set(from._internal_key(), 
+      _this->GetArenaForAllocation());
   }
-  value_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  _impl_.value_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.value_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
   if (!from._internal_value().empty()) {
-    value_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from._internal_value(),
-      GetArena());
+    _this->_impl_.value_.Set(from._internal_value(), 
+      _this->GetArenaForAllocation());
   }
   // @@protoc_insertion_point(copy_constructor:DataMediaType.Pair)
 }
 
-void DataMediaType_Pair::SharedCtor() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_DataMediaType_Pair_messages1_2eproto.base);
-  key_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  value_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+inline void DataMediaType_Pair::SharedCtor(
+    ::_pb::Arena* arena, bool is_message_owned) {
+  (void)arena;
+  (void)is_message_owned;
+  new (&_impl_) Impl_{
+      decltype(_impl_.key_){}
+    , decltype(_impl_.value_){}
+    , /*decltype(_impl_._cached_size_)*/{}
+  };
+  _impl_.key_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.key_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
+  _impl_.value_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.value_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
 }
 
 DataMediaType_Pair::~DataMediaType_Pair() {
   // @@protoc_insertion_point(destructor:DataMediaType.Pair)
+  if (auto *arena = _internal_metadata_.DeleteReturnArena<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>()) {
+  (void)arena;
+    return;
+  }
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-void DataMediaType_Pair::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
-  key_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  value_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+inline void DataMediaType_Pair::SharedDtor() {
+  GOOGLE_DCHECK(GetArenaForAllocation() == nullptr);
+  _impl_.key_.Destroy();
+  _impl_.value_.Destroy();
 }
 
-void DataMediaType_Pair::ArenaDtor(void* object) {
-  DataMediaType_Pair* _this = reinterpret_cast< DataMediaType_Pair* >(object);
-  (void)_this;
-}
-void DataMediaType_Pair::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void DataMediaType_Pair::SetCachedSize(int size) const {
-  _cached_size_.Set(size);
+  _impl_._cached_size_.Set(size);
 }
-const DataMediaType_Pair& DataMediaType_Pair::default_instance() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_DataMediaType_Pair_messages1_2eproto.base);
-  return *internal_default_instance();
-}
-
 
 void DataMediaType_Pair::Clear() {
 // @@protoc_insertion_point(message_clear_start:DataMediaType.Pair)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  key_.ClearToEmpty(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
-  value_.ClearToEmpty(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
+  _impl_.key_.ClearToEmpty();
+  _impl_.value_.ClearToEmpty();
   _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-const char* DataMediaType_Pair::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+const char* DataMediaType_Pair::_InternalParse(const char* ptr, ::_pbi::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
-  ::PROTOBUF_NAMESPACE_ID::Arena* arena = GetArena(); (void)arena;
   while (!ctx->Done(&ptr)) {
-    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
-    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
-    CHK_(ptr);
+    uint32_t tag;
+    ptr = ::_pbi::ReadTag(ptr, &tag);
     switch (tag >> 3) {
       // string key = 1;
       case 1:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 10)) {
           auto str = _internal_mutable_key();
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
-          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "DataMediaType.Pair.key"));
+          ptr = ::_pbi::InlineGreedyStringParser(str, ptr, ctx);
           CHK_(ptr);
-        } else goto handle_unusual;
+          CHK_(::_pbi::VerifyUTF8(str, "DataMediaType.Pair.key"));
+        } else
+          goto handle_unusual;
         continue;
       // string value = 2;
       case 2:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 18)) {
           auto str = _internal_mutable_value();
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
-          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "DataMediaType.Pair.value"));
+          ptr = ::_pbi::InlineGreedyStringParser(str, ptr, ctx);
           CHK_(ptr);
-        } else goto handle_unusual;
+          CHK_(::_pbi::VerifyUTF8(str, "DataMediaType.Pair.value"));
+        } else
+          goto handle_unusual;
         continue;
-      default: {
-      handle_unusual:
-        if ((tag & 7) == 4 || tag == 0) {
-          ctx->SetLastTag(tag);
-          goto success;
-        }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
-        CHK_(ptr != nullptr);
-        continue;
-      }
+      default:
+        goto handle_unusual;
     }  // switch
+  handle_unusual:
+    if ((tag == 0) || ((tag & 7) == 4)) {
+      CHK_(ptr);
+      ctx->SetLastTag(tag);
+      goto message_done;
+    }
+    ptr = UnknownFieldParse(
+        tag,
+        _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
+        ptr, ctx);
+    CHK_(ptr != nullptr);
   }  // while
-success:
+message_done:
   return ptr;
 failure:
   ptr = nullptr;
-  goto success;
+  goto message_done;
 #undef CHK_
 }
 
-::PROTOBUF_NAMESPACE_ID::uint8* DataMediaType_Pair::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+uint8_t* DataMediaType_Pair::_InternalSerialize(
+    uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
   // @@protoc_insertion_point(serialize_to_array_start:DataMediaType.Pair)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
   // string key = 1;
-  if (this->key().size() > 0) {
+  if (!this->_internal_key().empty()) {
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
       this->_internal_key().data(), static_cast<int>(this->_internal_key().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
@@ -1784,7 +1775,7 @@ failure:
   }
 
   // string value = 2;
-  if (this->value().size() > 0) {
+  if (!this->_internal_value().empty()) {
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
       this->_internal_value().data(), static_cast<int>(this->_internal_value().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
@@ -1794,7 +1785,7 @@ failure:
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+    target = ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
   // @@protoc_insertion_point(serialize_to_array_end:DataMediaType.Pair)
@@ -1805,68 +1796,49 @@ size_t DataMediaType_Pair::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:DataMediaType.Pair)
   size_t total_size = 0;
 
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
   // string key = 1;
-  if (this->key().size() > 0) {
+  if (!this->_internal_key().empty()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
         this->_internal_key());
   }
 
   // string value = 2;
-  if (this->value().size() > 0) {
+  if (!this->_internal_value().empty()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
         this->_internal_value());
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
-  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
-  SetCachedSize(cached_size);
-  return total_size;
+  return MaybeComputeUnknownFieldsSize(total_size, &_impl_._cached_size_);
 }
 
-void DataMediaType_Pair::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DataMediaType.Pair)
-  GOOGLE_DCHECK_NE(&from, this);
-  const DataMediaType_Pair* source =
-      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<DataMediaType_Pair>(
-          &from);
-  if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DataMediaType.Pair)
-    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DataMediaType.Pair)
-    MergeFrom(*source);
-  }
-}
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData DataMediaType_Pair::_class_data_ = {
+    ::PROTOBUF_NAMESPACE_ID::Message::CopyWithSourceCheck,
+    DataMediaType_Pair::MergeImpl
+};
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*DataMediaType_Pair::GetClassData() const { return &_class_data_; }
 
-void DataMediaType_Pair::MergeFrom(const DataMediaType_Pair& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DataMediaType.Pair)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+
+void DataMediaType_Pair::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message& to_msg, const ::PROTOBUF_NAMESPACE_ID::Message& from_msg) {
+  auto* const _this = static_cast<DataMediaType_Pair*>(&to_msg);
+  auto& from = static_cast<const DataMediaType_Pair&>(from_msg);
+  // @@protoc_insertion_point(class_specific_merge_from_start:DataMediaType.Pair)
+  GOOGLE_DCHECK_NE(&from, _this);
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if (from.key().size() > 0) {
-    _internal_set_key(from._internal_key());
+  if (!from._internal_key().empty()) {
+    _this->_internal_set_key(from._internal_key());
   }
-  if (from.value().size() > 0) {
-    _internal_set_value(from._internal_value());
+  if (!from._internal_value().empty()) {
+    _this->_internal_set_value(from._internal_value());
   }
-}
-
-void DataMediaType_Pair::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DataMediaType.Pair)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
+  _this->_internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
 }
 
 void DataMediaType_Pair::CopyFrom(const DataMediaType_Pair& from) {
@@ -1882,88 +1854,95 @@ bool DataMediaType_Pair::IsInitialized() const {
 
 void DataMediaType_Pair::InternalSwap(DataMediaType_Pair* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  key_.Swap(&other->key_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
-  value_.Swap(&other->value_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
+  auto* lhs_arena = GetArenaForAllocation();
+  auto* rhs_arena = other->GetArenaForAllocation();
+  _internal_metadata_.InternalSwap(&other->_internal_metadata_);
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::InternalSwap(
+      &_impl_.key_, lhs_arena,
+      &other->_impl_.key_, rhs_arena
+  );
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::InternalSwap(
+      &_impl_.value_, lhs_arena,
+      &other->_impl_.value_, rhs_arena
+  );
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata DataMediaType_Pair::GetMetadata() const {
-  return GetMetadataStatic();
+  return ::_pbi::AssignDescriptors(
+      &descriptor_table_messages1_2eproto_getter, &descriptor_table_messages1_2eproto_once,
+      file_level_metadata_messages1_2eproto[3]);
 }
-
 
 // ===================================================================
 
-void DataMediaType::InitAsDefaultInstance() {
-}
 class DataMediaType::_Internal {
  public:
 };
 
-DataMediaType::DataMediaType(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena),
-  info_(arena) {
-  SharedCtor();
-  RegisterArenaDtor(arena);
+DataMediaType::DataMediaType(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+                         bool is_message_owned)
+  : ::PROTOBUF_NAMESPACE_ID::Message(arena, is_message_owned) {
+  SharedCtor(arena, is_message_owned);
   // @@protoc_insertion_point(arena_constructor:DataMediaType)
 }
 DataMediaType::DataMediaType(const DataMediaType& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message(),
-      info_(from.info_) {
+  : ::PROTOBUF_NAMESPACE_ID::Message() {
+  DataMediaType* const _this = this; (void)_this;
+  new (&_impl_) Impl_{
+      decltype(_impl_.info_){from._impl_.info_}
+    , /*decltype(_impl_._cached_size_)*/{}};
+
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   // @@protoc_insertion_point(copy_constructor:DataMediaType)
 }
 
-void DataMediaType::SharedCtor() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_DataMediaType_messages1_2eproto.base);
+inline void DataMediaType::SharedCtor(
+    ::_pb::Arena* arena, bool is_message_owned) {
+  (void)arena;
+  (void)is_message_owned;
+  new (&_impl_) Impl_{
+      decltype(_impl_.info_){arena}
+    , /*decltype(_impl_._cached_size_)*/{}
+  };
 }
 
 DataMediaType::~DataMediaType() {
   // @@protoc_insertion_point(destructor:DataMediaType)
+  if (auto *arena = _internal_metadata_.DeleteReturnArena<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>()) {
+  (void)arena;
+    return;
+  }
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-void DataMediaType::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
+inline void DataMediaType::SharedDtor() {
+  GOOGLE_DCHECK(GetArenaForAllocation() == nullptr);
+  _impl_.info_.~RepeatedPtrField();
 }
 
-void DataMediaType::ArenaDtor(void* object) {
-  DataMediaType* _this = reinterpret_cast< DataMediaType* >(object);
-  (void)_this;
-}
-void DataMediaType::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void DataMediaType::SetCachedSize(int size) const {
-  _cached_size_.Set(size);
+  _impl_._cached_size_.Set(size);
 }
-const DataMediaType& DataMediaType::default_instance() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_DataMediaType_messages1_2eproto.base);
-  return *internal_default_instance();
-}
-
 
 void DataMediaType::Clear() {
 // @@protoc_insertion_point(message_clear_start:DataMediaType)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  info_.Clear();
+  _impl_.info_.Clear();
   _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-const char* DataMediaType::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+const char* DataMediaType::_InternalParse(const char* ptr, ::_pbi::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
-  ::PROTOBUF_NAMESPACE_ID::Arena* arena = GetArena(); (void)arena;
   while (!ctx->Done(&ptr)) {
-    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
-    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
-    CHK_(ptr);
+    uint32_t tag;
+    ptr = ::_pbi::ReadTag(ptr, &tag);
     switch (tag >> 3) {
       // repeated .DataMediaType.Pair info = 1;
       case 1:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 10)) {
           ptr -= 1;
           do {
             ptr += 1;
@@ -1971,46 +1950,48 @@ const char* DataMediaType::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_
             CHK_(ptr);
             if (!ctx->DataAvailable(ptr)) break;
           } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<10>(ptr));
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
-      default: {
-      handle_unusual:
-        if ((tag & 7) == 4 || tag == 0) {
-          ctx->SetLastTag(tag);
-          goto success;
-        }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
-        CHK_(ptr != nullptr);
-        continue;
-      }
+      default:
+        goto handle_unusual;
     }  // switch
+  handle_unusual:
+    if ((tag == 0) || ((tag & 7) == 4)) {
+      CHK_(ptr);
+      ctx->SetLastTag(tag);
+      goto message_done;
+    }
+    ptr = UnknownFieldParse(
+        tag,
+        _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
+        ptr, ctx);
+    CHK_(ptr != nullptr);
   }  // while
-success:
+message_done:
   return ptr;
 failure:
   ptr = nullptr;
-  goto success;
+  goto message_done;
 #undef CHK_
 }
 
-::PROTOBUF_NAMESPACE_ID::uint8* DataMediaType::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+uint8_t* DataMediaType::_InternalSerialize(
+    uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
   // @@protoc_insertion_point(serialize_to_array_start:DataMediaType)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
   // repeated .DataMediaType.Pair info = 1;
-  for (unsigned int i = 0,
-      n = static_cast<unsigned int>(this->_internal_info_size()); i < n; i++) {
-    target = stream->EnsureSpace(target);
+  for (unsigned i = 0,
+      n = static_cast<unsigned>(this->_internal_info_size()); i < n; i++) {
+    const auto& repfield = this->_internal_info(i);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(1, this->_internal_info(i), target, stream);
+        InternalWriteMessage(1, repfield, repfield.GetCachedSize(), target, stream);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+    target = ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
   // @@protoc_insertion_point(serialize_to_array_end:DataMediaType)
@@ -2021,56 +2002,37 @@ size_t DataMediaType::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:DataMediaType)
   size_t total_size = 0;
 
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
   // repeated .DataMediaType.Pair info = 1;
   total_size += 1UL * this->_internal_info_size();
-  for (const auto& msg : this->info_) {
+  for (const auto& msg : this->_impl_.info_) {
     total_size +=
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
-  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
-  SetCachedSize(cached_size);
-  return total_size;
+  return MaybeComputeUnknownFieldsSize(total_size, &_impl_._cached_size_);
 }
 
-void DataMediaType::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:DataMediaType)
-  GOOGLE_DCHECK_NE(&from, this);
-  const DataMediaType* source =
-      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<DataMediaType>(
-          &from);
-  if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:DataMediaType)
-    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:DataMediaType)
-    MergeFrom(*source);
-  }
-}
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData DataMediaType::_class_data_ = {
+    ::PROTOBUF_NAMESPACE_ID::Message::CopyWithSourceCheck,
+    DataMediaType::MergeImpl
+};
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*DataMediaType::GetClassData() const { return &_class_data_; }
 
-void DataMediaType::MergeFrom(const DataMediaType& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:DataMediaType)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+
+void DataMediaType::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message& to_msg, const ::PROTOBUF_NAMESPACE_ID::Message& from_msg) {
+  auto* const _this = static_cast<DataMediaType*>(&to_msg);
+  auto& from = static_cast<const DataMediaType&>(from_msg);
+  // @@protoc_insertion_point(class_specific_merge_from_start:DataMediaType)
+  GOOGLE_DCHECK_NE(&from, _this);
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  info_.MergeFrom(from.info_);
-}
-
-void DataMediaType::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:DataMediaType)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
+  _this->_impl_.info_.MergeFrom(from._impl_.info_);
+  _this->_internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
 }
 
 void DataMediaType::CopyFrom(const DataMediaType& from) {
@@ -2086,191 +2048,208 @@ bool DataMediaType::IsInitialized() const {
 
 void DataMediaType::InternalSwap(DataMediaType* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  info_.InternalSwap(&other->info_);
+  _internal_metadata_.InternalSwap(&other->_internal_metadata_);
+  _impl_.info_.InternalSwap(&other->_impl_.info_);
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata DataMediaType::GetMetadata() const {
-  return GetMetadataStatic();
+  return ::_pbi::AssignDescriptors(
+      &descriptor_table_messages1_2eproto_getter, &descriptor_table_messages1_2eproto_once,
+      file_level_metadata_messages1_2eproto[4]);
 }
-
 
 // ===================================================================
 
-void AudioMediaType::InitAsDefaultInstance() {
-}
 class AudioMediaType::_Internal {
  public:
 };
 
-AudioMediaType::AudioMediaType(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
-  SharedCtor();
-  RegisterArenaDtor(arena);
+AudioMediaType::AudioMediaType(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+                         bool is_message_owned)
+  : ::PROTOBUF_NAMESPACE_ID::Message(arena, is_message_owned) {
+  SharedCtor(arena, is_message_owned);
   // @@protoc_insertion_point(arena_constructor:AudioMediaType)
 }
 AudioMediaType::AudioMediaType(const AudioMediaType& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
+  AudioMediaType* const _this = this; (void)_this;
+  new (&_impl_) Impl_{
+      decltype(_impl_.layout_){}
+    , decltype(_impl_.freq_){}
+    , decltype(_impl_.nchan_){}
+    , decltype(_impl_.ssize_){}
+    , decltype(_impl_.sample_fmt_){}
+    , /*decltype(_impl_._cached_size_)*/{}};
+
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  layout_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  _impl_.layout_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.layout_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
   if (!from._internal_layout().empty()) {
-    layout_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from._internal_layout(),
-      GetArena());
+    _this->_impl_.layout_.Set(from._internal_layout(), 
+      _this->GetArenaForAllocation());
   }
-  ::memcpy(&freq_, &from.freq_,
-    static_cast<size_t>(reinterpret_cast<char*>(&sample_fmt_) -
-    reinterpret_cast<char*>(&freq_)) + sizeof(sample_fmt_));
+  ::memcpy(&_impl_.freq_, &from._impl_.freq_,
+    static_cast<size_t>(reinterpret_cast<char*>(&_impl_.sample_fmt_) -
+    reinterpret_cast<char*>(&_impl_.freq_)) + sizeof(_impl_.sample_fmt_));
   // @@protoc_insertion_point(copy_constructor:AudioMediaType)
 }
 
-void AudioMediaType::SharedCtor() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_AudioMediaType_messages1_2eproto.base);
-  layout_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  ::memset(&freq_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&sample_fmt_) -
-      reinterpret_cast<char*>(&freq_)) + sizeof(sample_fmt_));
+inline void AudioMediaType::SharedCtor(
+    ::_pb::Arena* arena, bool is_message_owned) {
+  (void)arena;
+  (void)is_message_owned;
+  new (&_impl_) Impl_{
+      decltype(_impl_.layout_){}
+    , decltype(_impl_.freq_){0u}
+    , decltype(_impl_.nchan_){0u}
+    , decltype(_impl_.ssize_){0u}
+    , decltype(_impl_.sample_fmt_){0}
+    , /*decltype(_impl_._cached_size_)*/{}
+  };
+  _impl_.layout_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.layout_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
 }
 
 AudioMediaType::~AudioMediaType() {
   // @@protoc_insertion_point(destructor:AudioMediaType)
+  if (auto *arena = _internal_metadata_.DeleteReturnArena<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>()) {
+  (void)arena;
+    return;
+  }
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-void AudioMediaType::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
-  layout_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+inline void AudioMediaType::SharedDtor() {
+  GOOGLE_DCHECK(GetArenaForAllocation() == nullptr);
+  _impl_.layout_.Destroy();
 }
 
-void AudioMediaType::ArenaDtor(void* object) {
-  AudioMediaType* _this = reinterpret_cast< AudioMediaType* >(object);
-  (void)_this;
-}
-void AudioMediaType::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void AudioMediaType::SetCachedSize(int size) const {
-  _cached_size_.Set(size);
+  _impl_._cached_size_.Set(size);
 }
-const AudioMediaType& AudioMediaType::default_instance() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_AudioMediaType_messages1_2eproto.base);
-  return *internal_default_instance();
-}
-
 
 void AudioMediaType::Clear() {
 // @@protoc_insertion_point(message_clear_start:AudioMediaType)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  layout_.ClearToEmpty(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
-  ::memset(&freq_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&sample_fmt_) -
-      reinterpret_cast<char*>(&freq_)) + sizeof(sample_fmt_));
+  _impl_.layout_.ClearToEmpty();
+  ::memset(&_impl_.freq_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&_impl_.sample_fmt_) -
+      reinterpret_cast<char*>(&_impl_.freq_)) + sizeof(_impl_.sample_fmt_));
   _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-const char* AudioMediaType::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+const char* AudioMediaType::_InternalParse(const char* ptr, ::_pbi::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
-  ::PROTOBUF_NAMESPACE_ID::Arena* arena = GetArena(); (void)arena;
   while (!ctx->Done(&ptr)) {
-    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
-    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
-    CHK_(ptr);
+    uint32_t tag;
+    ptr = ::_pbi::ReadTag(ptr, &tag);
     switch (tag >> 3) {
       // uint32 freq = 4;
       case 4:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 32)) {
-          freq_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 32)) {
+          _impl_.freq_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 nchan = 5;
       case 5:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 40)) {
-          nchan_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 40)) {
+          _impl_.nchan_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 ssize = 6;
       case 6:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 48)) {
-          ssize_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 48)) {
+          _impl_.ssize_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // .AudioMediaType.SampleFmt sample_fmt = 7;
       case 7:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 56)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 56)) {
+          uint64_t val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
           CHK_(ptr);
           _internal_set_sample_fmt(static_cast<::AudioMediaType_SampleFmt>(val));
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // string layout = 8;
       case 8:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 66)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 66)) {
           auto str = _internal_mutable_layout();
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
-          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "AudioMediaType.layout"));
+          ptr = ::_pbi::InlineGreedyStringParser(str, ptr, ctx);
           CHK_(ptr);
-        } else goto handle_unusual;
+          CHK_(::_pbi::VerifyUTF8(str, "AudioMediaType.layout"));
+        } else
+          goto handle_unusual;
         continue;
-      default: {
-      handle_unusual:
-        if ((tag & 7) == 4 || tag == 0) {
-          ctx->SetLastTag(tag);
-          goto success;
-        }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
-        CHK_(ptr != nullptr);
-        continue;
-      }
+      default:
+        goto handle_unusual;
     }  // switch
+  handle_unusual:
+    if ((tag == 0) || ((tag & 7) == 4)) {
+      CHK_(ptr);
+      ctx->SetLastTag(tag);
+      goto message_done;
+    }
+    ptr = UnknownFieldParse(
+        tag,
+        _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
+        ptr, ctx);
+    CHK_(ptr != nullptr);
   }  // while
-success:
+message_done:
   return ptr;
 failure:
   ptr = nullptr;
-  goto success;
+  goto message_done;
 #undef CHK_
 }
 
-::PROTOBUF_NAMESPACE_ID::uint8* AudioMediaType::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+uint8_t* AudioMediaType::_InternalSerialize(
+    uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
   // @@protoc_insertion_point(serialize_to_array_start:AudioMediaType)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
   // uint32 freq = 4;
-  if (this->freq() != 0) {
+  if (this->_internal_freq() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(4, this->_internal_freq(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(4, this->_internal_freq(), target);
   }
 
   // uint32 nchan = 5;
-  if (this->nchan() != 0) {
+  if (this->_internal_nchan() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(5, this->_internal_nchan(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(5, this->_internal_nchan(), target);
   }
 
   // uint32 ssize = 6;
-  if (this->ssize() != 0) {
+  if (this->_internal_ssize() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(6, this->_internal_ssize(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(6, this->_internal_ssize(), target);
   }
 
   // .AudioMediaType.SampleFmt sample_fmt = 7;
-  if (this->sample_fmt() != 0) {
+  if (this->_internal_sample_fmt() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
+    target = ::_pbi::WireFormatLite::WriteEnumToArray(
       7, this->_internal_sample_fmt(), target);
   }
 
   // string layout = 8;
-  if (this->layout().size() > 0) {
+  if (!this->_internal_layout().empty()) {
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
       this->_internal_layout().data(), static_cast<int>(this->_internal_layout().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
@@ -2280,7 +2259,7 @@ failure:
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+    target = ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
   // @@protoc_insertion_point(serialize_to_array_end:AudioMediaType)
@@ -2291,97 +2270,72 @@ size_t AudioMediaType::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:AudioMediaType)
   size_t total_size = 0;
 
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
   // string layout = 8;
-  if (this->layout().size() > 0) {
+  if (!this->_internal_layout().empty()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
         this->_internal_layout());
   }
 
   // uint32 freq = 4;
-  if (this->freq() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_freq());
+  if (this->_internal_freq() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_freq());
   }
 
   // uint32 nchan = 5;
-  if (this->nchan() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_nchan());
+  if (this->_internal_nchan() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_nchan());
   }
 
   // uint32 ssize = 6;
-  if (this->ssize() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_ssize());
+  if (this->_internal_ssize() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_ssize());
   }
 
   // .AudioMediaType.SampleFmt sample_fmt = 7;
-  if (this->sample_fmt() != 0) {
+  if (this->_internal_sample_fmt() != 0) {
     total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_sample_fmt());
+      ::_pbi::WireFormatLite::EnumSize(this->_internal_sample_fmt());
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
-  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
-  SetCachedSize(cached_size);
-  return total_size;
+  return MaybeComputeUnknownFieldsSize(total_size, &_impl_._cached_size_);
 }
 
-void AudioMediaType::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:AudioMediaType)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AudioMediaType* source =
-      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<AudioMediaType>(
-          &from);
-  if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:AudioMediaType)
-    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:AudioMediaType)
-    MergeFrom(*source);
-  }
-}
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData AudioMediaType::_class_data_ = {
+    ::PROTOBUF_NAMESPACE_ID::Message::CopyWithSourceCheck,
+    AudioMediaType::MergeImpl
+};
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*AudioMediaType::GetClassData() const { return &_class_data_; }
 
-void AudioMediaType::MergeFrom(const AudioMediaType& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:AudioMediaType)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+
+void AudioMediaType::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message& to_msg, const ::PROTOBUF_NAMESPACE_ID::Message& from_msg) {
+  auto* const _this = static_cast<AudioMediaType*>(&to_msg);
+  auto& from = static_cast<const AudioMediaType&>(from_msg);
+  // @@protoc_insertion_point(class_specific_merge_from_start:AudioMediaType)
+  GOOGLE_DCHECK_NE(&from, _this);
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if (from.layout().size() > 0) {
-    _internal_set_layout(from._internal_layout());
+  if (!from._internal_layout().empty()) {
+    _this->_internal_set_layout(from._internal_layout());
   }
-  if (from.freq() != 0) {
-    _internal_set_freq(from._internal_freq());
+  if (from._internal_freq() != 0) {
+    _this->_internal_set_freq(from._internal_freq());
   }
-  if (from.nchan() != 0) {
-    _internal_set_nchan(from._internal_nchan());
+  if (from._internal_nchan() != 0) {
+    _this->_internal_set_nchan(from._internal_nchan());
   }
-  if (from.ssize() != 0) {
-    _internal_set_ssize(from._internal_ssize());
+  if (from._internal_ssize() != 0) {
+    _this->_internal_set_ssize(from._internal_ssize());
   }
-  if (from.sample_fmt() != 0) {
-    _internal_set_sample_fmt(from._internal_sample_fmt());
+  if (from._internal_sample_fmt() != 0) {
+    _this->_internal_set_sample_fmt(from._internal_sample_fmt());
   }
-}
-
-void AudioMediaType::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:AudioMediaType)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
+  _this->_internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
 }
 
 void AudioMediaType::CopyFrom(const AudioMediaType& from) {
@@ -2397,151 +2351,173 @@ bool AudioMediaType::IsInitialized() const {
 
 void AudioMediaType::InternalSwap(AudioMediaType* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  layout_.Swap(&other->layout_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
+  auto* lhs_arena = GetArenaForAllocation();
+  auto* rhs_arena = other->GetArenaForAllocation();
+  _internal_metadata_.InternalSwap(&other->_internal_metadata_);
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::InternalSwap(
+      &_impl_.layout_, lhs_arena,
+      &other->_impl_.layout_, rhs_arena
+  );
   ::PROTOBUF_NAMESPACE_ID::internal::memswap<
-      PROTOBUF_FIELD_OFFSET(AudioMediaType, sample_fmt_)
-      + sizeof(AudioMediaType::sample_fmt_)
-      - PROTOBUF_FIELD_OFFSET(AudioMediaType, freq_)>(
-          reinterpret_cast<char*>(&freq_),
-          reinterpret_cast<char*>(&other->freq_));
+      PROTOBUF_FIELD_OFFSET(AudioMediaType, _impl_.sample_fmt_)
+      + sizeof(AudioMediaType::_impl_.sample_fmt_)
+      - PROTOBUF_FIELD_OFFSET(AudioMediaType, _impl_.freq_)>(
+          reinterpret_cast<char*>(&_impl_.freq_),
+          reinterpret_cast<char*>(&other->_impl_.freq_));
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata AudioMediaType::GetMetadata() const {
-  return GetMetadataStatic();
+  return ::_pbi::AssignDescriptors(
+      &descriptor_table_messages1_2eproto_getter, &descriptor_table_messages1_2eproto_once,
+      file_level_metadata_messages1_2eproto[5]);
 }
-
 
 // ===================================================================
 
-void Stream_Pair::InitAsDefaultInstance() {
-}
 class Stream_Pair::_Internal {
  public:
 };
 
-Stream_Pair::Stream_Pair(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
-  SharedCtor();
-  RegisterArenaDtor(arena);
+Stream_Pair::Stream_Pair(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+                         bool is_message_owned)
+  : ::PROTOBUF_NAMESPACE_ID::Message(arena, is_message_owned) {
+  SharedCtor(arena, is_message_owned);
   // @@protoc_insertion_point(arena_constructor:Stream.Pair)
 }
 Stream_Pair::Stream_Pair(const Stream_Pair& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
+  Stream_Pair* const _this = this; (void)_this;
+  new (&_impl_) Impl_{
+      decltype(_impl_.key_){}
+    , decltype(_impl_.value_){}
+    , /*decltype(_impl_._cached_size_)*/{}};
+
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  key_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  _impl_.key_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.key_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
   if (!from._internal_key().empty()) {
-    key_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from._internal_key(),
-      GetArena());
+    _this->_impl_.key_.Set(from._internal_key(), 
+      _this->GetArenaForAllocation());
   }
-  value_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  _impl_.value_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.value_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
   if (!from._internal_value().empty()) {
-    value_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from._internal_value(),
-      GetArena());
+    _this->_impl_.value_.Set(from._internal_value(), 
+      _this->GetArenaForAllocation());
   }
   // @@protoc_insertion_point(copy_constructor:Stream.Pair)
 }
 
-void Stream_Pair::SharedCtor() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_Stream_Pair_messages1_2eproto.base);
-  key_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  value_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+inline void Stream_Pair::SharedCtor(
+    ::_pb::Arena* arena, bool is_message_owned) {
+  (void)arena;
+  (void)is_message_owned;
+  new (&_impl_) Impl_{
+      decltype(_impl_.key_){}
+    , decltype(_impl_.value_){}
+    , /*decltype(_impl_._cached_size_)*/{}
+  };
+  _impl_.key_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.key_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
+  _impl_.value_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.value_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
 }
 
 Stream_Pair::~Stream_Pair() {
   // @@protoc_insertion_point(destructor:Stream.Pair)
+  if (auto *arena = _internal_metadata_.DeleteReturnArena<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>()) {
+  (void)arena;
+    return;
+  }
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-void Stream_Pair::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
-  key_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  value_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+inline void Stream_Pair::SharedDtor() {
+  GOOGLE_DCHECK(GetArenaForAllocation() == nullptr);
+  _impl_.key_.Destroy();
+  _impl_.value_.Destroy();
 }
 
-void Stream_Pair::ArenaDtor(void* object) {
-  Stream_Pair* _this = reinterpret_cast< Stream_Pair* >(object);
-  (void)_this;
-}
-void Stream_Pair::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void Stream_Pair::SetCachedSize(int size) const {
-  _cached_size_.Set(size);
+  _impl_._cached_size_.Set(size);
 }
-const Stream_Pair& Stream_Pair::default_instance() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_Stream_Pair_messages1_2eproto.base);
-  return *internal_default_instance();
-}
-
 
 void Stream_Pair::Clear() {
 // @@protoc_insertion_point(message_clear_start:Stream.Pair)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  key_.ClearToEmpty(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
-  value_.ClearToEmpty(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
+  _impl_.key_.ClearToEmpty();
+  _impl_.value_.ClearToEmpty();
   _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-const char* Stream_Pair::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+const char* Stream_Pair::_InternalParse(const char* ptr, ::_pbi::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
-  ::PROTOBUF_NAMESPACE_ID::Arena* arena = GetArena(); (void)arena;
   while (!ctx->Done(&ptr)) {
-    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
-    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
-    CHK_(ptr);
+    uint32_t tag;
+    ptr = ::_pbi::ReadTag(ptr, &tag);
     switch (tag >> 3) {
       // string key = 1;
       case 1:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 10)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 10)) {
           auto str = _internal_mutable_key();
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
-          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "Stream.Pair.key"));
+          ptr = ::_pbi::InlineGreedyStringParser(str, ptr, ctx);
           CHK_(ptr);
-        } else goto handle_unusual;
+          CHK_(::_pbi::VerifyUTF8(str, "Stream.Pair.key"));
+        } else
+          goto handle_unusual;
         continue;
       // string value = 2;
       case 2:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 18)) {
           auto str = _internal_mutable_value();
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
-          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "Stream.Pair.value"));
+          ptr = ::_pbi::InlineGreedyStringParser(str, ptr, ctx);
           CHK_(ptr);
-        } else goto handle_unusual;
+          CHK_(::_pbi::VerifyUTF8(str, "Stream.Pair.value"));
+        } else
+          goto handle_unusual;
         continue;
-      default: {
-      handle_unusual:
-        if ((tag & 7) == 4 || tag == 0) {
-          ctx->SetLastTag(tag);
-          goto success;
-        }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
-        CHK_(ptr != nullptr);
-        continue;
-      }
+      default:
+        goto handle_unusual;
     }  // switch
+  handle_unusual:
+    if ((tag == 0) || ((tag & 7) == 4)) {
+      CHK_(ptr);
+      ctx->SetLastTag(tag);
+      goto message_done;
+    }
+    ptr = UnknownFieldParse(
+        tag,
+        _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
+        ptr, ctx);
+    CHK_(ptr != nullptr);
   }  // while
-success:
+message_done:
   return ptr;
 failure:
   ptr = nullptr;
-  goto success;
+  goto message_done;
 #undef CHK_
 }
 
-::PROTOBUF_NAMESPACE_ID::uint8* Stream_Pair::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+uint8_t* Stream_Pair::_InternalSerialize(
+    uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
   // @@protoc_insertion_point(serialize_to_array_start:Stream.Pair)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
   // string key = 1;
-  if (this->key().size() > 0) {
+  if (!this->_internal_key().empty()) {
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
       this->_internal_key().data(), static_cast<int>(this->_internal_key().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
@@ -2551,7 +2527,7 @@ failure:
   }
 
   // string value = 2;
-  if (this->value().size() > 0) {
+  if (!this->_internal_value().empty()) {
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
       this->_internal_value().data(), static_cast<int>(this->_internal_value().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
@@ -2561,7 +2537,7 @@ failure:
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+    target = ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
   // @@protoc_insertion_point(serialize_to_array_end:Stream.Pair)
@@ -2572,68 +2548,49 @@ size_t Stream_Pair::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:Stream.Pair)
   size_t total_size = 0;
 
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
   // string key = 1;
-  if (this->key().size() > 0) {
+  if (!this->_internal_key().empty()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
         this->_internal_key());
   }
 
   // string value = 2;
-  if (this->value().size() > 0) {
+  if (!this->_internal_value().empty()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
         this->_internal_value());
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
-  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
-  SetCachedSize(cached_size);
-  return total_size;
+  return MaybeComputeUnknownFieldsSize(total_size, &_impl_._cached_size_);
 }
 
-void Stream_Pair::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:Stream.Pair)
-  GOOGLE_DCHECK_NE(&from, this);
-  const Stream_Pair* source =
-      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<Stream_Pair>(
-          &from);
-  if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:Stream.Pair)
-    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:Stream.Pair)
-    MergeFrom(*source);
-  }
-}
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData Stream_Pair::_class_data_ = {
+    ::PROTOBUF_NAMESPACE_ID::Message::CopyWithSourceCheck,
+    Stream_Pair::MergeImpl
+};
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*Stream_Pair::GetClassData() const { return &_class_data_; }
 
-void Stream_Pair::MergeFrom(const Stream_Pair& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:Stream.Pair)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+
+void Stream_Pair::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message& to_msg, const ::PROTOBUF_NAMESPACE_ID::Message& from_msg) {
+  auto* const _this = static_cast<Stream_Pair*>(&to_msg);
+  auto& from = static_cast<const Stream_Pair&>(from_msg);
+  // @@protoc_insertion_point(class_specific_merge_from_start:Stream.Pair)
+  GOOGLE_DCHECK_NE(&from, _this);
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if (from.key().size() > 0) {
-    _internal_set_key(from._internal_key());
+  if (!from._internal_key().empty()) {
+    _this->_internal_set_key(from._internal_key());
   }
-  if (from.value().size() > 0) {
-    _internal_set_value(from._internal_value());
+  if (!from._internal_value().empty()) {
+    _this->_internal_set_value(from._internal_value());
   }
-}
-
-void Stream_Pair::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:Stream.Pair)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
+  _this->_internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
 }
 
 void Stream_Pair::CopyFrom(const Stream_Pair& from) {
@@ -2649,30 +2606,27 @@ bool Stream_Pair::IsInitialized() const {
 
 void Stream_Pair::InternalSwap(Stream_Pair* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  key_.Swap(&other->key_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
-  value_.Swap(&other->value_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
+  auto* lhs_arena = GetArenaForAllocation();
+  auto* rhs_arena = other->GetArenaForAllocation();
+  _internal_metadata_.InternalSwap(&other->_internal_metadata_);
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::InternalSwap(
+      &_impl_.key_, lhs_arena,
+      &other->_impl_.key_, rhs_arena
+  );
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::InternalSwap(
+      &_impl_.value_, lhs_arena,
+      &other->_impl_.value_, rhs_arena
+  );
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata Stream_Pair::GetMetadata() const {
-  return GetMetadataStatic();
+  return ::_pbi::AssignDescriptors(
+      &descriptor_table_messages1_2eproto_getter, &descriptor_table_messages1_2eproto_once,
+      file_level_metadata_messages1_2eproto[6]);
 }
-
 
 // ===================================================================
 
-void Stream::InitAsDefaultInstance() {
-  ::_Stream_default_instance_._instance.get_mutable()->videomt_ = const_cast< ::VideoMediaType*>(
-      ::VideoMediaType::internal_default_instance());
-  ::_Stream_default_instance_._instance.get_mutable()->audiomt_ = const_cast< ::AudioMediaType*>(
-      ::AudioMediaType::internal_default_instance());
-  ::_Stream_default_instance_._instance.get_mutable()->subtitlemt_ = const_cast< ::SubtitleMediaType*>(
-      ::SubtitleMediaType::internal_default_instance());
-  ::_Stream_default_instance_._instance.get_mutable()->datamt_ = const_cast< ::DataMediaType*>(
-      ::DataMediaType::internal_default_instance());
-  ::_Stream_default_instance_._instance.get_mutable()->avparams_ = const_cast< ::CodecParameters*>(
-      ::CodecParameters::internal_default_instance());
-}
 class Stream::_Internal {
  public:
   static const ::VideoMediaType& videomt(const Stream* msg);
@@ -2684,278 +2638,330 @@ class Stream::_Internal {
 
 const ::VideoMediaType&
 Stream::_Internal::videomt(const Stream* msg) {
-  return *msg->videomt_;
+  return *msg->_impl_.videomt_;
 }
 const ::AudioMediaType&
 Stream::_Internal::audiomt(const Stream* msg) {
-  return *msg->audiomt_;
+  return *msg->_impl_.audiomt_;
 }
 const ::SubtitleMediaType&
 Stream::_Internal::subtitlemt(const Stream* msg) {
-  return *msg->subtitlemt_;
+  return *msg->_impl_.subtitlemt_;
 }
 const ::DataMediaType&
 Stream::_Internal::datamt(const Stream* msg) {
-  return *msg->datamt_;
+  return *msg->_impl_.datamt_;
 }
 const ::CodecParameters&
 Stream::_Internal::avparams(const Stream* msg) {
-  return *msg->avparams_;
+  return *msg->_impl_.avparams_;
 }
-Stream::Stream(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena),
-  metadata_(arena) {
-  SharedCtor();
-  RegisterArenaDtor(arena);
+Stream::Stream(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+                         bool is_message_owned)
+  : ::PROTOBUF_NAMESPACE_ID::Message(arena, is_message_owned) {
+  SharedCtor(arena, is_message_owned);
   // @@protoc_insertion_point(arena_constructor:Stream)
 }
 Stream::Stream(const Stream& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message(),
-      metadata_(from.metadata_) {
+  : ::PROTOBUF_NAMESPACE_ID::Message() {
+  Stream* const _this = this; (void)_this;
+  new (&_impl_) Impl_{
+      decltype(_impl_.metadata_){from._impl_.metadata_}
+    , decltype(_impl_.codec_){}
+    , decltype(_impl_.extradata_){}
+    , decltype(_impl_.name_){}
+    , decltype(_impl_.channel_){}
+    , decltype(_impl_.videomt_){nullptr}
+    , decltype(_impl_.audiomt_){nullptr}
+    , decltype(_impl_.subtitlemt_){nullptr}
+    , decltype(_impl_.datamt_){nullptr}
+    , decltype(_impl_.avparams_){nullptr}
+    , decltype(_impl_.id_){}
+    , decltype(_impl_.type_){}
+    , decltype(_impl_.bitrate_){}
+    , decltype(_impl_.tb_num_){}
+    , decltype(_impl_.tb_den_){}
+    , /*decltype(_impl_._cached_size_)*/{}};
+
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  codec_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  _impl_.codec_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.codec_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
   if (!from._internal_codec().empty()) {
-    codec_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from._internal_codec(),
-      GetArena());
+    _this->_impl_.codec_.Set(from._internal_codec(), 
+      _this->GetArenaForAllocation());
   }
-  extradata_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  _impl_.extradata_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.extradata_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
   if (!from._internal_extradata().empty()) {
-    extradata_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from._internal_extradata(),
-      GetArena());
+    _this->_impl_.extradata_.Set(from._internal_extradata(), 
+      _this->GetArenaForAllocation());
   }
-  name_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  _impl_.name_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.name_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
   if (!from._internal_name().empty()) {
-    name_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from._internal_name(),
-      GetArena());
+    _this->_impl_.name_.Set(from._internal_name(), 
+      _this->GetArenaForAllocation());
   }
-  channel_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  _impl_.channel_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.channel_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
   if (!from._internal_channel().empty()) {
-    channel_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from._internal_channel(),
-      GetArena());
+    _this->_impl_.channel_.Set(from._internal_channel(), 
+      _this->GetArenaForAllocation());
   }
   if (from._internal_has_videomt()) {
-    videomt_ = new ::VideoMediaType(*from.videomt_);
-  } else {
-    videomt_ = nullptr;
+    _this->_impl_.videomt_ = new ::VideoMediaType(*from._impl_.videomt_);
   }
   if (from._internal_has_audiomt()) {
-    audiomt_ = new ::AudioMediaType(*from.audiomt_);
-  } else {
-    audiomt_ = nullptr;
+    _this->_impl_.audiomt_ = new ::AudioMediaType(*from._impl_.audiomt_);
   }
   if (from._internal_has_subtitlemt()) {
-    subtitlemt_ = new ::SubtitleMediaType(*from.subtitlemt_);
-  } else {
-    subtitlemt_ = nullptr;
+    _this->_impl_.subtitlemt_ = new ::SubtitleMediaType(*from._impl_.subtitlemt_);
   }
   if (from._internal_has_datamt()) {
-    datamt_ = new ::DataMediaType(*from.datamt_);
-  } else {
-    datamt_ = nullptr;
+    _this->_impl_.datamt_ = new ::DataMediaType(*from._impl_.datamt_);
   }
   if (from._internal_has_avparams()) {
-    avparams_ = new ::CodecParameters(*from.avparams_);
-  } else {
-    avparams_ = nullptr;
+    _this->_impl_.avparams_ = new ::CodecParameters(*from._impl_.avparams_);
   }
-  ::memcpy(&id_, &from.id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&tb_den_) -
-    reinterpret_cast<char*>(&id_)) + sizeof(tb_den_));
+  ::memcpy(&_impl_.id_, &from._impl_.id_,
+    static_cast<size_t>(reinterpret_cast<char*>(&_impl_.tb_den_) -
+    reinterpret_cast<char*>(&_impl_.id_)) + sizeof(_impl_.tb_den_));
   // @@protoc_insertion_point(copy_constructor:Stream)
 }
 
-void Stream::SharedCtor() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_Stream_messages1_2eproto.base);
-  codec_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  extradata_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  name_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  channel_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  ::memset(&videomt_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&tb_den_) -
-      reinterpret_cast<char*>(&videomt_)) + sizeof(tb_den_));
+inline void Stream::SharedCtor(
+    ::_pb::Arena* arena, bool is_message_owned) {
+  (void)arena;
+  (void)is_message_owned;
+  new (&_impl_) Impl_{
+      decltype(_impl_.metadata_){arena}
+    , decltype(_impl_.codec_){}
+    , decltype(_impl_.extradata_){}
+    , decltype(_impl_.name_){}
+    , decltype(_impl_.channel_){}
+    , decltype(_impl_.videomt_){nullptr}
+    , decltype(_impl_.audiomt_){nullptr}
+    , decltype(_impl_.subtitlemt_){nullptr}
+    , decltype(_impl_.datamt_){nullptr}
+    , decltype(_impl_.avparams_){nullptr}
+    , decltype(_impl_.id_){0u}
+    , decltype(_impl_.type_){0}
+    , decltype(_impl_.bitrate_){0u}
+    , decltype(_impl_.tb_num_){0u}
+    , decltype(_impl_.tb_den_){0u}
+    , /*decltype(_impl_._cached_size_)*/{}
+  };
+  _impl_.codec_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.codec_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
+  _impl_.extradata_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.extradata_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
+  _impl_.name_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.name_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
+  _impl_.channel_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.channel_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
 }
 
 Stream::~Stream() {
   // @@protoc_insertion_point(destructor:Stream)
+  if (auto *arena = _internal_metadata_.DeleteReturnArena<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>()) {
+  (void)arena;
+    return;
+  }
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-void Stream::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
-  codec_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  extradata_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  name_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  channel_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  if (this != internal_default_instance()) delete videomt_;
-  if (this != internal_default_instance()) delete audiomt_;
-  if (this != internal_default_instance()) delete subtitlemt_;
-  if (this != internal_default_instance()) delete datamt_;
-  if (this != internal_default_instance()) delete avparams_;
+inline void Stream::SharedDtor() {
+  GOOGLE_DCHECK(GetArenaForAllocation() == nullptr);
+  _impl_.metadata_.~RepeatedPtrField();
+  _impl_.codec_.Destroy();
+  _impl_.extradata_.Destroy();
+  _impl_.name_.Destroy();
+  _impl_.channel_.Destroy();
+  if (this != internal_default_instance()) delete _impl_.videomt_;
+  if (this != internal_default_instance()) delete _impl_.audiomt_;
+  if (this != internal_default_instance()) delete _impl_.subtitlemt_;
+  if (this != internal_default_instance()) delete _impl_.datamt_;
+  if (this != internal_default_instance()) delete _impl_.avparams_;
 }
 
-void Stream::ArenaDtor(void* object) {
-  Stream* _this = reinterpret_cast< Stream* >(object);
-  (void)_this;
-}
-void Stream::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void Stream::SetCachedSize(int size) const {
-  _cached_size_.Set(size);
+  _impl_._cached_size_.Set(size);
 }
-const Stream& Stream::default_instance() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_Stream_messages1_2eproto.base);
-  return *internal_default_instance();
-}
-
 
 void Stream::Clear() {
 // @@protoc_insertion_point(message_clear_start:Stream)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  metadata_.Clear();
-  codec_.ClearToEmpty(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
-  extradata_.ClearToEmpty(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
-  name_.ClearToEmpty(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
-  channel_.ClearToEmpty(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
-  if (GetArena() == nullptr && videomt_ != nullptr) {
-    delete videomt_;
+  _impl_.metadata_.Clear();
+  _impl_.codec_.ClearToEmpty();
+  _impl_.extradata_.ClearToEmpty();
+  _impl_.name_.ClearToEmpty();
+  _impl_.channel_.ClearToEmpty();
+  if (GetArenaForAllocation() == nullptr && _impl_.videomt_ != nullptr) {
+    delete _impl_.videomt_;
   }
-  videomt_ = nullptr;
-  if (GetArena() == nullptr && audiomt_ != nullptr) {
-    delete audiomt_;
+  _impl_.videomt_ = nullptr;
+  if (GetArenaForAllocation() == nullptr && _impl_.audiomt_ != nullptr) {
+    delete _impl_.audiomt_;
   }
-  audiomt_ = nullptr;
-  if (GetArena() == nullptr && subtitlemt_ != nullptr) {
-    delete subtitlemt_;
+  _impl_.audiomt_ = nullptr;
+  if (GetArenaForAllocation() == nullptr && _impl_.subtitlemt_ != nullptr) {
+    delete _impl_.subtitlemt_;
   }
-  subtitlemt_ = nullptr;
-  if (GetArena() == nullptr && datamt_ != nullptr) {
-    delete datamt_;
+  _impl_.subtitlemt_ = nullptr;
+  if (GetArenaForAllocation() == nullptr && _impl_.datamt_ != nullptr) {
+    delete _impl_.datamt_;
   }
-  datamt_ = nullptr;
-  if (GetArena() == nullptr && avparams_ != nullptr) {
-    delete avparams_;
+  _impl_.datamt_ = nullptr;
+  if (GetArenaForAllocation() == nullptr && _impl_.avparams_ != nullptr) {
+    delete _impl_.avparams_;
   }
-  avparams_ = nullptr;
-  ::memset(&id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&tb_den_) -
-      reinterpret_cast<char*>(&id_)) + sizeof(tb_den_));
+  _impl_.avparams_ = nullptr;
+  ::memset(&_impl_.id_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&_impl_.tb_den_) -
+      reinterpret_cast<char*>(&_impl_.id_)) + sizeof(_impl_.tb_den_));
   _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-const char* Stream::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+const char* Stream::_InternalParse(const char* ptr, ::_pbi::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
-  ::PROTOBUF_NAMESPACE_ID::Arena* arena = GetArena(); (void)arena;
   while (!ctx->Done(&ptr)) {
-    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
-    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
-    CHK_(ptr);
+    uint32_t tag;
+    ptr = ::_pbi::ReadTag(ptr, &tag);
     switch (tag >> 3) {
       // uint32 id = 1;
       case 1:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 8)) {
-          id_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 8)) {
+          _impl_.id_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // .Stream.Type type = 2;
       case 2:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 16)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 16)) {
+          uint64_t val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
           CHK_(ptr);
           _internal_set_type(static_cast<::Stream_Type>(val));
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // string codec = 3;
       case 3:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 26)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 26)) {
           auto str = _internal_mutable_codec();
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
-          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "Stream.codec"));
+          ptr = ::_pbi::InlineGreedyStringParser(str, ptr, ctx);
           CHK_(ptr);
-        } else goto handle_unusual;
+          CHK_(::_pbi::VerifyUTF8(str, "Stream.codec"));
+        } else
+          goto handle_unusual;
         continue;
       // uint32 bitrate = 4;
       case 4:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 32)) {
-          bitrate_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 32)) {
+          _impl_.bitrate_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 tb_num = 5;
       case 5:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 40)) {
-          tb_num_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 40)) {
+          _impl_.tb_num_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 tb_den = 6;
       case 6:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 48)) {
-          tb_den_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 48)) {
+          _impl_.tb_den_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // bytes extradata = 7;
       case 7:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 58)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 58)) {
           auto str = _internal_mutable_extradata();
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
+          ptr = ::_pbi::InlineGreedyStringParser(str, ptr, ctx);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // .VideoMediaType videomt = 8;
       case 8:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 66)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 66)) {
           ptr = ctx->ParseMessage(_internal_mutable_videomt(), ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // .AudioMediaType audiomt = 9;
       case 9:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 74)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 74)) {
           ptr = ctx->ParseMessage(_internal_mutable_audiomt(), ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // string name = 10;
       case 10:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 82)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 82)) {
           auto str = _internal_mutable_name();
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
-          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "Stream.name"));
+          ptr = ::_pbi::InlineGreedyStringParser(str, ptr, ctx);
           CHK_(ptr);
-        } else goto handle_unusual;
+          CHK_(::_pbi::VerifyUTF8(str, "Stream.name"));
+        } else
+          goto handle_unusual;
         continue;
       // string channel = 11;
       case 11:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 90)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 90)) {
           auto str = _internal_mutable_channel();
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
-          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "Stream.channel"));
+          ptr = ::_pbi::InlineGreedyStringParser(str, ptr, ctx);
           CHK_(ptr);
-        } else goto handle_unusual;
+          CHK_(::_pbi::VerifyUTF8(str, "Stream.channel"));
+        } else
+          goto handle_unusual;
         continue;
       // .SubtitleMediaType subtitlemt = 12;
       case 12:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 98)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 98)) {
           ptr = ctx->ParseMessage(_internal_mutable_subtitlemt(), ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // .DataMediaType datamt = 13;
       case 13:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 106)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 106)) {
           ptr = ctx->ParseMessage(_internal_mutable_datamt(), ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // repeated .Stream.Pair metadata = 14;
       case 14:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 114)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 114)) {
           ptr -= 1;
           do {
             ptr += 1;
@@ -2963,58 +2969,61 @@ const char* Stream::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::int
             CHK_(ptr);
             if (!ctx->DataAvailable(ptr)) break;
           } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<114>(ptr));
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // .CodecParameters avparams = 15;
       case 15:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 122)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 122)) {
           ptr = ctx->ParseMessage(_internal_mutable_avparams(), ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
-      default: {
-      handle_unusual:
-        if ((tag & 7) == 4 || tag == 0) {
-          ctx->SetLastTag(tag);
-          goto success;
-        }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
-        CHK_(ptr != nullptr);
-        continue;
-      }
+      default:
+        goto handle_unusual;
     }  // switch
+  handle_unusual:
+    if ((tag == 0) || ((tag & 7) == 4)) {
+      CHK_(ptr);
+      ctx->SetLastTag(tag);
+      goto message_done;
+    }
+    ptr = UnknownFieldParse(
+        tag,
+        _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
+        ptr, ctx);
+    CHK_(ptr != nullptr);
   }  // while
-success:
+message_done:
   return ptr;
 failure:
   ptr = nullptr;
-  goto success;
+  goto message_done;
 #undef CHK_
 }
 
-::PROTOBUF_NAMESPACE_ID::uint8* Stream::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+uint8_t* Stream::_InternalSerialize(
+    uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
   // @@protoc_insertion_point(serialize_to_array_start:Stream)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
   // uint32 id = 1;
-  if (this->id() != 0) {
+  if (this->_internal_id() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(1, this->_internal_id(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(1, this->_internal_id(), target);
   }
 
   // .Stream.Type type = 2;
-  if (this->type() != 0) {
+  if (this->_internal_type() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
+    target = ::_pbi::WireFormatLite::WriteEnumToArray(
       2, this->_internal_type(), target);
   }
 
   // string codec = 3;
-  if (this->codec().size() > 0) {
+  if (!this->_internal_codec().empty()) {
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
       this->_internal_codec().data(), static_cast<int>(this->_internal_codec().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
@@ -3024,47 +3033,45 @@ failure:
   }
 
   // uint32 bitrate = 4;
-  if (this->bitrate() != 0) {
+  if (this->_internal_bitrate() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(4, this->_internal_bitrate(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(4, this->_internal_bitrate(), target);
   }
 
   // uint32 tb_num = 5;
-  if (this->tb_num() != 0) {
+  if (this->_internal_tb_num() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(5, this->_internal_tb_num(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(5, this->_internal_tb_num(), target);
   }
 
   // uint32 tb_den = 6;
-  if (this->tb_den() != 0) {
+  if (this->_internal_tb_den() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(6, this->_internal_tb_den(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(6, this->_internal_tb_den(), target);
   }
 
   // bytes extradata = 7;
-  if (this->extradata().size() > 0) {
+  if (!this->_internal_extradata().empty()) {
     target = stream->WriteBytesMaybeAliased(
         7, this->_internal_extradata(), target);
   }
 
   // .VideoMediaType videomt = 8;
-  if (this->has_videomt()) {
-    target = stream->EnsureSpace(target);
+  if (this->_internal_has_videomt()) {
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        8, _Internal::videomt(this), target, stream);
+      InternalWriteMessage(8, _Internal::videomt(this),
+        _Internal::videomt(this).GetCachedSize(), target, stream);
   }
 
   // .AudioMediaType audiomt = 9;
-  if (this->has_audiomt()) {
-    target = stream->EnsureSpace(target);
+  if (this->_internal_has_audiomt()) {
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        9, _Internal::audiomt(this), target, stream);
+      InternalWriteMessage(9, _Internal::audiomt(this),
+        _Internal::audiomt(this).GetCachedSize(), target, stream);
   }
 
   // string name = 10;
-  if (this->name().size() > 0) {
+  if (!this->_internal_name().empty()) {
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
       this->_internal_name().data(), static_cast<int>(this->_internal_name().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
@@ -3074,7 +3081,7 @@ failure:
   }
 
   // string channel = 11;
-  if (this->channel().size() > 0) {
+  if (!this->_internal_channel().empty()) {
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
       this->_internal_channel().data(), static_cast<int>(this->_internal_channel().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
@@ -3084,39 +3091,36 @@ failure:
   }
 
   // .SubtitleMediaType subtitlemt = 12;
-  if (this->has_subtitlemt()) {
-    target = stream->EnsureSpace(target);
+  if (this->_internal_has_subtitlemt()) {
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        12, _Internal::subtitlemt(this), target, stream);
+      InternalWriteMessage(12, _Internal::subtitlemt(this),
+        _Internal::subtitlemt(this).GetCachedSize(), target, stream);
   }
 
   // .DataMediaType datamt = 13;
-  if (this->has_datamt()) {
-    target = stream->EnsureSpace(target);
+  if (this->_internal_has_datamt()) {
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        13, _Internal::datamt(this), target, stream);
+      InternalWriteMessage(13, _Internal::datamt(this),
+        _Internal::datamt(this).GetCachedSize(), target, stream);
   }
 
   // repeated .Stream.Pair metadata = 14;
-  for (unsigned int i = 0,
-      n = static_cast<unsigned int>(this->_internal_metadata_size()); i < n; i++) {
-    target = stream->EnsureSpace(target);
+  for (unsigned i = 0,
+      n = static_cast<unsigned>(this->_internal_metadata_size()); i < n; i++) {
+    const auto& repfield = this->_internal_metadata(i);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(14, this->_internal_metadata(i), target, stream);
+        InternalWriteMessage(14, repfield, repfield.GetCachedSize(), target, stream);
   }
 
   // .CodecParameters avparams = 15;
-  if (this->has_avparams()) {
-    target = stream->EnsureSpace(target);
+  if (this->_internal_has_avparams()) {
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        15, _Internal::avparams(this), target, stream);
+      InternalWriteMessage(15, _Internal::avparams(this),
+        _Internal::avparams(this).GetCachedSize(), target, stream);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+    target = ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
   // @@protoc_insertion_point(serialize_to_array_end:Stream)
@@ -3127,195 +3131,173 @@ size_t Stream::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:Stream)
   size_t total_size = 0;
 
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
   // repeated .Stream.Pair metadata = 14;
   total_size += 1UL * this->_internal_metadata_size();
-  for (const auto& msg : this->metadata_) {
+  for (const auto& msg : this->_impl_.metadata_) {
     total_size +=
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
   }
 
   // string codec = 3;
-  if (this->codec().size() > 0) {
+  if (!this->_internal_codec().empty()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
         this->_internal_codec());
   }
 
   // bytes extradata = 7;
-  if (this->extradata().size() > 0) {
+  if (!this->_internal_extradata().empty()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::BytesSize(
         this->_internal_extradata());
   }
 
   // string name = 10;
-  if (this->name().size() > 0) {
+  if (!this->_internal_name().empty()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
         this->_internal_name());
   }
 
   // string channel = 11;
-  if (this->channel().size() > 0) {
+  if (!this->_internal_channel().empty()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
         this->_internal_channel());
   }
 
   // .VideoMediaType videomt = 8;
-  if (this->has_videomt()) {
+  if (this->_internal_has_videomt()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
-        *videomt_);
+        *_impl_.videomt_);
   }
 
   // .AudioMediaType audiomt = 9;
-  if (this->has_audiomt()) {
+  if (this->_internal_has_audiomt()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
-        *audiomt_);
+        *_impl_.audiomt_);
   }
 
   // .SubtitleMediaType subtitlemt = 12;
-  if (this->has_subtitlemt()) {
+  if (this->_internal_has_subtitlemt()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
-        *subtitlemt_);
+        *_impl_.subtitlemt_);
   }
 
   // .DataMediaType datamt = 13;
-  if (this->has_datamt()) {
+  if (this->_internal_has_datamt()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
-        *datamt_);
+        *_impl_.datamt_);
   }
 
   // .CodecParameters avparams = 15;
-  if (this->has_avparams()) {
+  if (this->_internal_has_avparams()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
-        *avparams_);
+        *_impl_.avparams_);
   }
 
   // uint32 id = 1;
-  if (this->id() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_id());
+  if (this->_internal_id() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_id());
   }
 
   // .Stream.Type type = 2;
-  if (this->type() != 0) {
+  if (this->_internal_type() != 0) {
     total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_type());
+      ::_pbi::WireFormatLite::EnumSize(this->_internal_type());
   }
 
   // uint32 bitrate = 4;
-  if (this->bitrate() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_bitrate());
+  if (this->_internal_bitrate() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_bitrate());
   }
 
   // uint32 tb_num = 5;
-  if (this->tb_num() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_tb_num());
+  if (this->_internal_tb_num() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_tb_num());
   }
 
   // uint32 tb_den = 6;
-  if (this->tb_den() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_tb_den());
+  if (this->_internal_tb_den() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_tb_den());
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
-  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
-  SetCachedSize(cached_size);
-  return total_size;
+  return MaybeComputeUnknownFieldsSize(total_size, &_impl_._cached_size_);
 }
 
-void Stream::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:Stream)
-  GOOGLE_DCHECK_NE(&from, this);
-  const Stream* source =
-      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<Stream>(
-          &from);
-  if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:Stream)
-    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:Stream)
-    MergeFrom(*source);
-  }
-}
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData Stream::_class_data_ = {
+    ::PROTOBUF_NAMESPACE_ID::Message::CopyWithSourceCheck,
+    Stream::MergeImpl
+};
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*Stream::GetClassData() const { return &_class_data_; }
 
-void Stream::MergeFrom(const Stream& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:Stream)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+
+void Stream::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message& to_msg, const ::PROTOBUF_NAMESPACE_ID::Message& from_msg) {
+  auto* const _this = static_cast<Stream*>(&to_msg);
+  auto& from = static_cast<const Stream&>(from_msg);
+  // @@protoc_insertion_point(class_specific_merge_from_start:Stream)
+  GOOGLE_DCHECK_NE(&from, _this);
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  metadata_.MergeFrom(from.metadata_);
-  if (from.codec().size() > 0) {
-    _internal_set_codec(from._internal_codec());
+  _this->_impl_.metadata_.MergeFrom(from._impl_.metadata_);
+  if (!from._internal_codec().empty()) {
+    _this->_internal_set_codec(from._internal_codec());
   }
-  if (from.extradata().size() > 0) {
-    _internal_set_extradata(from._internal_extradata());
+  if (!from._internal_extradata().empty()) {
+    _this->_internal_set_extradata(from._internal_extradata());
   }
-  if (from.name().size() > 0) {
-    _internal_set_name(from._internal_name());
+  if (!from._internal_name().empty()) {
+    _this->_internal_set_name(from._internal_name());
   }
-  if (from.channel().size() > 0) {
-    _internal_set_channel(from._internal_channel());
+  if (!from._internal_channel().empty()) {
+    _this->_internal_set_channel(from._internal_channel());
   }
-  if (from.has_videomt()) {
-    _internal_mutable_videomt()->::VideoMediaType::MergeFrom(from._internal_videomt());
+  if (from._internal_has_videomt()) {
+    _this->_internal_mutable_videomt()->::VideoMediaType::MergeFrom(
+        from._internal_videomt());
   }
-  if (from.has_audiomt()) {
-    _internal_mutable_audiomt()->::AudioMediaType::MergeFrom(from._internal_audiomt());
+  if (from._internal_has_audiomt()) {
+    _this->_internal_mutable_audiomt()->::AudioMediaType::MergeFrom(
+        from._internal_audiomt());
   }
-  if (from.has_subtitlemt()) {
-    _internal_mutable_subtitlemt()->::SubtitleMediaType::MergeFrom(from._internal_subtitlemt());
+  if (from._internal_has_subtitlemt()) {
+    _this->_internal_mutable_subtitlemt()->::SubtitleMediaType::MergeFrom(
+        from._internal_subtitlemt());
   }
-  if (from.has_datamt()) {
-    _internal_mutable_datamt()->::DataMediaType::MergeFrom(from._internal_datamt());
+  if (from._internal_has_datamt()) {
+    _this->_internal_mutable_datamt()->::DataMediaType::MergeFrom(
+        from._internal_datamt());
   }
-  if (from.has_avparams()) {
-    _internal_mutable_avparams()->::CodecParameters::MergeFrom(from._internal_avparams());
+  if (from._internal_has_avparams()) {
+    _this->_internal_mutable_avparams()->::CodecParameters::MergeFrom(
+        from._internal_avparams());
   }
-  if (from.id() != 0) {
-    _internal_set_id(from._internal_id());
+  if (from._internal_id() != 0) {
+    _this->_internal_set_id(from._internal_id());
   }
-  if (from.type() != 0) {
-    _internal_set_type(from._internal_type());
+  if (from._internal_type() != 0) {
+    _this->_internal_set_type(from._internal_type());
   }
-  if (from.bitrate() != 0) {
-    _internal_set_bitrate(from._internal_bitrate());
+  if (from._internal_bitrate() != 0) {
+    _this->_internal_set_bitrate(from._internal_bitrate());
   }
-  if (from.tb_num() != 0) {
-    _internal_set_tb_num(from._internal_tb_num());
+  if (from._internal_tb_num() != 0) {
+    _this->_internal_set_tb_num(from._internal_tb_num());
   }
-  if (from.tb_den() != 0) {
-    _internal_set_tb_den(from._internal_tb_den());
+  if (from._internal_tb_den() != 0) {
+    _this->_internal_set_tb_den(from._internal_tb_den());
   }
-}
-
-void Stream::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:Stream)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
+  _this->_internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
 }
 
 void Stream::CopyFrom(const Stream& from) {
@@ -3331,516 +3313,619 @@ bool Stream::IsInitialized() const {
 
 void Stream::InternalSwap(Stream* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  metadata_.InternalSwap(&other->metadata_);
-  codec_.Swap(&other->codec_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
-  extradata_.Swap(&other->extradata_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
-  name_.Swap(&other->name_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
-  channel_.Swap(&other->channel_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
+  auto* lhs_arena = GetArenaForAllocation();
+  auto* rhs_arena = other->GetArenaForAllocation();
+  _internal_metadata_.InternalSwap(&other->_internal_metadata_);
+  _impl_.metadata_.InternalSwap(&other->_impl_.metadata_);
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::InternalSwap(
+      &_impl_.codec_, lhs_arena,
+      &other->_impl_.codec_, rhs_arena
+  );
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::InternalSwap(
+      &_impl_.extradata_, lhs_arena,
+      &other->_impl_.extradata_, rhs_arena
+  );
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::InternalSwap(
+      &_impl_.name_, lhs_arena,
+      &other->_impl_.name_, rhs_arena
+  );
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::InternalSwap(
+      &_impl_.channel_, lhs_arena,
+      &other->_impl_.channel_, rhs_arena
+  );
   ::PROTOBUF_NAMESPACE_ID::internal::memswap<
-      PROTOBUF_FIELD_OFFSET(Stream, tb_den_)
-      + sizeof(Stream::tb_den_)
-      - PROTOBUF_FIELD_OFFSET(Stream, videomt_)>(
-          reinterpret_cast<char*>(&videomt_),
-          reinterpret_cast<char*>(&other->videomt_));
+      PROTOBUF_FIELD_OFFSET(Stream, _impl_.tb_den_)
+      + sizeof(Stream::_impl_.tb_den_)
+      - PROTOBUF_FIELD_OFFSET(Stream, _impl_.videomt_)>(
+          reinterpret_cast<char*>(&_impl_.videomt_),
+          reinterpret_cast<char*>(&other->_impl_.videomt_));
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata Stream::GetMetadata() const {
-  return GetMetadataStatic();
+  return ::_pbi::AssignDescriptors(
+      &descriptor_table_messages1_2eproto_getter, &descriptor_table_messages1_2eproto_once,
+      file_level_metadata_messages1_2eproto[7]);
 }
-
 
 // ===================================================================
 
-void CodecParameters::InitAsDefaultInstance() {
-}
 class CodecParameters::_Internal {
  public:
 };
 
-CodecParameters::CodecParameters(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
-  SharedCtor();
-  RegisterArenaDtor(arena);
+CodecParameters::CodecParameters(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+                         bool is_message_owned)
+  : ::PROTOBUF_NAMESPACE_ID::Message(arena, is_message_owned) {
+  SharedCtor(arena, is_message_owned);
   // @@protoc_insertion_point(arena_constructor:CodecParameters)
 }
 CodecParameters::CodecParameters(const CodecParameters& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
+  CodecParameters* const _this = this; (void)_this;
+  new (&_impl_) Impl_{
+      decltype(_impl_.extradata_){}
+    , decltype(_impl_.codec_type_){}
+    , decltype(_impl_.codec_id_){}
+    , decltype(_impl_.codec_tag_){}
+    , decltype(_impl_.format_){}
+    , decltype(_impl_.bit_rate_){}
+    , decltype(_impl_.bits_per_coded_sample_){}
+    , decltype(_impl_.bits_per_raw_sample_){}
+    , decltype(_impl_.profile_){}
+    , decltype(_impl_.level_){}
+    , decltype(_impl_.width_){}
+    , decltype(_impl_.height_){}
+    , decltype(_impl_.sample_aspect_ratio_num_){}
+    , decltype(_impl_.sample_aspect_ratio_den_){}
+    , decltype(_impl_.field_order_){}
+    , decltype(_impl_.color_range_){}
+    , decltype(_impl_.color_primaries_){}
+    , decltype(_impl_.color_trc_){}
+    , decltype(_impl_.color_space_){}
+    , decltype(_impl_.chroma_location_){}
+    , decltype(_impl_.channel_layout_){}
+    , decltype(_impl_.video_delay_){}
+    , decltype(_impl_.channels_){}
+    , decltype(_impl_.sample_rate_){}
+    , decltype(_impl_.block_align_){}
+    , decltype(_impl_.frame_size_){}
+    , decltype(_impl_.initial_padding_){}
+    , decltype(_impl_.trailing_padding_){}
+    , decltype(_impl_.seek_preroll_){}
+    , /*decltype(_impl_._cached_size_)*/{}};
+
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  extradata_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  _impl_.extradata_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.extradata_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
   if (!from._internal_extradata().empty()) {
-    extradata_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from._internal_extradata(),
-      GetArena());
+    _this->_impl_.extradata_.Set(from._internal_extradata(), 
+      _this->GetArenaForAllocation());
   }
-  ::memcpy(&codec_type_, &from.codec_type_,
-    static_cast<size_t>(reinterpret_cast<char*>(&seek_preroll_) -
-    reinterpret_cast<char*>(&codec_type_)) + sizeof(seek_preroll_));
+  ::memcpy(&_impl_.codec_type_, &from._impl_.codec_type_,
+    static_cast<size_t>(reinterpret_cast<char*>(&_impl_.seek_preroll_) -
+    reinterpret_cast<char*>(&_impl_.codec_type_)) + sizeof(_impl_.seek_preroll_));
   // @@protoc_insertion_point(copy_constructor:CodecParameters)
 }
 
-void CodecParameters::SharedCtor() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_CodecParameters_messages1_2eproto.base);
-  extradata_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  ::memset(&codec_type_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&seek_preroll_) -
-      reinterpret_cast<char*>(&codec_type_)) + sizeof(seek_preroll_));
+inline void CodecParameters::SharedCtor(
+    ::_pb::Arena* arena, bool is_message_owned) {
+  (void)arena;
+  (void)is_message_owned;
+  new (&_impl_) Impl_{
+      decltype(_impl_.extradata_){}
+    , decltype(_impl_.codec_type_){0u}
+    , decltype(_impl_.codec_id_){0u}
+    , decltype(_impl_.codec_tag_){0u}
+    , decltype(_impl_.format_){0u}
+    , decltype(_impl_.bit_rate_){uint64_t{0u}}
+    , decltype(_impl_.bits_per_coded_sample_){0u}
+    , decltype(_impl_.bits_per_raw_sample_){0u}
+    , decltype(_impl_.profile_){0u}
+    , decltype(_impl_.level_){0u}
+    , decltype(_impl_.width_){0u}
+    , decltype(_impl_.height_){0u}
+    , decltype(_impl_.sample_aspect_ratio_num_){0}
+    , decltype(_impl_.sample_aspect_ratio_den_){0}
+    , decltype(_impl_.field_order_){0u}
+    , decltype(_impl_.color_range_){0u}
+    , decltype(_impl_.color_primaries_){0u}
+    , decltype(_impl_.color_trc_){0u}
+    , decltype(_impl_.color_space_){0u}
+    , decltype(_impl_.chroma_location_){0u}
+    , decltype(_impl_.channel_layout_){uint64_t{0u}}
+    , decltype(_impl_.video_delay_){0u}
+    , decltype(_impl_.channels_){0u}
+    , decltype(_impl_.sample_rate_){0u}
+    , decltype(_impl_.block_align_){0u}
+    , decltype(_impl_.frame_size_){0u}
+    , decltype(_impl_.initial_padding_){0u}
+    , decltype(_impl_.trailing_padding_){0u}
+    , decltype(_impl_.seek_preroll_){0u}
+    , /*decltype(_impl_._cached_size_)*/{}
+  };
+  _impl_.extradata_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.extradata_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
 }
 
 CodecParameters::~CodecParameters() {
   // @@protoc_insertion_point(destructor:CodecParameters)
+  if (auto *arena = _internal_metadata_.DeleteReturnArena<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>()) {
+  (void)arena;
+    return;
+  }
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-void CodecParameters::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
-  extradata_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+inline void CodecParameters::SharedDtor() {
+  GOOGLE_DCHECK(GetArenaForAllocation() == nullptr);
+  _impl_.extradata_.Destroy();
 }
 
-void CodecParameters::ArenaDtor(void* object) {
-  CodecParameters* _this = reinterpret_cast< CodecParameters* >(object);
-  (void)_this;
-}
-void CodecParameters::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void CodecParameters::SetCachedSize(int size) const {
-  _cached_size_.Set(size);
+  _impl_._cached_size_.Set(size);
 }
-const CodecParameters& CodecParameters::default_instance() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_CodecParameters_messages1_2eproto.base);
-  return *internal_default_instance();
-}
-
 
 void CodecParameters::Clear() {
 // @@protoc_insertion_point(message_clear_start:CodecParameters)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  extradata_.ClearToEmpty(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
-  ::memset(&codec_type_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&seek_preroll_) -
-      reinterpret_cast<char*>(&codec_type_)) + sizeof(seek_preroll_));
+  _impl_.extradata_.ClearToEmpty();
+  ::memset(&_impl_.codec_type_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&_impl_.seek_preroll_) -
+      reinterpret_cast<char*>(&_impl_.codec_type_)) + sizeof(_impl_.seek_preroll_));
   _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-const char* CodecParameters::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+const char* CodecParameters::_InternalParse(const char* ptr, ::_pbi::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
-  ::PROTOBUF_NAMESPACE_ID::Arena* arena = GetArena(); (void)arena;
   while (!ctx->Done(&ptr)) {
-    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
-    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
-    CHK_(ptr);
+    uint32_t tag;
+    ptr = ::_pbi::ReadTag(ptr, &tag);
     switch (tag >> 3) {
       // uint32 codec_type = 1;
       case 1:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 8)) {
-          codec_type_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 8)) {
+          _impl_.codec_type_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 codec_id = 2;
       case 2:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 16)) {
-          codec_id_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 16)) {
+          _impl_.codec_id_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 codec_tag = 3;
       case 3:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 24)) {
-          codec_tag_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 24)) {
+          _impl_.codec_tag_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // bytes extradata = 4;
       case 4:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 34)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 34)) {
           auto str = _internal_mutable_extradata();
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
+          ptr = ::_pbi::InlineGreedyStringParser(str, ptr, ctx);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 format = 5;
       case 5:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 40)) {
-          format_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 40)) {
+          _impl_.format_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint64 bit_rate = 6;
       case 6:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 48)) {
-          bit_rate_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 48)) {
+          _impl_.bit_rate_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 bits_per_coded_sample = 7;
       case 7:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 56)) {
-          bits_per_coded_sample_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 56)) {
+          _impl_.bits_per_coded_sample_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 bits_per_raw_sample = 8;
       case 8:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 64)) {
-          bits_per_raw_sample_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 64)) {
+          _impl_.bits_per_raw_sample_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 profile = 9;
       case 9:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 72)) {
-          profile_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 72)) {
+          _impl_.profile_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 level = 10;
       case 10:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 80)) {
-          level_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 80)) {
+          _impl_.level_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 width = 11;
       case 11:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 88)) {
-          width_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 88)) {
+          _impl_.width_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 height = 12;
       case 12:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 96)) {
-          height_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 96)) {
+          _impl_.height_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // int32 sample_aspect_ratio_num = 13;
       case 13:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 104)) {
-          sample_aspect_ratio_num_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 104)) {
+          _impl_.sample_aspect_ratio_num_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // int32 sample_aspect_ratio_den = 14;
       case 14:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 112)) {
-          sample_aspect_ratio_den_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 112)) {
+          _impl_.sample_aspect_ratio_den_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 field_order = 15;
       case 15:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 120)) {
-          field_order_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 120)) {
+          _impl_.field_order_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 color_range = 16;
       case 16:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 128)) {
-          color_range_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 128)) {
+          _impl_.color_range_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 color_primaries = 17;
       case 17:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 136)) {
-          color_primaries_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 136)) {
+          _impl_.color_primaries_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 color_trc = 18;
       case 18:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 144)) {
-          color_trc_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 144)) {
+          _impl_.color_trc_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 color_space = 19;
       case 19:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 152)) {
-          color_space_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 152)) {
+          _impl_.color_space_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 chroma_location = 20;
       case 20:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 160)) {
-          chroma_location_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 160)) {
+          _impl_.chroma_location_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 video_delay = 21;
       case 21:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 168)) {
-          video_delay_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 168)) {
+          _impl_.video_delay_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint64 channel_layout = 22;
       case 22:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 176)) {
-          channel_layout_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 176)) {
+          _impl_.channel_layout_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 channels = 23;
       case 23:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 184)) {
-          channels_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 184)) {
+          _impl_.channels_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 sample_rate = 24;
       case 24:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 192)) {
-          sample_rate_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 192)) {
+          _impl_.sample_rate_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 block_align = 25;
       case 25:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 200)) {
-          block_align_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 200)) {
+          _impl_.block_align_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 frame_size = 26;
       case 26:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 208)) {
-          frame_size_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 208)) {
+          _impl_.frame_size_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 initial_padding = 27;
       case 27:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 216)) {
-          initial_padding_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 216)) {
+          _impl_.initial_padding_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 trailing_padding = 28;
       case 28:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 224)) {
-          trailing_padding_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 224)) {
+          _impl_.trailing_padding_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 seek_preroll = 29;
       case 29:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 232)) {
-          seek_preroll_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 232)) {
+          _impl_.seek_preroll_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
-      default: {
-      handle_unusual:
-        if ((tag & 7) == 4 || tag == 0) {
-          ctx->SetLastTag(tag);
-          goto success;
-        }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
-        CHK_(ptr != nullptr);
-        continue;
-      }
+      default:
+        goto handle_unusual;
     }  // switch
+  handle_unusual:
+    if ((tag == 0) || ((tag & 7) == 4)) {
+      CHK_(ptr);
+      ctx->SetLastTag(tag);
+      goto message_done;
+    }
+    ptr = UnknownFieldParse(
+        tag,
+        _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
+        ptr, ctx);
+    CHK_(ptr != nullptr);
   }  // while
-success:
+message_done:
   return ptr;
 failure:
   ptr = nullptr;
-  goto success;
+  goto message_done;
 #undef CHK_
 }
 
-::PROTOBUF_NAMESPACE_ID::uint8* CodecParameters::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+uint8_t* CodecParameters::_InternalSerialize(
+    uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
   // @@protoc_insertion_point(serialize_to_array_start:CodecParameters)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
   // uint32 codec_type = 1;
-  if (this->codec_type() != 0) {
+  if (this->_internal_codec_type() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(1, this->_internal_codec_type(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(1, this->_internal_codec_type(), target);
   }
 
   // uint32 codec_id = 2;
-  if (this->codec_id() != 0) {
+  if (this->_internal_codec_id() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(2, this->_internal_codec_id(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(2, this->_internal_codec_id(), target);
   }
 
   // uint32 codec_tag = 3;
-  if (this->codec_tag() != 0) {
+  if (this->_internal_codec_tag() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(3, this->_internal_codec_tag(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(3, this->_internal_codec_tag(), target);
   }
 
   // bytes extradata = 4;
-  if (this->extradata().size() > 0) {
+  if (!this->_internal_extradata().empty()) {
     target = stream->WriteBytesMaybeAliased(
         4, this->_internal_extradata(), target);
   }
 
   // uint32 format = 5;
-  if (this->format() != 0) {
+  if (this->_internal_format() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(5, this->_internal_format(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(5, this->_internal_format(), target);
   }
 
   // uint64 bit_rate = 6;
-  if (this->bit_rate() != 0) {
+  if (this->_internal_bit_rate() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt64ToArray(6, this->_internal_bit_rate(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt64ToArray(6, this->_internal_bit_rate(), target);
   }
 
   // uint32 bits_per_coded_sample = 7;
-  if (this->bits_per_coded_sample() != 0) {
+  if (this->_internal_bits_per_coded_sample() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(7, this->_internal_bits_per_coded_sample(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(7, this->_internal_bits_per_coded_sample(), target);
   }
 
   // uint32 bits_per_raw_sample = 8;
-  if (this->bits_per_raw_sample() != 0) {
+  if (this->_internal_bits_per_raw_sample() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(8, this->_internal_bits_per_raw_sample(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(8, this->_internal_bits_per_raw_sample(), target);
   }
 
   // uint32 profile = 9;
-  if (this->profile() != 0) {
+  if (this->_internal_profile() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(9, this->_internal_profile(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(9, this->_internal_profile(), target);
   }
 
   // uint32 level = 10;
-  if (this->level() != 0) {
+  if (this->_internal_level() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(10, this->_internal_level(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(10, this->_internal_level(), target);
   }
 
   // uint32 width = 11;
-  if (this->width() != 0) {
+  if (this->_internal_width() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(11, this->_internal_width(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(11, this->_internal_width(), target);
   }
 
   // uint32 height = 12;
-  if (this->height() != 0) {
+  if (this->_internal_height() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(12, this->_internal_height(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(12, this->_internal_height(), target);
   }
 
   // int32 sample_aspect_ratio_num = 13;
-  if (this->sample_aspect_ratio_num() != 0) {
+  if (this->_internal_sample_aspect_ratio_num() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt32ToArray(13, this->_internal_sample_aspect_ratio_num(), target);
+    target = ::_pbi::WireFormatLite::WriteInt32ToArray(13, this->_internal_sample_aspect_ratio_num(), target);
   }
 
   // int32 sample_aspect_ratio_den = 14;
-  if (this->sample_aspect_ratio_den() != 0) {
+  if (this->_internal_sample_aspect_ratio_den() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt32ToArray(14, this->_internal_sample_aspect_ratio_den(), target);
+    target = ::_pbi::WireFormatLite::WriteInt32ToArray(14, this->_internal_sample_aspect_ratio_den(), target);
   }
 
   // uint32 field_order = 15;
-  if (this->field_order() != 0) {
+  if (this->_internal_field_order() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(15, this->_internal_field_order(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(15, this->_internal_field_order(), target);
   }
 
   // uint32 color_range = 16;
-  if (this->color_range() != 0) {
+  if (this->_internal_color_range() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(16, this->_internal_color_range(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(16, this->_internal_color_range(), target);
   }
 
   // uint32 color_primaries = 17;
-  if (this->color_primaries() != 0) {
+  if (this->_internal_color_primaries() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(17, this->_internal_color_primaries(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(17, this->_internal_color_primaries(), target);
   }
 
   // uint32 color_trc = 18;
-  if (this->color_trc() != 0) {
+  if (this->_internal_color_trc() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(18, this->_internal_color_trc(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(18, this->_internal_color_trc(), target);
   }
 
   // uint32 color_space = 19;
-  if (this->color_space() != 0) {
+  if (this->_internal_color_space() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(19, this->_internal_color_space(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(19, this->_internal_color_space(), target);
   }
 
   // uint32 chroma_location = 20;
-  if (this->chroma_location() != 0) {
+  if (this->_internal_chroma_location() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(20, this->_internal_chroma_location(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(20, this->_internal_chroma_location(), target);
   }
 
   // uint32 video_delay = 21;
-  if (this->video_delay() != 0) {
+  if (this->_internal_video_delay() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(21, this->_internal_video_delay(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(21, this->_internal_video_delay(), target);
   }
 
   // uint64 channel_layout = 22;
-  if (this->channel_layout() != 0) {
+  if (this->_internal_channel_layout() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt64ToArray(22, this->_internal_channel_layout(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt64ToArray(22, this->_internal_channel_layout(), target);
   }
 
   // uint32 channels = 23;
-  if (this->channels() != 0) {
+  if (this->_internal_channels() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(23, this->_internal_channels(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(23, this->_internal_channels(), target);
   }
 
   // uint32 sample_rate = 24;
-  if (this->sample_rate() != 0) {
+  if (this->_internal_sample_rate() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(24, this->_internal_sample_rate(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(24, this->_internal_sample_rate(), target);
   }
 
   // uint32 block_align = 25;
-  if (this->block_align() != 0) {
+  if (this->_internal_block_align() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(25, this->_internal_block_align(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(25, this->_internal_block_align(), target);
   }
 
   // uint32 frame_size = 26;
-  if (this->frame_size() != 0) {
+  if (this->_internal_frame_size() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(26, this->_internal_frame_size(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(26, this->_internal_frame_size(), target);
   }
 
   // uint32 initial_padding = 27;
-  if (this->initial_padding() != 0) {
+  if (this->_internal_initial_padding() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(27, this->_internal_initial_padding(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(27, this->_internal_initial_padding(), target);
   }
 
   // uint32 trailing_padding = 28;
-  if (this->trailing_padding() != 0) {
+  if (this->_internal_trailing_padding() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(28, this->_internal_trailing_padding(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(28, this->_internal_trailing_padding(), target);
   }
 
   // uint32 seek_preroll = 29;
-  if (this->seek_preroll() != 0) {
+  if (this->_internal_seek_preroll() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(29, this->_internal_seek_preroll(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(29, this->_internal_seek_preroll(), target);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+    target = ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
   // @@protoc_insertion_point(serialize_to_array_end:CodecParameters)
@@ -3851,338 +3936,291 @@ size_t CodecParameters::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:CodecParameters)
   size_t total_size = 0;
 
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
   // bytes extradata = 4;
-  if (this->extradata().size() > 0) {
+  if (!this->_internal_extradata().empty()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::BytesSize(
         this->_internal_extradata());
   }
 
   // uint32 codec_type = 1;
-  if (this->codec_type() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_codec_type());
+  if (this->_internal_codec_type() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_codec_type());
   }
 
   // uint32 codec_id = 2;
-  if (this->codec_id() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_codec_id());
+  if (this->_internal_codec_id() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_codec_id());
   }
 
   // uint32 codec_tag = 3;
-  if (this->codec_tag() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_codec_tag());
+  if (this->_internal_codec_tag() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_codec_tag());
   }
 
   // uint32 format = 5;
-  if (this->format() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_format());
+  if (this->_internal_format() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_format());
   }
 
   // uint64 bit_rate = 6;
-  if (this->bit_rate() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt64Size(
-        this->_internal_bit_rate());
+  if (this->_internal_bit_rate() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt64SizePlusOne(this->_internal_bit_rate());
   }
 
   // uint32 bits_per_coded_sample = 7;
-  if (this->bits_per_coded_sample() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_bits_per_coded_sample());
+  if (this->_internal_bits_per_coded_sample() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_bits_per_coded_sample());
   }
 
   // uint32 bits_per_raw_sample = 8;
-  if (this->bits_per_raw_sample() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_bits_per_raw_sample());
+  if (this->_internal_bits_per_raw_sample() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_bits_per_raw_sample());
   }
 
   // uint32 profile = 9;
-  if (this->profile() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_profile());
+  if (this->_internal_profile() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_profile());
   }
 
   // uint32 level = 10;
-  if (this->level() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_level());
+  if (this->_internal_level() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_level());
   }
 
   // uint32 width = 11;
-  if (this->width() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_width());
+  if (this->_internal_width() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_width());
   }
 
   // uint32 height = 12;
-  if (this->height() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_height());
+  if (this->_internal_height() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_height());
   }
 
   // int32 sample_aspect_ratio_num = 13;
-  if (this->sample_aspect_ratio_num() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_sample_aspect_ratio_num());
+  if (this->_internal_sample_aspect_ratio_num() != 0) {
+    total_size += ::_pbi::WireFormatLite::Int32SizePlusOne(this->_internal_sample_aspect_ratio_num());
   }
 
   // int32 sample_aspect_ratio_den = 14;
-  if (this->sample_aspect_ratio_den() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int32Size(
-        this->_internal_sample_aspect_ratio_den());
+  if (this->_internal_sample_aspect_ratio_den() != 0) {
+    total_size += ::_pbi::WireFormatLite::Int32SizePlusOne(this->_internal_sample_aspect_ratio_den());
   }
 
   // uint32 field_order = 15;
-  if (this->field_order() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_field_order());
+  if (this->_internal_field_order() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_field_order());
   }
 
   // uint32 color_range = 16;
-  if (this->color_range() != 0) {
+  if (this->_internal_color_range() != 0) {
     total_size += 2 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
+      ::_pbi::WireFormatLite::UInt32Size(
         this->_internal_color_range());
   }
 
   // uint32 color_primaries = 17;
-  if (this->color_primaries() != 0) {
+  if (this->_internal_color_primaries() != 0) {
     total_size += 2 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
+      ::_pbi::WireFormatLite::UInt32Size(
         this->_internal_color_primaries());
   }
 
   // uint32 color_trc = 18;
-  if (this->color_trc() != 0) {
+  if (this->_internal_color_trc() != 0) {
     total_size += 2 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
+      ::_pbi::WireFormatLite::UInt32Size(
         this->_internal_color_trc());
   }
 
   // uint32 color_space = 19;
-  if (this->color_space() != 0) {
+  if (this->_internal_color_space() != 0) {
     total_size += 2 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
+      ::_pbi::WireFormatLite::UInt32Size(
         this->_internal_color_space());
   }
 
   // uint32 chroma_location = 20;
-  if (this->chroma_location() != 0) {
+  if (this->_internal_chroma_location() != 0) {
     total_size += 2 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
+      ::_pbi::WireFormatLite::UInt32Size(
         this->_internal_chroma_location());
   }
 
   // uint64 channel_layout = 22;
-  if (this->channel_layout() != 0) {
+  if (this->_internal_channel_layout() != 0) {
     total_size += 2 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt64Size(
+      ::_pbi::WireFormatLite::UInt64Size(
         this->_internal_channel_layout());
   }
 
   // uint32 video_delay = 21;
-  if (this->video_delay() != 0) {
+  if (this->_internal_video_delay() != 0) {
     total_size += 2 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
+      ::_pbi::WireFormatLite::UInt32Size(
         this->_internal_video_delay());
   }
 
   // uint32 channels = 23;
-  if (this->channels() != 0) {
+  if (this->_internal_channels() != 0) {
     total_size += 2 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
+      ::_pbi::WireFormatLite::UInt32Size(
         this->_internal_channels());
   }
 
   // uint32 sample_rate = 24;
-  if (this->sample_rate() != 0) {
+  if (this->_internal_sample_rate() != 0) {
     total_size += 2 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
+      ::_pbi::WireFormatLite::UInt32Size(
         this->_internal_sample_rate());
   }
 
   // uint32 block_align = 25;
-  if (this->block_align() != 0) {
+  if (this->_internal_block_align() != 0) {
     total_size += 2 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
+      ::_pbi::WireFormatLite::UInt32Size(
         this->_internal_block_align());
   }
 
   // uint32 frame_size = 26;
-  if (this->frame_size() != 0) {
+  if (this->_internal_frame_size() != 0) {
     total_size += 2 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
+      ::_pbi::WireFormatLite::UInt32Size(
         this->_internal_frame_size());
   }
 
   // uint32 initial_padding = 27;
-  if (this->initial_padding() != 0) {
+  if (this->_internal_initial_padding() != 0) {
     total_size += 2 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
+      ::_pbi::WireFormatLite::UInt32Size(
         this->_internal_initial_padding());
   }
 
   // uint32 trailing_padding = 28;
-  if (this->trailing_padding() != 0) {
+  if (this->_internal_trailing_padding() != 0) {
     total_size += 2 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
+      ::_pbi::WireFormatLite::UInt32Size(
         this->_internal_trailing_padding());
   }
 
   // uint32 seek_preroll = 29;
-  if (this->seek_preroll() != 0) {
+  if (this->_internal_seek_preroll() != 0) {
     total_size += 2 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
+      ::_pbi::WireFormatLite::UInt32Size(
         this->_internal_seek_preroll());
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
-  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
-  SetCachedSize(cached_size);
-  return total_size;
+  return MaybeComputeUnknownFieldsSize(total_size, &_impl_._cached_size_);
 }
 
-void CodecParameters::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:CodecParameters)
-  GOOGLE_DCHECK_NE(&from, this);
-  const CodecParameters* source =
-      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<CodecParameters>(
-          &from);
-  if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:CodecParameters)
-    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:CodecParameters)
-    MergeFrom(*source);
-  }
-}
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData CodecParameters::_class_data_ = {
+    ::PROTOBUF_NAMESPACE_ID::Message::CopyWithSourceCheck,
+    CodecParameters::MergeImpl
+};
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*CodecParameters::GetClassData() const { return &_class_data_; }
 
-void CodecParameters::MergeFrom(const CodecParameters& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:CodecParameters)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+
+void CodecParameters::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message& to_msg, const ::PROTOBUF_NAMESPACE_ID::Message& from_msg) {
+  auto* const _this = static_cast<CodecParameters*>(&to_msg);
+  auto& from = static_cast<const CodecParameters&>(from_msg);
+  // @@protoc_insertion_point(class_specific_merge_from_start:CodecParameters)
+  GOOGLE_DCHECK_NE(&from, _this);
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if (from.extradata().size() > 0) {
-    _internal_set_extradata(from._internal_extradata());
+  if (!from._internal_extradata().empty()) {
+    _this->_internal_set_extradata(from._internal_extradata());
   }
-  if (from.codec_type() != 0) {
-    _internal_set_codec_type(from._internal_codec_type());
+  if (from._internal_codec_type() != 0) {
+    _this->_internal_set_codec_type(from._internal_codec_type());
   }
-  if (from.codec_id() != 0) {
-    _internal_set_codec_id(from._internal_codec_id());
+  if (from._internal_codec_id() != 0) {
+    _this->_internal_set_codec_id(from._internal_codec_id());
   }
-  if (from.codec_tag() != 0) {
-    _internal_set_codec_tag(from._internal_codec_tag());
+  if (from._internal_codec_tag() != 0) {
+    _this->_internal_set_codec_tag(from._internal_codec_tag());
   }
-  if (from.format() != 0) {
-    _internal_set_format(from._internal_format());
+  if (from._internal_format() != 0) {
+    _this->_internal_set_format(from._internal_format());
   }
-  if (from.bit_rate() != 0) {
-    _internal_set_bit_rate(from._internal_bit_rate());
+  if (from._internal_bit_rate() != 0) {
+    _this->_internal_set_bit_rate(from._internal_bit_rate());
   }
-  if (from.bits_per_coded_sample() != 0) {
-    _internal_set_bits_per_coded_sample(from._internal_bits_per_coded_sample());
+  if (from._internal_bits_per_coded_sample() != 0) {
+    _this->_internal_set_bits_per_coded_sample(from._internal_bits_per_coded_sample());
   }
-  if (from.bits_per_raw_sample() != 0) {
-    _internal_set_bits_per_raw_sample(from._internal_bits_per_raw_sample());
+  if (from._internal_bits_per_raw_sample() != 0) {
+    _this->_internal_set_bits_per_raw_sample(from._internal_bits_per_raw_sample());
   }
-  if (from.profile() != 0) {
-    _internal_set_profile(from._internal_profile());
+  if (from._internal_profile() != 0) {
+    _this->_internal_set_profile(from._internal_profile());
   }
-  if (from.level() != 0) {
-    _internal_set_level(from._internal_level());
+  if (from._internal_level() != 0) {
+    _this->_internal_set_level(from._internal_level());
   }
-  if (from.width() != 0) {
-    _internal_set_width(from._internal_width());
+  if (from._internal_width() != 0) {
+    _this->_internal_set_width(from._internal_width());
   }
-  if (from.height() != 0) {
-    _internal_set_height(from._internal_height());
+  if (from._internal_height() != 0) {
+    _this->_internal_set_height(from._internal_height());
   }
-  if (from.sample_aspect_ratio_num() != 0) {
-    _internal_set_sample_aspect_ratio_num(from._internal_sample_aspect_ratio_num());
+  if (from._internal_sample_aspect_ratio_num() != 0) {
+    _this->_internal_set_sample_aspect_ratio_num(from._internal_sample_aspect_ratio_num());
   }
-  if (from.sample_aspect_ratio_den() != 0) {
-    _internal_set_sample_aspect_ratio_den(from._internal_sample_aspect_ratio_den());
+  if (from._internal_sample_aspect_ratio_den() != 0) {
+    _this->_internal_set_sample_aspect_ratio_den(from._internal_sample_aspect_ratio_den());
   }
-  if (from.field_order() != 0) {
-    _internal_set_field_order(from._internal_field_order());
+  if (from._internal_field_order() != 0) {
+    _this->_internal_set_field_order(from._internal_field_order());
   }
-  if (from.color_range() != 0) {
-    _internal_set_color_range(from._internal_color_range());
+  if (from._internal_color_range() != 0) {
+    _this->_internal_set_color_range(from._internal_color_range());
   }
-  if (from.color_primaries() != 0) {
-    _internal_set_color_primaries(from._internal_color_primaries());
+  if (from._internal_color_primaries() != 0) {
+    _this->_internal_set_color_primaries(from._internal_color_primaries());
   }
-  if (from.color_trc() != 0) {
-    _internal_set_color_trc(from._internal_color_trc());
+  if (from._internal_color_trc() != 0) {
+    _this->_internal_set_color_trc(from._internal_color_trc());
   }
-  if (from.color_space() != 0) {
-    _internal_set_color_space(from._internal_color_space());
+  if (from._internal_color_space() != 0) {
+    _this->_internal_set_color_space(from._internal_color_space());
   }
-  if (from.chroma_location() != 0) {
-    _internal_set_chroma_location(from._internal_chroma_location());
+  if (from._internal_chroma_location() != 0) {
+    _this->_internal_set_chroma_location(from._internal_chroma_location());
   }
-  if (from.channel_layout() != 0) {
-    _internal_set_channel_layout(from._internal_channel_layout());
+  if (from._internal_channel_layout() != 0) {
+    _this->_internal_set_channel_layout(from._internal_channel_layout());
   }
-  if (from.video_delay() != 0) {
-    _internal_set_video_delay(from._internal_video_delay());
+  if (from._internal_video_delay() != 0) {
+    _this->_internal_set_video_delay(from._internal_video_delay());
   }
-  if (from.channels() != 0) {
-    _internal_set_channels(from._internal_channels());
+  if (from._internal_channels() != 0) {
+    _this->_internal_set_channels(from._internal_channels());
   }
-  if (from.sample_rate() != 0) {
-    _internal_set_sample_rate(from._internal_sample_rate());
+  if (from._internal_sample_rate() != 0) {
+    _this->_internal_set_sample_rate(from._internal_sample_rate());
   }
-  if (from.block_align() != 0) {
-    _internal_set_block_align(from._internal_block_align());
+  if (from._internal_block_align() != 0) {
+    _this->_internal_set_block_align(from._internal_block_align());
   }
-  if (from.frame_size() != 0) {
-    _internal_set_frame_size(from._internal_frame_size());
+  if (from._internal_frame_size() != 0) {
+    _this->_internal_set_frame_size(from._internal_frame_size());
   }
-  if (from.initial_padding() != 0) {
-    _internal_set_initial_padding(from._internal_initial_padding());
+  if (from._internal_initial_padding() != 0) {
+    _this->_internal_set_initial_padding(from._internal_initial_padding());
   }
-  if (from.trailing_padding() != 0) {
-    _internal_set_trailing_padding(from._internal_trailing_padding());
+  if (from._internal_trailing_padding() != 0) {
+    _this->_internal_set_trailing_padding(from._internal_trailing_padding());
   }
-  if (from.seek_preroll() != 0) {
-    _internal_set_seek_preroll(from._internal_seek_preroll());
+  if (from._internal_seek_preroll() != 0) {
+    _this->_internal_set_seek_preroll(from._internal_seek_preroll());
   }
-}
-
-void CodecParameters::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:CodecParameters)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
+  _this->_internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
 }
 
 void CodecParameters::CopyFrom(const CodecParameters& from) {
@@ -4198,215 +4236,240 @@ bool CodecParameters::IsInitialized() const {
 
 void CodecParameters::InternalSwap(CodecParameters* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  extradata_.Swap(&other->extradata_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
+  auto* lhs_arena = GetArenaForAllocation();
+  auto* rhs_arena = other->GetArenaForAllocation();
+  _internal_metadata_.InternalSwap(&other->_internal_metadata_);
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::InternalSwap(
+      &_impl_.extradata_, lhs_arena,
+      &other->_impl_.extradata_, rhs_arena
+  );
   ::PROTOBUF_NAMESPACE_ID::internal::memswap<
-      PROTOBUF_FIELD_OFFSET(CodecParameters, seek_preroll_)
-      + sizeof(CodecParameters::seek_preroll_)
-      - PROTOBUF_FIELD_OFFSET(CodecParameters, codec_type_)>(
-          reinterpret_cast<char*>(&codec_type_),
-          reinterpret_cast<char*>(&other->codec_type_));
+      PROTOBUF_FIELD_OFFSET(CodecParameters, _impl_.seek_preroll_)
+      + sizeof(CodecParameters::_impl_.seek_preroll_)
+      - PROTOBUF_FIELD_OFFSET(CodecParameters, _impl_.codec_type_)>(
+          reinterpret_cast<char*>(&_impl_.codec_type_),
+          reinterpret_cast<char*>(&other->_impl_.codec_type_));
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata CodecParameters::GetMetadata() const {
-  return GetMetadataStatic();
+  return ::_pbi::AssignDescriptors(
+      &descriptor_table_messages1_2eproto_getter, &descriptor_table_messages1_2eproto_once,
+      file_level_metadata_messages1_2eproto[8]);
 }
-
 
 // ===================================================================
 
-void MediaPacket::InitAsDefaultInstance() {
-}
 class MediaPacket::_Internal {
  public:
 };
 
-MediaPacket::MediaPacket(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
-  SharedCtor();
-  RegisterArenaDtor(arena);
+MediaPacket::MediaPacket(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+                         bool is_message_owned)
+  : ::PROTOBUF_NAMESPACE_ID::Message(arena, is_message_owned) {
+  SharedCtor(arena, is_message_owned);
   // @@protoc_insertion_point(arena_constructor:MediaPacket)
 }
 MediaPacket::MediaPacket(const MediaPacket& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
+  MediaPacket* const _this = this; (void)_this;
+  new (&_impl_) Impl_{
+      decltype(_impl_.data_){}
+    , decltype(_impl_.dts_){}
+    , decltype(_impl_.stream_id_){}
+    , decltype(_impl_.pts_offset_){}
+    , decltype(_impl_.frametype_){}
+    , decltype(_impl_.duration_){}
+    , /*decltype(_impl_._cached_size_)*/{}};
+
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  data_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  _impl_.data_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.data_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
   if (!from._internal_data().empty()) {
-    data_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from._internal_data(),
-      GetArena());
+    _this->_impl_.data_.Set(from._internal_data(), 
+      _this->GetArenaForAllocation());
   }
-  ::memcpy(&dts_, &from.dts_,
-    static_cast<size_t>(reinterpret_cast<char*>(&duration_) -
-    reinterpret_cast<char*>(&dts_)) + sizeof(duration_));
+  ::memcpy(&_impl_.dts_, &from._impl_.dts_,
+    static_cast<size_t>(reinterpret_cast<char*>(&_impl_.duration_) -
+    reinterpret_cast<char*>(&_impl_.dts_)) + sizeof(_impl_.duration_));
   // @@protoc_insertion_point(copy_constructor:MediaPacket)
 }
 
-void MediaPacket::SharedCtor() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_MediaPacket_messages1_2eproto.base);
-  data_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  ::memset(&dts_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&duration_) -
-      reinterpret_cast<char*>(&dts_)) + sizeof(duration_));
+inline void MediaPacket::SharedCtor(
+    ::_pb::Arena* arena, bool is_message_owned) {
+  (void)arena;
+  (void)is_message_owned;
+  new (&_impl_) Impl_{
+      decltype(_impl_.data_){}
+    , decltype(_impl_.dts_){uint64_t{0u}}
+    , decltype(_impl_.stream_id_){0u}
+    , decltype(_impl_.pts_offset_){0u}
+    , decltype(_impl_.frametype_){0}
+    , decltype(_impl_.duration_){0u}
+    , /*decltype(_impl_._cached_size_)*/{}
+  };
+  _impl_.data_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.data_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
 }
 
 MediaPacket::~MediaPacket() {
   // @@protoc_insertion_point(destructor:MediaPacket)
+  if (auto *arena = _internal_metadata_.DeleteReturnArena<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>()) {
+  (void)arena;
+    return;
+  }
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-void MediaPacket::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
-  data_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+inline void MediaPacket::SharedDtor() {
+  GOOGLE_DCHECK(GetArenaForAllocation() == nullptr);
+  _impl_.data_.Destroy();
 }
 
-void MediaPacket::ArenaDtor(void* object) {
-  MediaPacket* _this = reinterpret_cast< MediaPacket* >(object);
-  (void)_this;
-}
-void MediaPacket::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void MediaPacket::SetCachedSize(int size) const {
-  _cached_size_.Set(size);
+  _impl_._cached_size_.Set(size);
 }
-const MediaPacket& MediaPacket::default_instance() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_MediaPacket_messages1_2eproto.base);
-  return *internal_default_instance();
-}
-
 
 void MediaPacket::Clear() {
 // @@protoc_insertion_point(message_clear_start:MediaPacket)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  data_.ClearToEmpty(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
-  ::memset(&dts_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&duration_) -
-      reinterpret_cast<char*>(&dts_)) + sizeof(duration_));
+  _impl_.data_.ClearToEmpty();
+  ::memset(&_impl_.dts_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&_impl_.duration_) -
+      reinterpret_cast<char*>(&_impl_.dts_)) + sizeof(_impl_.duration_));
   _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-const char* MediaPacket::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+const char* MediaPacket::_InternalParse(const char* ptr, ::_pbi::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
-  ::PROTOBUF_NAMESPACE_ID::Arena* arena = GetArena(); (void)arena;
   while (!ctx->Done(&ptr)) {
-    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
-    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
-    CHK_(ptr);
+    uint32_t tag;
+    ptr = ::_pbi::ReadTag(ptr, &tag);
     switch (tag >> 3) {
       // uint32 stream_id = 1;
       case 1:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 8)) {
-          stream_id_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 8)) {
+          _impl_.stream_id_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint64 dts = 2;
       case 2:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 16)) {
-          dts_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 16)) {
+          _impl_.dts_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 pts_offset = 3;
       case 3:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 24)) {
-          pts_offset_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 24)) {
+          _impl_.pts_offset_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // .FrameType frametype = 4;
       case 4:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 32)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 32)) {
+          uint64_t val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
           CHK_(ptr);
           _internal_set_frametype(static_cast<::FrameType>(val));
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // bytes data = 5;
       case 5:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 42)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 42)) {
           auto str = _internal_mutable_data();
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
+          ptr = ::_pbi::InlineGreedyStringParser(str, ptr, ctx);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 duration = 6;
       case 6:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 48)) {
-          duration_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 48)) {
+          _impl_.duration_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
-      default: {
-      handle_unusual:
-        if ((tag & 7) == 4 || tag == 0) {
-          ctx->SetLastTag(tag);
-          goto success;
-        }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
-        CHK_(ptr != nullptr);
-        continue;
-      }
+      default:
+        goto handle_unusual;
     }  // switch
+  handle_unusual:
+    if ((tag == 0) || ((tag & 7) == 4)) {
+      CHK_(ptr);
+      ctx->SetLastTag(tag);
+      goto message_done;
+    }
+    ptr = UnknownFieldParse(
+        tag,
+        _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
+        ptr, ctx);
+    CHK_(ptr != nullptr);
   }  // while
-success:
+message_done:
   return ptr;
 failure:
   ptr = nullptr;
-  goto success;
+  goto message_done;
 #undef CHK_
 }
 
-::PROTOBUF_NAMESPACE_ID::uint8* MediaPacket::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+uint8_t* MediaPacket::_InternalSerialize(
+    uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
   // @@protoc_insertion_point(serialize_to_array_start:MediaPacket)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
   // uint32 stream_id = 1;
-  if (this->stream_id() != 0) {
+  if (this->_internal_stream_id() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(1, this->_internal_stream_id(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(1, this->_internal_stream_id(), target);
   }
 
   // uint64 dts = 2;
-  if (this->dts() != 0) {
+  if (this->_internal_dts() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt64ToArray(2, this->_internal_dts(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt64ToArray(2, this->_internal_dts(), target);
   }
 
   // uint32 pts_offset = 3;
-  if (this->pts_offset() != 0) {
+  if (this->_internal_pts_offset() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(3, this->_internal_pts_offset(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(3, this->_internal_pts_offset(), target);
   }
 
   // .FrameType frametype = 4;
-  if (this->frametype() != 0) {
+  if (this->_internal_frametype() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
+    target = ::_pbi::WireFormatLite::WriteEnumToArray(
       4, this->_internal_frametype(), target);
   }
 
   // bytes data = 5;
-  if (this->data().size() > 0) {
+  if (!this->_internal_data().empty()) {
     target = stream->WriteBytesMaybeAliased(
         5, this->_internal_data(), target);
   }
 
   // uint32 duration = 6;
-  if (this->duration() != 0) {
+  if (this->_internal_duration() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(6, this->_internal_duration(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(6, this->_internal_duration(), target);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+    target = ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
   // @@protoc_insertion_point(serialize_to_array_end:MediaPacket)
@@ -4417,107 +4480,80 @@ size_t MediaPacket::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:MediaPacket)
   size_t total_size = 0;
 
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
   // bytes data = 5;
-  if (this->data().size() > 0) {
+  if (!this->_internal_data().empty()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::BytesSize(
         this->_internal_data());
   }
 
   // uint64 dts = 2;
-  if (this->dts() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt64Size(
-        this->_internal_dts());
+  if (this->_internal_dts() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt64SizePlusOne(this->_internal_dts());
   }
 
   // uint32 stream_id = 1;
-  if (this->stream_id() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_stream_id());
+  if (this->_internal_stream_id() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_stream_id());
   }
 
   // uint32 pts_offset = 3;
-  if (this->pts_offset() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_pts_offset());
+  if (this->_internal_pts_offset() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_pts_offset());
   }
 
   // .FrameType frametype = 4;
-  if (this->frametype() != 0) {
+  if (this->_internal_frametype() != 0) {
     total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_frametype());
+      ::_pbi::WireFormatLite::EnumSize(this->_internal_frametype());
   }
 
   // uint32 duration = 6;
-  if (this->duration() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_duration());
+  if (this->_internal_duration() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_duration());
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
-  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
-  SetCachedSize(cached_size);
-  return total_size;
+  return MaybeComputeUnknownFieldsSize(total_size, &_impl_._cached_size_);
 }
 
-void MediaPacket::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:MediaPacket)
-  GOOGLE_DCHECK_NE(&from, this);
-  const MediaPacket* source =
-      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<MediaPacket>(
-          &from);
-  if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:MediaPacket)
-    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:MediaPacket)
-    MergeFrom(*source);
-  }
-}
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData MediaPacket::_class_data_ = {
+    ::PROTOBUF_NAMESPACE_ID::Message::CopyWithSourceCheck,
+    MediaPacket::MergeImpl
+};
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*MediaPacket::GetClassData() const { return &_class_data_; }
 
-void MediaPacket::MergeFrom(const MediaPacket& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:MediaPacket)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+
+void MediaPacket::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message& to_msg, const ::PROTOBUF_NAMESPACE_ID::Message& from_msg) {
+  auto* const _this = static_cast<MediaPacket*>(&to_msg);
+  auto& from = static_cast<const MediaPacket&>(from_msg);
+  // @@protoc_insertion_point(class_specific_merge_from_start:MediaPacket)
+  GOOGLE_DCHECK_NE(&from, _this);
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if (from.data().size() > 0) {
-    _internal_set_data(from._internal_data());
+  if (!from._internal_data().empty()) {
+    _this->_internal_set_data(from._internal_data());
   }
-  if (from.dts() != 0) {
-    _internal_set_dts(from._internal_dts());
+  if (from._internal_dts() != 0) {
+    _this->_internal_set_dts(from._internal_dts());
   }
-  if (from.stream_id() != 0) {
-    _internal_set_stream_id(from._internal_stream_id());
+  if (from._internal_stream_id() != 0) {
+    _this->_internal_set_stream_id(from._internal_stream_id());
   }
-  if (from.pts_offset() != 0) {
-    _internal_set_pts_offset(from._internal_pts_offset());
+  if (from._internal_pts_offset() != 0) {
+    _this->_internal_set_pts_offset(from._internal_pts_offset());
   }
-  if (from.frametype() != 0) {
-    _internal_set_frametype(from._internal_frametype());
+  if (from._internal_frametype() != 0) {
+    _this->_internal_set_frametype(from._internal_frametype());
   }
-  if (from.duration() != 0) {
-    _internal_set_duration(from._internal_duration());
+  if (from._internal_duration() != 0) {
+    _this->_internal_set_duration(from._internal_duration());
   }
-}
-
-void MediaPacket::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:MediaPacket)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
+  _this->_internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
 }
 
 void MediaPacket::CopyFrom(const MediaPacket& from) {
@@ -4533,182 +4569,201 @@ bool MediaPacket::IsInitialized() const {
 
 void MediaPacket::InternalSwap(MediaPacket* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  data_.Swap(&other->data_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
+  auto* lhs_arena = GetArenaForAllocation();
+  auto* rhs_arena = other->GetArenaForAllocation();
+  _internal_metadata_.InternalSwap(&other->_internal_metadata_);
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::InternalSwap(
+      &_impl_.data_, lhs_arena,
+      &other->_impl_.data_, rhs_arena
+  );
   ::PROTOBUF_NAMESPACE_ID::internal::memswap<
-      PROTOBUF_FIELD_OFFSET(MediaPacket, duration_)
-      + sizeof(MediaPacket::duration_)
-      - PROTOBUF_FIELD_OFFSET(MediaPacket, dts_)>(
-          reinterpret_cast<char*>(&dts_),
-          reinterpret_cast<char*>(&other->dts_));
+      PROTOBUF_FIELD_OFFSET(MediaPacket, _impl_.duration_)
+      + sizeof(MediaPacket::_impl_.duration_)
+      - PROTOBUF_FIELD_OFFSET(MediaPacket, _impl_.dts_)>(
+          reinterpret_cast<char*>(&_impl_.dts_),
+          reinterpret_cast<char*>(&other->_impl_.dts_));
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata MediaPacket::GetMetadata() const {
-  return GetMetadataStatic();
+  return ::_pbi::AssignDescriptors(
+      &descriptor_table_messages1_2eproto_getter, &descriptor_table_messages1_2eproto_once,
+      file_level_metadata_messages1_2eproto[9]);
 }
-
 
 // ===================================================================
 
-void Start::InitAsDefaultInstance() {
-}
 class Start::_Internal {
  public:
 };
 
-Start::Start(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
-  SharedCtor();
-  RegisterArenaDtor(arena);
+Start::Start(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+                         bool is_message_owned)
+  : ::PROTOBUF_NAMESPACE_ID::Message(arena, is_message_owned) {
+  SharedCtor(arena, is_message_owned);
   // @@protoc_insertion_point(arena_constructor:Start)
 }
 Start::Start(const Start& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
+  Start* const _this = this; (void)_this;
+  new (&_impl_) Impl_{
+      decltype(_impl_.channel_){}
+    , decltype(_impl_.start_ts_){}
+    , decltype(_impl_.tb_num_){}
+    , decltype(_impl_.tb_den_){}
+    , /*decltype(_impl_._cached_size_)*/{}};
+
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  channel_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+  _impl_.channel_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.channel_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
   if (!from._internal_channel().empty()) {
-    channel_.Set(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), from._internal_channel(),
-      GetArena());
+    _this->_impl_.channel_.Set(from._internal_channel(), 
+      _this->GetArenaForAllocation());
   }
-  ::memcpy(&start_ts_, &from.start_ts_,
-    static_cast<size_t>(reinterpret_cast<char*>(&tb_den_) -
-    reinterpret_cast<char*>(&start_ts_)) + sizeof(tb_den_));
+  ::memcpy(&_impl_.start_ts_, &from._impl_.start_ts_,
+    static_cast<size_t>(reinterpret_cast<char*>(&_impl_.tb_den_) -
+    reinterpret_cast<char*>(&_impl_.start_ts_)) + sizeof(_impl_.tb_den_));
   // @@protoc_insertion_point(copy_constructor:Start)
 }
 
-void Start::SharedCtor() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_Start_messages1_2eproto.base);
-  channel_.UnsafeSetDefault(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
-  ::memset(&start_ts_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&tb_den_) -
-      reinterpret_cast<char*>(&start_ts_)) + sizeof(tb_den_));
+inline void Start::SharedCtor(
+    ::_pb::Arena* arena, bool is_message_owned) {
+  (void)arena;
+  (void)is_message_owned;
+  new (&_impl_) Impl_{
+      decltype(_impl_.channel_){}
+    , decltype(_impl_.start_ts_){uint64_t{0u}}
+    , decltype(_impl_.tb_num_){0u}
+    , decltype(_impl_.tb_den_){0u}
+    , /*decltype(_impl_._cached_size_)*/{}
+  };
+  _impl_.channel_.InitDefault();
+  #ifdef PROTOBUF_FORCE_COPY_DEFAULT_STRING
+    _impl_.channel_.Set("", GetArenaForAllocation());
+  #endif // PROTOBUF_FORCE_COPY_DEFAULT_STRING
 }
 
 Start::~Start() {
   // @@protoc_insertion_point(destructor:Start)
+  if (auto *arena = _internal_metadata_.DeleteReturnArena<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>()) {
+  (void)arena;
+    return;
+  }
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-void Start::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
-  channel_.DestroyNoArena(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited());
+inline void Start::SharedDtor() {
+  GOOGLE_DCHECK(GetArenaForAllocation() == nullptr);
+  _impl_.channel_.Destroy();
 }
 
-void Start::ArenaDtor(void* object) {
-  Start* _this = reinterpret_cast< Start* >(object);
-  (void)_this;
-}
-void Start::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void Start::SetCachedSize(int size) const {
-  _cached_size_.Set(size);
+  _impl_._cached_size_.Set(size);
 }
-const Start& Start::default_instance() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_Start_messages1_2eproto.base);
-  return *internal_default_instance();
-}
-
 
 void Start::Clear() {
 // @@protoc_insertion_point(message_clear_start:Start)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  channel_.ClearToEmpty(&::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
-  ::memset(&start_ts_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&tb_den_) -
-      reinterpret_cast<char*>(&start_ts_)) + sizeof(tb_den_));
+  _impl_.channel_.ClearToEmpty();
+  ::memset(&_impl_.start_ts_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&_impl_.tb_den_) -
+      reinterpret_cast<char*>(&_impl_.start_ts_)) + sizeof(_impl_.tb_den_));
   _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-const char* Start::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+const char* Start::_InternalParse(const char* ptr, ::_pbi::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
-  ::PROTOBUF_NAMESPACE_ID::Arena* arena = GetArena(); (void)arena;
   while (!ctx->Done(&ptr)) {
-    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
-    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
-    CHK_(ptr);
+    uint32_t tag;
+    ptr = ::_pbi::ReadTag(ptr, &tag);
     switch (tag >> 3) {
       // uint64 start_ts = 1;
       case 1:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 8)) {
-          start_ts_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 8)) {
+          _impl_.start_ts_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 tb_num = 2;
       case 2:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 16)) {
-          tb_num_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 16)) {
+          _impl_.tb_num_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // uint32 tb_den = 3;
       case 3:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 24)) {
-          tb_den_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 24)) {
+          _impl_.tb_den_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint32(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // string channel = 4;
       case 4:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 34)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 34)) {
           auto str = _internal_mutable_channel();
-          ptr = ::PROTOBUF_NAMESPACE_ID::internal::InlineGreedyStringParser(str, ptr, ctx);
-          CHK_(::PROTOBUF_NAMESPACE_ID::internal::VerifyUTF8(str, "Start.channel"));
+          ptr = ::_pbi::InlineGreedyStringParser(str, ptr, ctx);
           CHK_(ptr);
-        } else goto handle_unusual;
+          CHK_(::_pbi::VerifyUTF8(str, "Start.channel"));
+        } else
+          goto handle_unusual;
         continue;
-      default: {
-      handle_unusual:
-        if ((tag & 7) == 4 || tag == 0) {
-          ctx->SetLastTag(tag);
-          goto success;
-        }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
-        CHK_(ptr != nullptr);
-        continue;
-      }
+      default:
+        goto handle_unusual;
     }  // switch
+  handle_unusual:
+    if ((tag == 0) || ((tag & 7) == 4)) {
+      CHK_(ptr);
+      ctx->SetLastTag(tag);
+      goto message_done;
+    }
+    ptr = UnknownFieldParse(
+        tag,
+        _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
+        ptr, ctx);
+    CHK_(ptr != nullptr);
   }  // while
-success:
+message_done:
   return ptr;
 failure:
   ptr = nullptr;
-  goto success;
+  goto message_done;
 #undef CHK_
 }
 
-::PROTOBUF_NAMESPACE_ID::uint8* Start::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+uint8_t* Start::_InternalSerialize(
+    uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
   // @@protoc_insertion_point(serialize_to_array_start:Start)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
   // uint64 start_ts = 1;
-  if (this->start_ts() != 0) {
+  if (this->_internal_start_ts() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt64ToArray(1, this->_internal_start_ts(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt64ToArray(1, this->_internal_start_ts(), target);
   }
 
   // uint32 tb_num = 2;
-  if (this->tb_num() != 0) {
+  if (this->_internal_tb_num() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(2, this->_internal_tb_num(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(2, this->_internal_tb_num(), target);
   }
 
   // uint32 tb_den = 3;
-  if (this->tb_den() != 0) {
+  if (this->_internal_tb_den() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteUInt32ToArray(3, this->_internal_tb_den(), target);
+    target = ::_pbi::WireFormatLite::WriteUInt32ToArray(3, this->_internal_tb_den(), target);
   }
 
   // string channel = 4;
-  if (this->channel().size() > 0) {
+  if (!this->_internal_channel().empty()) {
     ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::VerifyUtf8String(
       this->_internal_channel().data(), static_cast<int>(this->_internal_channel().length()),
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::SERIALIZE,
@@ -4718,7 +4773,7 @@ failure:
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+    target = ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
   // @@protoc_insertion_point(serialize_to_array_end:Start)
@@ -4729,88 +4784,63 @@ size_t Start::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:Start)
   size_t total_size = 0;
 
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
   // string channel = 4;
-  if (this->channel().size() > 0) {
+  if (!this->_internal_channel().empty()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::StringSize(
         this->_internal_channel());
   }
 
   // uint64 start_ts = 1;
-  if (this->start_ts() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt64Size(
-        this->_internal_start_ts());
+  if (this->_internal_start_ts() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt64SizePlusOne(this->_internal_start_ts());
   }
 
   // uint32 tb_num = 2;
-  if (this->tb_num() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_tb_num());
+  if (this->_internal_tb_num() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_tb_num());
   }
 
   // uint32 tb_den = 3;
-  if (this->tb_den() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::UInt32Size(
-        this->_internal_tb_den());
+  if (this->_internal_tb_den() != 0) {
+    total_size += ::_pbi::WireFormatLite::UInt32SizePlusOne(this->_internal_tb_den());
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
-  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
-  SetCachedSize(cached_size);
-  return total_size;
+  return MaybeComputeUnknownFieldsSize(total_size, &_impl_._cached_size_);
 }
 
-void Start::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:Start)
-  GOOGLE_DCHECK_NE(&from, this);
-  const Start* source =
-      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<Start>(
-          &from);
-  if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:Start)
-    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:Start)
-    MergeFrom(*source);
-  }
-}
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData Start::_class_data_ = {
+    ::PROTOBUF_NAMESPACE_ID::Message::CopyWithSourceCheck,
+    Start::MergeImpl
+};
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*Start::GetClassData() const { return &_class_data_; }
 
-void Start::MergeFrom(const Start& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:Start)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+
+void Start::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message& to_msg, const ::PROTOBUF_NAMESPACE_ID::Message& from_msg) {
+  auto* const _this = static_cast<Start*>(&to_msg);
+  auto& from = static_cast<const Start&>(from_msg);
+  // @@protoc_insertion_point(class_specific_merge_from_start:Start)
+  GOOGLE_DCHECK_NE(&from, _this);
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if (from.channel().size() > 0) {
-    _internal_set_channel(from._internal_channel());
+  if (!from._internal_channel().empty()) {
+    _this->_internal_set_channel(from._internal_channel());
   }
-  if (from.start_ts() != 0) {
-    _internal_set_start_ts(from._internal_start_ts());
+  if (from._internal_start_ts() != 0) {
+    _this->_internal_set_start_ts(from._internal_start_ts());
   }
-  if (from.tb_num() != 0) {
-    _internal_set_tb_num(from._internal_tb_num());
+  if (from._internal_tb_num() != 0) {
+    _this->_internal_set_tb_num(from._internal_tb_num());
   }
-  if (from.tb_den() != 0) {
-    _internal_set_tb_den(from._internal_tb_den());
+  if (from._internal_tb_den() != 0) {
+    _this->_internal_set_tb_den(from._internal_tb_den());
   }
-}
-
-void Start::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:Start)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
+  _this->_internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
 }
 
 void Start::CopyFrom(const Start& from) {
@@ -4826,295 +4856,183 @@ bool Start::IsInitialized() const {
 
 void Start::InternalSwap(Start* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  channel_.Swap(&other->channel_, &::PROTOBUF_NAMESPACE_ID::internal::GetEmptyStringAlreadyInited(), GetArena());
+  auto* lhs_arena = GetArenaForAllocation();
+  auto* rhs_arena = other->GetArenaForAllocation();
+  _internal_metadata_.InternalSwap(&other->_internal_metadata_);
+  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr::InternalSwap(
+      &_impl_.channel_, lhs_arena,
+      &other->_impl_.channel_, rhs_arena
+  );
   ::PROTOBUF_NAMESPACE_ID::internal::memswap<
-      PROTOBUF_FIELD_OFFSET(Start, tb_den_)
-      + sizeof(Start::tb_den_)
-      - PROTOBUF_FIELD_OFFSET(Start, start_ts_)>(
-          reinterpret_cast<char*>(&start_ts_),
-          reinterpret_cast<char*>(&other->start_ts_));
+      PROTOBUF_FIELD_OFFSET(Start, _impl_.tb_den_)
+      + sizeof(Start::_impl_.tb_den_)
+      - PROTOBUF_FIELD_OFFSET(Start, _impl_.start_ts_)>(
+          reinterpret_cast<char*>(&_impl_.start_ts_),
+          reinterpret_cast<char*>(&other->_impl_.start_ts_));
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata Start::GetMetadata() const {
-  return GetMetadataStatic();
+  return ::_pbi::AssignDescriptors(
+      &descriptor_table_messages1_2eproto_getter, &descriptor_table_messages1_2eproto_once,
+      file_level_metadata_messages1_2eproto[10]);
 }
-
 
 // ===================================================================
 
-void Stop::InitAsDefaultInstance() {
-}
 class Stop::_Internal {
  public:
 };
 
-Stop::Stop(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
-  SharedCtor();
-  RegisterArenaDtor(arena);
+Stop::Stop(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+                         bool is_message_owned)
+  : ::PROTOBUF_NAMESPACE_ID::internal::ZeroFieldsBase(arena, is_message_owned) {
   // @@protoc_insertion_point(arena_constructor:Stop)
 }
 Stop::Stop(const Stop& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message() {
+  : ::PROTOBUF_NAMESPACE_ID::internal::ZeroFieldsBase() {
+  Stop* const _this = this; (void)_this;
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   // @@protoc_insertion_point(copy_constructor:Stop)
 }
 
-void Stop::SharedCtor() {
-}
-
-Stop::~Stop() {
-  // @@protoc_insertion_point(destructor:Stop)
-  SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
-}
-
-void Stop::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
-}
-
-void Stop::ArenaDtor(void* object) {
-  Stop* _this = reinterpret_cast< Stop* >(object);
-  (void)_this;
-}
-void Stop::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
-void Stop::SetCachedSize(int size) const {
-  _cached_size_.Set(size);
-}
-const Stop& Stop::default_instance() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_Stop_messages1_2eproto.base);
-  return *internal_default_instance();
-}
 
 
-void Stop::Clear() {
-// @@protoc_insertion_point(message_clear_start:Stop)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
 
-  _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
-}
 
-const char* Stop::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
-#define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
-  ::PROTOBUF_NAMESPACE_ID::Arena* arena = GetArena(); (void)arena;
-  while (!ctx->Done(&ptr)) {
-    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
-    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
-    CHK_(ptr);
-        if ((tag & 7) == 4 || tag == 0) {
-          ctx->SetLastTag(tag);
-          goto success;
-        }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
-        CHK_(ptr != nullptr);
-        continue;
-  }  // while
-success:
-  return ptr;
-failure:
-  ptr = nullptr;
-  goto success;
-#undef CHK_
-}
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData Stop::_class_data_ = {
+    ::PROTOBUF_NAMESPACE_ID::internal::ZeroFieldsBase::CopyImpl,
+    ::PROTOBUF_NAMESPACE_ID::internal::ZeroFieldsBase::MergeImpl,
+};
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*Stop::GetClassData() const { return &_class_data_; }
 
-::PROTOBUF_NAMESPACE_ID::uint8* Stop::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
-  // @@protoc_insertion_point(serialize_to_array_start:Stop)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
-        _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
-  }
-  // @@protoc_insertion_point(serialize_to_array_end:Stop)
-  return target;
-}
 
-size_t Stop::ByteSizeLong() const {
-// @@protoc_insertion_point(message_byte_size_start:Stop)
-  size_t total_size = 0;
 
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
-  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
-  SetCachedSize(cached_size);
-  return total_size;
-}
 
-void Stop::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:Stop)
-  GOOGLE_DCHECK_NE(&from, this);
-  const Stop* source =
-      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<Stop>(
-          &from);
-  if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:Stop)
-    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:Stop)
-    MergeFrom(*source);
-  }
-}
-
-void Stop::MergeFrom(const Stop& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:Stop)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-}
-
-void Stop::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:Stop)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void Stop::CopyFrom(const Stop& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:Stop)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool Stop::IsInitialized() const {
-  return true;
-}
-
-void Stop::InternalSwap(Stop* other) {
-  using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-}
 
 ::PROTOBUF_NAMESPACE_ID::Metadata Stop::GetMetadata() const {
-  return GetMetadataStatic();
+  return ::_pbi::AssignDescriptors(
+      &descriptor_table_messages1_2eproto_getter, &descriptor_table_messages1_2eproto_once,
+      file_level_metadata_messages1_2eproto[11]);
 }
-
 
 // ===================================================================
 
-void GopSlice::InitAsDefaultInstance() {
-}
 class GopSlice::_Internal {
  public:
 };
 
-GopSlice::GopSlice(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena),
-  packets_(arena) {
-  SharedCtor();
-  RegisterArenaDtor(arena);
+GopSlice::GopSlice(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+                         bool is_message_owned)
+  : ::PROTOBUF_NAMESPACE_ID::Message(arena, is_message_owned) {
+  SharedCtor(arena, is_message_owned);
   // @@protoc_insertion_point(arena_constructor:GopSlice)
 }
 GopSlice::GopSlice(const GopSlice& from)
-  : ::PROTOBUF_NAMESPACE_ID::Message(),
-      packets_(from.packets_) {
+  : ::PROTOBUF_NAMESPACE_ID::Message() {
+  GopSlice* const _this = this; (void)_this;
+  new (&_impl_) Impl_{
+      decltype(_impl_.packets_){from._impl_.packets_}
+    , decltype(_impl_.ts_num_){}
+    , decltype(_impl_.ts_den_){}
+    , decltype(_impl_.duration_num_){}
+    , decltype(_impl_.duration_den_){}
+    , /*decltype(_impl_._cached_size_)*/{}};
+
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::memcpy(&ts_num_, &from.ts_num_,
-    static_cast<size_t>(reinterpret_cast<char*>(&duration_den_) -
-    reinterpret_cast<char*>(&ts_num_)) + sizeof(duration_den_));
+  ::memcpy(&_impl_.ts_num_, &from._impl_.ts_num_,
+    static_cast<size_t>(reinterpret_cast<char*>(&_impl_.duration_den_) -
+    reinterpret_cast<char*>(&_impl_.ts_num_)) + sizeof(_impl_.duration_den_));
   // @@protoc_insertion_point(copy_constructor:GopSlice)
 }
 
-void GopSlice::SharedCtor() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_GopSlice_messages1_2eproto.base);
-  ::memset(&ts_num_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&duration_den_) -
-      reinterpret_cast<char*>(&ts_num_)) + sizeof(duration_den_));
+inline void GopSlice::SharedCtor(
+    ::_pb::Arena* arena, bool is_message_owned) {
+  (void)arena;
+  (void)is_message_owned;
+  new (&_impl_) Impl_{
+      decltype(_impl_.packets_){arena}
+    , decltype(_impl_.ts_num_){int64_t{0}}
+    , decltype(_impl_.ts_den_){int64_t{0}}
+    , decltype(_impl_.duration_num_){int64_t{0}}
+    , decltype(_impl_.duration_den_){int64_t{0}}
+    , /*decltype(_impl_._cached_size_)*/{}
+  };
 }
 
 GopSlice::~GopSlice() {
   // @@protoc_insertion_point(destructor:GopSlice)
+  if (auto *arena = _internal_metadata_.DeleteReturnArena<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>()) {
+  (void)arena;
+    return;
+  }
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-void GopSlice::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
+inline void GopSlice::SharedDtor() {
+  GOOGLE_DCHECK(GetArenaForAllocation() == nullptr);
+  _impl_.packets_.~RepeatedPtrField();
 }
 
-void GopSlice::ArenaDtor(void* object) {
-  GopSlice* _this = reinterpret_cast< GopSlice* >(object);
-  (void)_this;
-}
-void GopSlice::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void GopSlice::SetCachedSize(int size) const {
-  _cached_size_.Set(size);
+  _impl_._cached_size_.Set(size);
 }
-const GopSlice& GopSlice::default_instance() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_GopSlice_messages1_2eproto.base);
-  return *internal_default_instance();
-}
-
 
 void GopSlice::Clear() {
 // @@protoc_insertion_point(message_clear_start:GopSlice)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  packets_.Clear();
-  ::memset(&ts_num_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&duration_den_) -
-      reinterpret_cast<char*>(&ts_num_)) + sizeof(duration_den_));
+  _impl_.packets_.Clear();
+  ::memset(&_impl_.ts_num_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&_impl_.duration_den_) -
+      reinterpret_cast<char*>(&_impl_.ts_num_)) + sizeof(_impl_.duration_den_));
   _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-const char* GopSlice::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+const char* GopSlice::_InternalParse(const char* ptr, ::_pbi::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
-  ::PROTOBUF_NAMESPACE_ID::Arena* arena = GetArena(); (void)arena;
   while (!ctx->Done(&ptr)) {
-    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
-    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
-    CHK_(ptr);
+    uint32_t tag;
+    ptr = ::_pbi::ReadTag(ptr, &tag);
     switch (tag >> 3) {
       // int64 ts_num = 1;
       case 1:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 8)) {
-          ts_num_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 8)) {
+          _impl_.ts_num_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // int64 ts_den = 2;
       case 2:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 16)) {
-          ts_den_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 16)) {
+          _impl_.ts_den_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // int64 duration_num = 3;
       case 3:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 24)) {
-          duration_num_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 24)) {
+          _impl_.duration_num_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // int64 duration_den = 4;
       case 4:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 32)) {
-          duration_den_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 32)) {
+          _impl_.duration_den_ = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // repeated .MediaPacket packets = 5;
       case 5:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 42)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 42)) {
           ptr -= 1;
           do {
             ptr += 1;
@@ -5122,70 +5040,72 @@ const char* GopSlice::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::i
             CHK_(ptr);
             if (!ctx->DataAvailable(ptr)) break;
           } while (::PROTOBUF_NAMESPACE_ID::internal::ExpectTag<42>(ptr));
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
-      default: {
-      handle_unusual:
-        if ((tag & 7) == 4 || tag == 0) {
-          ctx->SetLastTag(tag);
-          goto success;
-        }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
-        CHK_(ptr != nullptr);
-        continue;
-      }
+      default:
+        goto handle_unusual;
     }  // switch
+  handle_unusual:
+    if ((tag == 0) || ((tag & 7) == 4)) {
+      CHK_(ptr);
+      ctx->SetLastTag(tag);
+      goto message_done;
+    }
+    ptr = UnknownFieldParse(
+        tag,
+        _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
+        ptr, ctx);
+    CHK_(ptr != nullptr);
   }  // while
-success:
+message_done:
   return ptr;
 failure:
   ptr = nullptr;
-  goto success;
+  goto message_done;
 #undef CHK_
 }
 
-::PROTOBUF_NAMESPACE_ID::uint8* GopSlice::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+uint8_t* GopSlice::_InternalSerialize(
+    uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
   // @@protoc_insertion_point(serialize_to_array_start:GopSlice)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
   // int64 ts_num = 1;
-  if (this->ts_num() != 0) {
+  if (this->_internal_ts_num() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt64ToArray(1, this->_internal_ts_num(), target);
+    target = ::_pbi::WireFormatLite::WriteInt64ToArray(1, this->_internal_ts_num(), target);
   }
 
   // int64 ts_den = 2;
-  if (this->ts_den() != 0) {
+  if (this->_internal_ts_den() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt64ToArray(2, this->_internal_ts_den(), target);
+    target = ::_pbi::WireFormatLite::WriteInt64ToArray(2, this->_internal_ts_den(), target);
   }
 
   // int64 duration_num = 3;
-  if (this->duration_num() != 0) {
+  if (this->_internal_duration_num() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt64ToArray(3, this->_internal_duration_num(), target);
+    target = ::_pbi::WireFormatLite::WriteInt64ToArray(3, this->_internal_duration_num(), target);
   }
 
   // int64 duration_den = 4;
-  if (this->duration_den() != 0) {
+  if (this->_internal_duration_den() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteInt64ToArray(4, this->_internal_duration_den(), target);
+    target = ::_pbi::WireFormatLite::WriteInt64ToArray(4, this->_internal_duration_den(), target);
   }
 
   // repeated .MediaPacket packets = 5;
-  for (unsigned int i = 0,
-      n = static_cast<unsigned int>(this->_internal_packets_size()); i < n; i++) {
-    target = stream->EnsureSpace(target);
+  for (unsigned i = 0,
+      n = static_cast<unsigned>(this->_internal_packets_size()); i < n; i++) {
+    const auto& repfield = this->_internal_packets(i);
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(5, this->_internal_packets(i), target, stream);
+        InternalWriteMessage(5, repfield, repfield.GetCachedSize(), target, stream);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+    target = ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
   // @@protoc_insertion_point(serialize_to_array_end:GopSlice)
@@ -5196,96 +5116,69 @@ size_t GopSlice::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:GopSlice)
   size_t total_size = 0;
 
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
   // repeated .MediaPacket packets = 5;
   total_size += 1UL * this->_internal_packets_size();
-  for (const auto& msg : this->packets_) {
+  for (const auto& msg : this->_impl_.packets_) {
     total_size +=
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(msg);
   }
 
   // int64 ts_num = 1;
-  if (this->ts_num() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int64Size(
-        this->_internal_ts_num());
+  if (this->_internal_ts_num() != 0) {
+    total_size += ::_pbi::WireFormatLite::Int64SizePlusOne(this->_internal_ts_num());
   }
 
   // int64 ts_den = 2;
-  if (this->ts_den() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int64Size(
-        this->_internal_ts_den());
+  if (this->_internal_ts_den() != 0) {
+    total_size += ::_pbi::WireFormatLite::Int64SizePlusOne(this->_internal_ts_den());
   }
 
   // int64 duration_num = 3;
-  if (this->duration_num() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int64Size(
-        this->_internal_duration_num());
+  if (this->_internal_duration_num() != 0) {
+    total_size += ::_pbi::WireFormatLite::Int64SizePlusOne(this->_internal_duration_num());
   }
 
   // int64 duration_den = 4;
-  if (this->duration_den() != 0) {
-    total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::Int64Size(
-        this->_internal_duration_den());
+  if (this->_internal_duration_den() != 0) {
+    total_size += ::_pbi::WireFormatLite::Int64SizePlusOne(this->_internal_duration_den());
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
-  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
-  SetCachedSize(cached_size);
-  return total_size;
+  return MaybeComputeUnknownFieldsSize(total_size, &_impl_._cached_size_);
 }
 
-void GopSlice::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:GopSlice)
-  GOOGLE_DCHECK_NE(&from, this);
-  const GopSlice* source =
-      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<GopSlice>(
-          &from);
-  if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:GopSlice)
-    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:GopSlice)
-    MergeFrom(*source);
-  }
-}
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData GopSlice::_class_data_ = {
+    ::PROTOBUF_NAMESPACE_ID::Message::CopyWithSourceCheck,
+    GopSlice::MergeImpl
+};
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*GopSlice::GetClassData() const { return &_class_data_; }
 
-void GopSlice::MergeFrom(const GopSlice& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:GopSlice)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+
+void GopSlice::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message& to_msg, const ::PROTOBUF_NAMESPACE_ID::Message& from_msg) {
+  auto* const _this = static_cast<GopSlice*>(&to_msg);
+  auto& from = static_cast<const GopSlice&>(from_msg);
+  // @@protoc_insertion_point(class_specific_merge_from_start:GopSlice)
+  GOOGLE_DCHECK_NE(&from, _this);
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  packets_.MergeFrom(from.packets_);
-  if (from.ts_num() != 0) {
-    _internal_set_ts_num(from._internal_ts_num());
+  _this->_impl_.packets_.MergeFrom(from._impl_.packets_);
+  if (from._internal_ts_num() != 0) {
+    _this->_internal_set_ts_num(from._internal_ts_num());
   }
-  if (from.ts_den() != 0) {
-    _internal_set_ts_den(from._internal_ts_den());
+  if (from._internal_ts_den() != 0) {
+    _this->_internal_set_ts_den(from._internal_ts_den());
   }
-  if (from.duration_num() != 0) {
-    _internal_set_duration_num(from._internal_duration_num());
+  if (from._internal_duration_num() != 0) {
+    _this->_internal_set_duration_num(from._internal_duration_num());
   }
-  if (from.duration_den() != 0) {
-    _internal_set_duration_den(from._internal_duration_den());
+  if (from._internal_duration_den() != 0) {
+    _this->_internal_set_duration_den(from._internal_duration_den());
   }
-}
-
-void GopSlice::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:GopSlice)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
+  _this->_internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
 }
 
 void GopSlice::CopyFrom(const GopSlice& from) {
@@ -5301,35 +5194,24 @@ bool GopSlice::IsInitialized() const {
 
 void GopSlice::InternalSwap(GopSlice* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
-  packets_.InternalSwap(&other->packets_);
+  _internal_metadata_.InternalSwap(&other->_internal_metadata_);
+  _impl_.packets_.InternalSwap(&other->_impl_.packets_);
   ::PROTOBUF_NAMESPACE_ID::internal::memswap<
-      PROTOBUF_FIELD_OFFSET(GopSlice, duration_den_)
-      + sizeof(GopSlice::duration_den_)
-      - PROTOBUF_FIELD_OFFSET(GopSlice, ts_num_)>(
-          reinterpret_cast<char*>(&ts_num_),
-          reinterpret_cast<char*>(&other->ts_num_));
+      PROTOBUF_FIELD_OFFSET(GopSlice, _impl_.duration_den_)
+      + sizeof(GopSlice::_impl_.duration_den_)
+      - PROTOBUF_FIELD_OFFSET(GopSlice, _impl_.ts_num_)>(
+          reinterpret_cast<char*>(&_impl_.ts_num_),
+          reinterpret_cast<char*>(&other->_impl_.ts_num_));
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata GopSlice::GetMetadata() const {
-  return GetMetadataStatic();
+  return ::_pbi::AssignDescriptors(
+      &descriptor_table_messages1_2eproto_getter, &descriptor_table_messages1_2eproto_once,
+      file_level_metadata_messages1_2eproto[12]);
 }
-
 
 // ===================================================================
 
-void Msg::InitAsDefaultInstance() {
-  ::_Msg_default_instance_._instance.get_mutable()->stop_ = const_cast< ::Stop*>(
-      ::Stop::internal_default_instance());
-  ::_Msg_default_instance_._instance.get_mutable()->start_ = const_cast< ::Start*>(
-      ::Start::internal_default_instance());
-  ::_Msg_default_instance_._instance.get_mutable()->stream_ = const_cast< ::Stream*>(
-      ::Stream::internal_default_instance());
-  ::_Msg_default_instance_._instance.get_mutable()->mediapacket_ = const_cast< ::MediaPacket*>(
-      ::MediaPacket::internal_default_instance());
-  ::_Msg_default_instance_._instance.get_mutable()->gopslice_ = const_cast< ::GopSlice*>(
-      ::GopSlice::internal_default_instance());
-}
 class Msg::_Internal {
  public:
   static const ::Stop& stop(const Msg* msg);
@@ -5341,257 +5223,257 @@ class Msg::_Internal {
 
 const ::Stop&
 Msg::_Internal::stop(const Msg* msg) {
-  return *msg->stop_;
+  return *msg->_impl_.stop_;
 }
 const ::Start&
 Msg::_Internal::start(const Msg* msg) {
-  return *msg->start_;
+  return *msg->_impl_.start_;
 }
 const ::Stream&
 Msg::_Internal::stream(const Msg* msg) {
-  return *msg->stream_;
+  return *msg->_impl_.stream_;
 }
 const ::MediaPacket&
 Msg::_Internal::mediapacket(const Msg* msg) {
-  return *msg->mediapacket_;
+  return *msg->_impl_.mediapacket_;
 }
 const ::GopSlice&
 Msg::_Internal::gopslice(const Msg* msg) {
-  return *msg->gopslice_;
+  return *msg->_impl_.gopslice_;
 }
-Msg::Msg(::PROTOBUF_NAMESPACE_ID::Arena* arena)
-  : ::PROTOBUF_NAMESPACE_ID::Message(arena) {
-  SharedCtor();
-  RegisterArenaDtor(arena);
+Msg::Msg(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+                         bool is_message_owned)
+  : ::PROTOBUF_NAMESPACE_ID::Message(arena, is_message_owned) {
+  SharedCtor(arena, is_message_owned);
   // @@protoc_insertion_point(arena_constructor:Msg)
 }
 Msg::Msg(const Msg& from)
   : ::PROTOBUF_NAMESPACE_ID::Message() {
+  Msg* const _this = this; (void)_this;
+  new (&_impl_) Impl_{
+      decltype(_impl_.stop_){nullptr}
+    , decltype(_impl_.start_){nullptr}
+    , decltype(_impl_.stream_){nullptr}
+    , decltype(_impl_.mediapacket_){nullptr}
+    , decltype(_impl_.gopslice_){nullptr}
+    , decltype(_impl_.type_){}
+    , /*decltype(_impl_._cached_size_)*/{}};
+
   _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
   if (from._internal_has_stop()) {
-    stop_ = new ::Stop(*from.stop_);
-  } else {
-    stop_ = nullptr;
+    _this->_impl_.stop_ = new ::Stop(*from._impl_.stop_);
   }
   if (from._internal_has_start()) {
-    start_ = new ::Start(*from.start_);
-  } else {
-    start_ = nullptr;
+    _this->_impl_.start_ = new ::Start(*from._impl_.start_);
   }
   if (from._internal_has_stream()) {
-    stream_ = new ::Stream(*from.stream_);
-  } else {
-    stream_ = nullptr;
+    _this->_impl_.stream_ = new ::Stream(*from._impl_.stream_);
   }
   if (from._internal_has_mediapacket()) {
-    mediapacket_ = new ::MediaPacket(*from.mediapacket_);
-  } else {
-    mediapacket_ = nullptr;
+    _this->_impl_.mediapacket_ = new ::MediaPacket(*from._impl_.mediapacket_);
   }
   if (from._internal_has_gopslice()) {
-    gopslice_ = new ::GopSlice(*from.gopslice_);
-  } else {
-    gopslice_ = nullptr;
+    _this->_impl_.gopslice_ = new ::GopSlice(*from._impl_.gopslice_);
   }
-  type_ = from.type_;
+  _this->_impl_.type_ = from._impl_.type_;
   // @@protoc_insertion_point(copy_constructor:Msg)
 }
 
-void Msg::SharedCtor() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&scc_info_Msg_messages1_2eproto.base);
-  ::memset(&stop_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&type_) -
-      reinterpret_cast<char*>(&stop_)) + sizeof(type_));
+inline void Msg::SharedCtor(
+    ::_pb::Arena* arena, bool is_message_owned) {
+  (void)arena;
+  (void)is_message_owned;
+  new (&_impl_) Impl_{
+      decltype(_impl_.stop_){nullptr}
+    , decltype(_impl_.start_){nullptr}
+    , decltype(_impl_.stream_){nullptr}
+    , decltype(_impl_.mediapacket_){nullptr}
+    , decltype(_impl_.gopslice_){nullptr}
+    , decltype(_impl_.type_){0}
+    , /*decltype(_impl_._cached_size_)*/{}
+  };
 }
 
 Msg::~Msg() {
   // @@protoc_insertion_point(destructor:Msg)
+  if (auto *arena = _internal_metadata_.DeleteReturnArena<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>()) {
+  (void)arena;
+    return;
+  }
   SharedDtor();
-  _internal_metadata_.Delete<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-void Msg::SharedDtor() {
-  GOOGLE_DCHECK(GetArena() == nullptr);
-  if (this != internal_default_instance()) delete stop_;
-  if (this != internal_default_instance()) delete start_;
-  if (this != internal_default_instance()) delete stream_;
-  if (this != internal_default_instance()) delete mediapacket_;
-  if (this != internal_default_instance()) delete gopslice_;
+inline void Msg::SharedDtor() {
+  GOOGLE_DCHECK(GetArenaForAllocation() == nullptr);
+  if (this != internal_default_instance()) delete _impl_.stop_;
+  if (this != internal_default_instance()) delete _impl_.start_;
+  if (this != internal_default_instance()) delete _impl_.stream_;
+  if (this != internal_default_instance()) delete _impl_.mediapacket_;
+  if (this != internal_default_instance()) delete _impl_.gopslice_;
 }
 
-void Msg::ArenaDtor(void* object) {
-  Msg* _this = reinterpret_cast< Msg* >(object);
-  (void)_this;
-}
-void Msg::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {
-}
 void Msg::SetCachedSize(int size) const {
-  _cached_size_.Set(size);
+  _impl_._cached_size_.Set(size);
 }
-const Msg& Msg::default_instance() {
-  ::PROTOBUF_NAMESPACE_ID::internal::InitSCC(&::scc_info_Msg_messages1_2eproto.base);
-  return *internal_default_instance();
-}
-
 
 void Msg::Clear() {
 // @@protoc_insertion_point(message_clear_start:Msg)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
-  if (GetArena() == nullptr && stop_ != nullptr) {
-    delete stop_;
+  if (GetArenaForAllocation() == nullptr && _impl_.stop_ != nullptr) {
+    delete _impl_.stop_;
   }
-  stop_ = nullptr;
-  if (GetArena() == nullptr && start_ != nullptr) {
-    delete start_;
+  _impl_.stop_ = nullptr;
+  if (GetArenaForAllocation() == nullptr && _impl_.start_ != nullptr) {
+    delete _impl_.start_;
   }
-  start_ = nullptr;
-  if (GetArena() == nullptr && stream_ != nullptr) {
-    delete stream_;
+  _impl_.start_ = nullptr;
+  if (GetArenaForAllocation() == nullptr && _impl_.stream_ != nullptr) {
+    delete _impl_.stream_;
   }
-  stream_ = nullptr;
-  if (GetArena() == nullptr && mediapacket_ != nullptr) {
-    delete mediapacket_;
+  _impl_.stream_ = nullptr;
+  if (GetArenaForAllocation() == nullptr && _impl_.mediapacket_ != nullptr) {
+    delete _impl_.mediapacket_;
   }
-  mediapacket_ = nullptr;
-  if (GetArena() == nullptr && gopslice_ != nullptr) {
-    delete gopslice_;
+  _impl_.mediapacket_ = nullptr;
+  if (GetArenaForAllocation() == nullptr && _impl_.gopslice_ != nullptr) {
+    delete _impl_.gopslice_;
   }
-  gopslice_ = nullptr;
-  type_ = 0;
+  _impl_.gopslice_ = nullptr;
+  _impl_.type_ = 0;
   _internal_metadata_.Clear<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>();
 }
 
-const char* Msg::_InternalParse(const char* ptr, ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) {
+const char* Msg::_InternalParse(const char* ptr, ::_pbi::ParseContext* ctx) {
 #define CHK_(x) if (PROTOBUF_PREDICT_FALSE(!(x))) goto failure
-  ::PROTOBUF_NAMESPACE_ID::Arena* arena = GetArena(); (void)arena;
   while (!ctx->Done(&ptr)) {
-    ::PROTOBUF_NAMESPACE_ID::uint32 tag;
-    ptr = ::PROTOBUF_NAMESPACE_ID::internal::ReadTag(ptr, &tag);
-    CHK_(ptr);
+    uint32_t tag;
+    ptr = ::_pbi::ReadTag(ptr, &tag);
     switch (tag >> 3) {
       // .Msg.Type type = 1;
       case 1:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 8)) {
-          ::PROTOBUF_NAMESPACE_ID::uint64 val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 8)) {
+          uint64_t val = ::PROTOBUF_NAMESPACE_ID::internal::ReadVarint64(&ptr);
           CHK_(ptr);
           _internal_set_type(static_cast<::Msg_Type>(val));
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // .Stop stop = 2;
       case 2:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 18)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 18)) {
           ptr = ctx->ParseMessage(_internal_mutable_stop(), ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // .Start start = 3;
       case 3:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 26)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 26)) {
           ptr = ctx->ParseMessage(_internal_mutable_start(), ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // .Stream stream = 4;
       case 4:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 34)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 34)) {
           ptr = ctx->ParseMessage(_internal_mutable_stream(), ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // .MediaPacket mediapacket = 5;
       case 5:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 42)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 42)) {
           ptr = ctx->ParseMessage(_internal_mutable_mediapacket(), ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
       // .GopSlice gopslice = 6;
       case 6:
-        if (PROTOBUF_PREDICT_TRUE(static_cast<::PROTOBUF_NAMESPACE_ID::uint8>(tag) == 50)) {
+        if (PROTOBUF_PREDICT_TRUE(static_cast<uint8_t>(tag) == 50)) {
           ptr = ctx->ParseMessage(_internal_mutable_gopslice(), ptr);
           CHK_(ptr);
-        } else goto handle_unusual;
+        } else
+          goto handle_unusual;
         continue;
-      default: {
-      handle_unusual:
-        if ((tag & 7) == 4 || tag == 0) {
-          ctx->SetLastTag(tag);
-          goto success;
-        }
-        ptr = UnknownFieldParse(tag,
-            _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
-            ptr, ctx);
-        CHK_(ptr != nullptr);
-        continue;
-      }
+      default:
+        goto handle_unusual;
     }  // switch
+  handle_unusual:
+    if ((tag == 0) || ((tag & 7) == 4)) {
+      CHK_(ptr);
+      ctx->SetLastTag(tag);
+      goto message_done;
+    }
+    ptr = UnknownFieldParse(
+        tag,
+        _internal_metadata_.mutable_unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(),
+        ptr, ctx);
+    CHK_(ptr != nullptr);
   }  // while
-success:
+message_done:
   return ptr;
 failure:
   ptr = nullptr;
-  goto success;
+  goto message_done;
 #undef CHK_
 }
 
-::PROTOBUF_NAMESPACE_ID::uint8* Msg::_InternalSerialize(
-    ::PROTOBUF_NAMESPACE_ID::uint8* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+uint8_t* Msg::_InternalSerialize(
+    uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
   // @@protoc_insertion_point(serialize_to_array_start:Msg)
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
   // .Msg.Type type = 1;
-  if (this->type() != 0) {
+  if (this->_internal_type() != 0) {
     target = stream->EnsureSpace(target);
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::WriteEnumToArray(
+    target = ::_pbi::WireFormatLite::WriteEnumToArray(
       1, this->_internal_type(), target);
   }
 
   // .Stop stop = 2;
-  if (this->has_stop()) {
-    target = stream->EnsureSpace(target);
+  if (this->_internal_has_stop()) {
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        2, _Internal::stop(this), target, stream);
+      InternalWriteMessage(2, _Internal::stop(this),
+        _Internal::stop(this).GetCachedSize(), target, stream);
   }
 
   // .Start start = 3;
-  if (this->has_start()) {
-    target = stream->EnsureSpace(target);
+  if (this->_internal_has_start()) {
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        3, _Internal::start(this), target, stream);
+      InternalWriteMessage(3, _Internal::start(this),
+        _Internal::start(this).GetCachedSize(), target, stream);
   }
 
   // .Stream stream = 4;
-  if (this->has_stream()) {
-    target = stream->EnsureSpace(target);
+  if (this->_internal_has_stream()) {
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        4, _Internal::stream(this), target, stream);
+      InternalWriteMessage(4, _Internal::stream(this),
+        _Internal::stream(this).GetCachedSize(), target, stream);
   }
 
   // .MediaPacket mediapacket = 5;
-  if (this->has_mediapacket()) {
-    target = stream->EnsureSpace(target);
+  if (this->_internal_has_mediapacket()) {
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        5, _Internal::mediapacket(this), target, stream);
+      InternalWriteMessage(5, _Internal::mediapacket(this),
+        _Internal::mediapacket(this).GetCachedSize(), target, stream);
   }
 
   // .GopSlice gopslice = 6;
-  if (this->has_gopslice()) {
-    target = stream->EnsureSpace(target);
+  if (this->_internal_has_gopslice()) {
     target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::
-      InternalWriteMessage(
-        6, _Internal::gopslice(this), target, stream);
+      InternalWriteMessage(6, _Internal::gopslice(this),
+        _Internal::gopslice(this).GetCachedSize(), target, stream);
   }
 
   if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    target = ::PROTOBUF_NAMESPACE_ID::internal::WireFormat::InternalSerializeUnknownFieldsToArray(
+    target = ::_pbi::WireFormat::InternalSerializeUnknownFieldsToArray(
         _internal_metadata_.unknown_fields<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(::PROTOBUF_NAMESPACE_ID::UnknownFieldSet::default_instance), target, stream);
   }
   // @@protoc_insertion_point(serialize_to_array_end:Msg)
@@ -5602,107 +5484,93 @@ size_t Msg::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:Msg)
   size_t total_size = 0;
 
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+  uint32_t cached_has_bits = 0;
   // Prevent compiler warnings about cached_has_bits being unused
   (void) cached_has_bits;
 
   // .Stop stop = 2;
-  if (this->has_stop()) {
+  if (this->_internal_has_stop()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
-        *stop_);
+        *_impl_.stop_);
   }
 
   // .Start start = 3;
-  if (this->has_start()) {
+  if (this->_internal_has_start()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
-        *start_);
+        *_impl_.start_);
   }
 
   // .Stream stream = 4;
-  if (this->has_stream()) {
+  if (this->_internal_has_stream()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
-        *stream_);
+        *_impl_.stream_);
   }
 
   // .MediaPacket mediapacket = 5;
-  if (this->has_mediapacket()) {
+  if (this->_internal_has_mediapacket()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
-        *mediapacket_);
+        *_impl_.mediapacket_);
   }
 
   // .GopSlice gopslice = 6;
-  if (this->has_gopslice()) {
+  if (this->_internal_has_gopslice()) {
     total_size += 1 +
       ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::MessageSize(
-        *gopslice_);
+        *_impl_.gopslice_);
   }
 
   // .Msg.Type type = 1;
-  if (this->type() != 0) {
+  if (this->_internal_type() != 0) {
     total_size += 1 +
-      ::PROTOBUF_NAMESPACE_ID::internal::WireFormatLite::EnumSize(this->_internal_type());
+      ::_pbi::WireFormatLite::EnumSize(this->_internal_type());
   }
 
-  if (PROTOBUF_PREDICT_FALSE(_internal_metadata_.have_unknown_fields())) {
-    return ::PROTOBUF_NAMESPACE_ID::internal::ComputeUnknownFieldsSize(
-        _internal_metadata_, total_size, &_cached_size_);
-  }
-  int cached_size = ::PROTOBUF_NAMESPACE_ID::internal::ToCachedSize(total_size);
-  SetCachedSize(cached_size);
-  return total_size;
+  return MaybeComputeUnknownFieldsSize(total_size, &_impl_._cached_size_);
 }
 
-void Msg::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:Msg)
-  GOOGLE_DCHECK_NE(&from, this);
-  const Msg* source =
-      ::PROTOBUF_NAMESPACE_ID::DynamicCastToGenerated<Msg>(
-          &from);
-  if (source == nullptr) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:Msg)
-    ::PROTOBUF_NAMESPACE_ID::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:Msg)
-    MergeFrom(*source);
-  }
-}
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData Msg::_class_data_ = {
+    ::PROTOBUF_NAMESPACE_ID::Message::CopyWithSourceCheck,
+    Msg::MergeImpl
+};
+const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*Msg::GetClassData() const { return &_class_data_; }
 
-void Msg::MergeFrom(const Msg& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:Msg)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
-  ::PROTOBUF_NAMESPACE_ID::uint32 cached_has_bits = 0;
+
+void Msg::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message& to_msg, const ::PROTOBUF_NAMESPACE_ID::Message& from_msg) {
+  auto* const _this = static_cast<Msg*>(&to_msg);
+  auto& from = static_cast<const Msg&>(from_msg);
+  // @@protoc_insertion_point(class_specific_merge_from_start:Msg)
+  GOOGLE_DCHECK_NE(&from, _this);
+  uint32_t cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if (from.has_stop()) {
-    _internal_mutable_stop()->::Stop::MergeFrom(from._internal_stop());
+  if (from._internal_has_stop()) {
+    _this->_internal_mutable_stop()->::Stop::MergeFrom(
+        from._internal_stop());
   }
-  if (from.has_start()) {
-    _internal_mutable_start()->::Start::MergeFrom(from._internal_start());
+  if (from._internal_has_start()) {
+    _this->_internal_mutable_start()->::Start::MergeFrom(
+        from._internal_start());
   }
-  if (from.has_stream()) {
-    _internal_mutable_stream()->::Stream::MergeFrom(from._internal_stream());
+  if (from._internal_has_stream()) {
+    _this->_internal_mutable_stream()->::Stream::MergeFrom(
+        from._internal_stream());
   }
-  if (from.has_mediapacket()) {
-    _internal_mutable_mediapacket()->::MediaPacket::MergeFrom(from._internal_mediapacket());
+  if (from._internal_has_mediapacket()) {
+    _this->_internal_mutable_mediapacket()->::MediaPacket::MergeFrom(
+        from._internal_mediapacket());
   }
-  if (from.has_gopslice()) {
-    _internal_mutable_gopslice()->::GopSlice::MergeFrom(from._internal_gopslice());
+  if (from._internal_has_gopslice()) {
+    _this->_internal_mutable_gopslice()->::GopSlice::MergeFrom(
+        from._internal_gopslice());
   }
-  if (from.type() != 0) {
-    _internal_set_type(from._internal_type());
+  if (from._internal_type() != 0) {
+    _this->_internal_set_type(from._internal_type());
   }
-}
-
-void Msg::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:Msg)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
+  _this->_internal_metadata_.MergeFrom<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(from._internal_metadata_);
 }
 
 void Msg::CopyFrom(const Msg& from) {
@@ -5718,62 +5586,77 @@ bool Msg::IsInitialized() const {
 
 void Msg::InternalSwap(Msg* other) {
   using std::swap;
-  _internal_metadata_.Swap<::PROTOBUF_NAMESPACE_ID::UnknownFieldSet>(&other->_internal_metadata_);
+  _internal_metadata_.InternalSwap(&other->_internal_metadata_);
   ::PROTOBUF_NAMESPACE_ID::internal::memswap<
-      PROTOBUF_FIELD_OFFSET(Msg, type_)
-      + sizeof(Msg::type_)
-      - PROTOBUF_FIELD_OFFSET(Msg, stop_)>(
-          reinterpret_cast<char*>(&stop_),
-          reinterpret_cast<char*>(&other->stop_));
+      PROTOBUF_FIELD_OFFSET(Msg, _impl_.type_)
+      + sizeof(Msg::_impl_.type_)
+      - PROTOBUF_FIELD_OFFSET(Msg, _impl_.stop_)>(
+          reinterpret_cast<char*>(&_impl_.stop_),
+          reinterpret_cast<char*>(&other->_impl_.stop_));
 }
 
 ::PROTOBUF_NAMESPACE_ID::Metadata Msg::GetMetadata() const {
-  return GetMetadataStatic();
+  return ::_pbi::AssignDescriptors(
+      &descriptor_table_messages1_2eproto_getter, &descriptor_table_messages1_2eproto_once,
+      file_level_metadata_messages1_2eproto[13]);
 }
-
 
 // @@protoc_insertion_point(namespace_scope)
 PROTOBUF_NAMESPACE_OPEN
-template<> PROTOBUF_NOINLINE ::VideoMediaType* Arena::CreateMaybeMessage< ::VideoMediaType >(Arena* arena) {
+template<> PROTOBUF_NOINLINE ::VideoMediaType*
+Arena::CreateMaybeMessage< ::VideoMediaType >(Arena* arena) {
   return Arena::CreateMessageInternal< ::VideoMediaType >(arena);
 }
-template<> PROTOBUF_NOINLINE ::SubtitleMediaType_Pair* Arena::CreateMaybeMessage< ::SubtitleMediaType_Pair >(Arena* arena) {
+template<> PROTOBUF_NOINLINE ::SubtitleMediaType_Pair*
+Arena::CreateMaybeMessage< ::SubtitleMediaType_Pair >(Arena* arena) {
   return Arena::CreateMessageInternal< ::SubtitleMediaType_Pair >(arena);
 }
-template<> PROTOBUF_NOINLINE ::SubtitleMediaType* Arena::CreateMaybeMessage< ::SubtitleMediaType >(Arena* arena) {
+template<> PROTOBUF_NOINLINE ::SubtitleMediaType*
+Arena::CreateMaybeMessage< ::SubtitleMediaType >(Arena* arena) {
   return Arena::CreateMessageInternal< ::SubtitleMediaType >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DataMediaType_Pair* Arena::CreateMaybeMessage< ::DataMediaType_Pair >(Arena* arena) {
+template<> PROTOBUF_NOINLINE ::DataMediaType_Pair*
+Arena::CreateMaybeMessage< ::DataMediaType_Pair >(Arena* arena) {
   return Arena::CreateMessageInternal< ::DataMediaType_Pair >(arena);
 }
-template<> PROTOBUF_NOINLINE ::DataMediaType* Arena::CreateMaybeMessage< ::DataMediaType >(Arena* arena) {
+template<> PROTOBUF_NOINLINE ::DataMediaType*
+Arena::CreateMaybeMessage< ::DataMediaType >(Arena* arena) {
   return Arena::CreateMessageInternal< ::DataMediaType >(arena);
 }
-template<> PROTOBUF_NOINLINE ::AudioMediaType* Arena::CreateMaybeMessage< ::AudioMediaType >(Arena* arena) {
+template<> PROTOBUF_NOINLINE ::AudioMediaType*
+Arena::CreateMaybeMessage< ::AudioMediaType >(Arena* arena) {
   return Arena::CreateMessageInternal< ::AudioMediaType >(arena);
 }
-template<> PROTOBUF_NOINLINE ::Stream_Pair* Arena::CreateMaybeMessage< ::Stream_Pair >(Arena* arena) {
+template<> PROTOBUF_NOINLINE ::Stream_Pair*
+Arena::CreateMaybeMessage< ::Stream_Pair >(Arena* arena) {
   return Arena::CreateMessageInternal< ::Stream_Pair >(arena);
 }
-template<> PROTOBUF_NOINLINE ::Stream* Arena::CreateMaybeMessage< ::Stream >(Arena* arena) {
+template<> PROTOBUF_NOINLINE ::Stream*
+Arena::CreateMaybeMessage< ::Stream >(Arena* arena) {
   return Arena::CreateMessageInternal< ::Stream >(arena);
 }
-template<> PROTOBUF_NOINLINE ::CodecParameters* Arena::CreateMaybeMessage< ::CodecParameters >(Arena* arena) {
+template<> PROTOBUF_NOINLINE ::CodecParameters*
+Arena::CreateMaybeMessage< ::CodecParameters >(Arena* arena) {
   return Arena::CreateMessageInternal< ::CodecParameters >(arena);
 }
-template<> PROTOBUF_NOINLINE ::MediaPacket* Arena::CreateMaybeMessage< ::MediaPacket >(Arena* arena) {
+template<> PROTOBUF_NOINLINE ::MediaPacket*
+Arena::CreateMaybeMessage< ::MediaPacket >(Arena* arena) {
   return Arena::CreateMessageInternal< ::MediaPacket >(arena);
 }
-template<> PROTOBUF_NOINLINE ::Start* Arena::CreateMaybeMessage< ::Start >(Arena* arena) {
+template<> PROTOBUF_NOINLINE ::Start*
+Arena::CreateMaybeMessage< ::Start >(Arena* arena) {
   return Arena::CreateMessageInternal< ::Start >(arena);
 }
-template<> PROTOBUF_NOINLINE ::Stop* Arena::CreateMaybeMessage< ::Stop >(Arena* arena) {
+template<> PROTOBUF_NOINLINE ::Stop*
+Arena::CreateMaybeMessage< ::Stop >(Arena* arena) {
   return Arena::CreateMessageInternal< ::Stop >(arena);
 }
-template<> PROTOBUF_NOINLINE ::GopSlice* Arena::CreateMaybeMessage< ::GopSlice >(Arena* arena) {
+template<> PROTOBUF_NOINLINE ::GopSlice*
+Arena::CreateMaybeMessage< ::GopSlice >(Arena* arena) {
   return Arena::CreateMessageInternal< ::GopSlice >(arena);
 }
-template<> PROTOBUF_NOINLINE ::Msg* Arena::CreateMaybeMessage< ::Msg >(Arena* arena) {
+template<> PROTOBUF_NOINLINE ::Msg*
+Arena::CreateMaybeMessage< ::Msg >(Arena* arena) {
   return Arena::CreateMessageInternal< ::Msg >(arena);
 }
 PROTOBUF_NAMESPACE_CLOSE

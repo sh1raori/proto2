@@ -14,21 +14,19 @@ using namespace std;
 
 
 int readSize(char buffer[4]){
-// int n = (buf[3]>>24) + (buf[2]>>16) + (buf[1]>>8) + buf[0];
 	int n = int((unsigned char)(buffer[0]) << 24 |
             (unsigned char)(buffer[1]) << 16 |
             (unsigned char)(buffer[2]) << 8 |
             (unsigned char)(buffer[3]));
 return n;
-}
+    }
 
 int main(){
 	fstream in("dump.pb", ios::in | ios::binary);
-	char buf[4];int n;Msg msg;char *buf2;string channel;string video1;string audio1;
+	char buf[4];int n;Msg msg;char *buf2;string channel;string video1;string audio1;string subt1;
 
 	while(true){
 		if (in.eof()){
-			cout<<"file end"<<endl;
 			break;
 		}
 	in.read(buf,4);
@@ -71,22 +69,24 @@ int main(){
 				video1 = video1 + "nv12 ";
 				break;
 			}
-			video1 = video1 + "bitrate= ";
-			video1 = video1 + to_string(stream.bitrate()) + " ";
-			video1 = video1 + "timebase= ";
-			video1 = video1 + to_string(stream.tb_num()) + "/" + to_string(stream.tb_den()) + " ";
-		    video1 = video1 + "extradatasize= " + to_string((stream.extradata()).size()) + " ";
-		    video1 = video1 + to_string(video.width()) + "x" + to_string(video.height()) + " ";
-		    video1 = video1 + "fps= " + to_string(video.fps_num()) + "/" + to_string(video.fps_den()) + " ";
-		    video1 = video1 + "aspect= " + to_string(video.aspect_num()) + "/" + to_string(video.aspect_den()) + " ";
+
+			video1 = video1 + "bitrate= " + to_string(stream.bitrate()) + " " +
+			"timebase= " + to_string(stream.tb_num()) + "/" + to_string(stream.tb_den()) +
+			" " + "extradatasize= " + to_string((stream.extradata()).size()) + " " + 
+			to_string(video.width()) + "x" + to_string(video.height()) + " " + 
+			"fps= " + to_string(video.fps_num()) + "/" + to_string(video.fps_den()) + " " + 
+			"aspect= " + to_string(video.aspect_num()) + "/" + to_string(video.aspect_den()) + " ";
+		    
 		    cout<<video1<<" "<<channel<<endl;
+
 		    //AudioMediaType audiomt = 9;
 		}else if (stream.type() == 1){
 			AudioMediaType audio = stream.audiomt();
-			audio1 = audio1 + "stream( " + "A name = a_stream " + "codec= " + stream.codec() + " ";
-			audio1 = audio1 + "bitrate= " + to_string(stream.bitrate()) + " " + "timebase= " + to_string(stream.tb_num()) + "/" + to_string(stream.tb_den()) + " ";
-		    audio1 = audio1 + "extradatasize= " + to_string((stream.extradata()).size()) + " " + to_string(audio.freq()) + "Hz" + " ";
-			audio1 = audio1 + "ssize=" + to_string(audio.ssize()) + " sample_fmt= ";
+
+			audio1 = audio1 + "stream( " + "A name = a_stream " + "codec= " + stream.codec() + " " + "bitrate= " + 
+			to_string(stream.bitrate()) + " " + "timebase= " + to_string(stream.tb_num()) + "/" + to_string(stream.tb_den()) + " " + 
+			"extradatasize= " + to_string((stream.extradata()).size()) + " " + to_string(audio.freq()) + "Hz" + " " + "ssize=" + to_string(audio.ssize()) + " sample_fmt= ";
+			
 			switch(audio.sample_fmt()){
 				case 0:
 				audio1 = audio1 + "S16 ";
@@ -118,21 +118,21 @@ int main(){
 				case 9:
 				audio1 = audio1 + "DBLP ";
 				break;
-			}cout<<" "<<audio1<<"stereo "<<channel<<endl;
+			}
+			cout<<" "<<audio1<<"stereo "<<channel<<endl;
+
 		    	// SubtitleMediaType subtitlemt = 12;
-		}else if (stream.type() == 2){
+		}else if (stream.type() == 2){ //hz kakoi vivod y subtitrov
 			SubtitleMediaType subt = stream.subtitlemt();
-			cout<<subt.aspect_num()<<" ";
-		    cout<<subt.aspect_den()<<" ";
-		    cout<<subt.header()<<" ";
-		    cout<<subt.width()<<" ";
-		    cout<<subt.height()<<" ";
+			subt1 = subt1 + to_string(subt.aspect_num()) + " " + to_string(subt.aspect_den()) + " " + subt.header() + " " + to_string(subt.width()) + " " + to_string(subt.height()) + " ";
 		    for (int i = 0; i < subt.metadata_size(); i++){
 			SubtitleMediaType::Pair pair = subt.metadata(i);
-			cout<<pair.key()<<" "<<pair.value()<<" ";
+			subt1 = subt1 + pair.key() + " " + pair.value() + " ";
 		    }
+		    cout<<subt1<<"subtitle "<<channel<<endl;
+
 		    // DataMediaType datamt = 13;
-		}else if (stream.type() == 3){
+		}else if (stream.type() == 3){  //hz kakoi vivod y data
 			for (int i = 0; i < data.info_size(); i++){
 			DataMediaType::Pair pair = data.info(i);
 			cout<<pair.key()<<" "<<pair.value()<<" ";
@@ -192,7 +192,7 @@ int main(){
 		    }
 		    break;
 	     }
-	}
+	    }
 	delete[] buf2;
-  }
+    }
 }
